@@ -84,11 +84,14 @@ export class EditorInput extends React.Component{
         super(props)
         this.onChange = this.onChange.bind(this)
         this.input_ref = React.createRef()
+        this.value = ""
     }
 
     updateEditModeField(){
-        this.props.edit_mode_fields[this.props.field_key] = this.input_ref.current.innerText
+        this.value = this.input_ref.current.innerText
+        this.props.edit_mode_fields[this.props.field_key] = this.value
         this.props.edit_mode_fields.onchange()
+        if(this.props.onChange!=null) this.props.onChange(this.value)
     }
     resetValueToDefault(){
         this.input_ref.current.textContent = this.props.defaultValue

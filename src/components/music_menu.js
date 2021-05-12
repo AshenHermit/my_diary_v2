@@ -24,6 +24,13 @@ class Track extends React.Component{
 class EditModeTrack extends React.Component{
     constructor(props){
         super(props)
+        this.embedding_ref = React.createRef()
+        this.onEmbeddingCodeChange = this.onEmbeddingCodeChange.bind(this)
+    }
+    onEmbeddingCodeChange(code){
+        setTimeout(() => {
+            this.embedding_ref.current.innerHTML = code
+        }, 10);
     }
     render(){
         return (
@@ -48,7 +55,11 @@ class EditModeTrack extends React.Component{
                     field_key={"post_track_"+this.props.idx+"_embedding_code"}
                     edit_mode_fields={this.props.edit_mode_fields} 
                     className="editable-track-field embedding-code"
-                    defaultValue={this.props.track.embedding_code}/>
+                    defaultValue={this.props.track.embedding_code}
+                    onChange={this.onEmbeddingCodeChange}/>
+
+                <div ref={this.embedding_ref} className="track-embedding">
+                </div>
             </div>
         )
     }
