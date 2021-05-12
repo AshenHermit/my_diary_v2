@@ -22,7 +22,7 @@ utils.renderMarkup = function(text){
         /\[(.*)\]\((.*)\)/m, 
         args=>`<a target="_blank" href="${args[1]}">${args[0]}</a>`)
         
-    text = text.replace(new RegExp("\n", "g"), "<br/>")
+    text = this.textToHTML(text)
     return text
 }
 
@@ -49,6 +49,39 @@ utils.getLastPost = function(posts_array){
     })[0]
     
     return last_post
+}
+
+utils.textToHTML = function(html){
+    html = html.replaceAll("\n", "<br>")
+    return html
+}
+utils.HTMLToText = function(html){
+    html = html.replaceAll("<br>", "\n")
+    return html
+}
+
+utils.initializeMouseEvents = function(element, mousedown_callback, mousemove_callback, mouseup_callback){
+    element.addEventListener('mousedown', mousedown_callback)
+    window.addEventListener('mousemove', mousemove_callback)
+    window.addEventListener('mouseup', mouseup_callback)
+
+    element.addEventListener('touchstart', e=>mousedown_callback(e.changedTouches[0]))
+    window.addEventListener('touchmove', e=>mousemove_callback(e.changedTouches[0]))
+    window.addEventListener('touchend', e=>mouseup_callback(e.changedTouches[0]))
+    window.addEventListener('touchcancel', e=>mouseup_callback(e.changedTouches[0]))
+}
+
+utils.minDigitsCount = function (num, minCount){
+	let str = ""+num
+	let add = minCount - str.length
+	for(let i=0; i<add; i+=1) str = "0"+str
+	return str
+}
+
+utils.getCurrentDate = function(){
+	let date = new Date()
+	var txt = this.minDigitsCount(date.getDate(), 2) + "." + this.minDigitsCount(date.getMonth()+1, 2) + "." + date.getFullYear()
+	return txt
 }
 
 export default utils

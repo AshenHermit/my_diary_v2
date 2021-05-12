@@ -30,6 +30,7 @@
 }
 .icon-button > img{
   height: 100%;
+  pointer-events: none;
 }
 .icon-button::before{
   content: '';
@@ -59,6 +60,13 @@
   justify-content: space-between;
 }
 
+.tob-bar .top-bar-item{
+  display: flex;
+}
+.top-bar .top-bar-item .icon-button{
+  margin-left: 1em;
+}
+
 a{
   color: #bd5656;
 }
@@ -71,7 +79,6 @@ a{
 
 .main-content .post-info{
   padding: 1em;
-  margin-top: -1.5em;
   background-color: #1f1f1f;
   box-shadow: 0 0 6px rgb(0 0 0 / 80%);
 }
@@ -84,8 +91,14 @@ a{
   font-size: 0.9em;
   text-align: left;
   padding: 2em;
-  margin-top: -1em;
   color: rgb(255 255 255 / 68%);
+  margin-top: 0.4em;
+  padding-top: 0.6em;
+}
+
+.input.description{
+  white-space: pre;
+  overflow-x: auto;
 }
 
 .footer{
@@ -103,12 +116,17 @@ a{
   z-index: 1;
   padding-top: 72px;
   box-shadow: 0 0 20px 0px rgb(0 0 0 / 27%);
+  max-height: 82vh;
+  display: flex;
+
 }
 .tracks-list{
   width: 100%;
+  overflow-y: auto;
 }
 .tracks-list .track{
   display: inline-block;
+  text-align: left;
 }
 .tracks-list .track .track-embedding{
 
@@ -119,6 +137,7 @@ a{
 }
 
 .year-circle{
+  margin-top: -1.5em;
   position: relative;
 }
 .year-circle-view-date{
@@ -133,7 +152,7 @@ a{
   user-select: none;
 }
 .year-circle-canvas{
-  
+  width: 100%;
 }
 
 .year-circle-view-date-year{
@@ -147,6 +166,66 @@ a{
 input, .input{
   border: 0;
   background-color: #171717;
+  outline: none;
+}
+
+.slider{
+  background-color: #1f1f1f;
+  margin: 6px;
+  padding: 0.6em;
+  height: 21px;
+  border: 2px rgb(255 255 255 / 11%) dashed;
+  user-select: none;
+  cursor: e-resize;
+}
+.slider > img{
+  height: 100%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.buttons-row{
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0.6em;
+}
+
+.buttons-row > button{
+  background-color: #1f1f1f;
+  width: 100%;
+  height: 100%;
+  margin: 0.2em;
+  padding: 0.5em;
+}
+
+.button-row-right{
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+}
+
+.editable-track-field{
+  text-align: left;
+  margin-bottom: 6px;
+  padding: 0.5em;
+  background-color: transparent;
+  border-bottom: 3px rgb(255 255 255 / 13%) solid;
+}
+
+.editable-track-field.embedding-code{
+  color: #a5a5a5;
+}
+
+.tracks-list .track.edit-mode{
+  padding: 1em;
+  background-color: #2d2d2d;
+  width: calc(100% - 4em);
+  margin-bottom: 14px;
+}
+
+.label{
+  color: rgb(255 255 255 / 21%);
 }
 
 /* desktop */

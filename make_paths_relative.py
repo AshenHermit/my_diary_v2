@@ -11,6 +11,14 @@ def main():
         if pat.groups()[1][:2] != "js":
             text = text[:span[0]+offset] + '="./' + pat.groups()[1] + '"' + text[span[1]+offset:]
             offset += 1
+
+    offset = 0
+
+    for pat in re.finditer(r'(:url\(\/)(.*?)(\))', text):
+        span = pat.span()
+        text = text[:span[0]+offset] + ':url(./' + pat.groups()[1] + ')' + text[span[1]+offset:]
+        offset += 1
+    
     file.write_text(text)
 
 

@@ -1,397 +1,400 @@
-[
+{
+  "last_update": "12.05.2021",
+  "memories": [
     {
-        "title": "Ожидая",
-        "description": "Начал писать движок и редактор soulless moon (с++).\nНаписал редактор и \nинтерпретатор branfuck'а на ардуино (с++).\nНачал писать игровой 2d движок (с++) и редактор с\nкостями у меш-спрайтов.\nПисал 3д игровой движок и редактор с \n\"тайловой\" системой карт, как в delver.\nПытался писать блэк метал вдохновляясь\nsombres forets, не вышло.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTQ0MTc3NDQxNC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yODEyNjM1NDczL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc2VsZm11dGlsYXRpb25zZXJ2aWNlcy5jb20vYWxidW0vZmFpbGluZy10by1jb25mcm9udC1zdWljaWRhbC10aG91Z2h0cyI"
-            }
-        ],
-        "position": -0.5333333333333333,
-        "size": 1
+      "title": "Ожидая",
+      "description": "Начал писать движок и редактор soulless moon (с++).\nНаписал редактор и \nинтерпретатор branfuck'а на ардуино (с++).\nНачал писать игровой 2d движок (с++) и редактор с\nкостями у меш-спрайтов.\nПисал 3д игровой движок и редактор с \n\"тайловой\" системой карт, как в delver.\nПытался писать блэк метал вдохновляясь\nsombres forets, не вышло.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTQ0MTc3NDQxNC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yODEyNjM1NDczL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc2VsZm11dGlsYXRpb25zZXJ2aWNlcy5jb20vYWxidW0vZmFpbGluZy10by1jb25mcm9udC1zdWljaWRhbC10aG91Z2h0cyI="
+        }
+      ],
+      "size": 1,
+      "position": -0.5333333333333333
     },
     {
-        "title": "Кода",
-        "description": "Прощаюсь с деревней\n\n+ Приложение Days для краткого описания дней\n+ Этот сайт",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9ST19EdU92V0FIYyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPSIiPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 7.566666666666672,
-        "size": 1
+      "title": "Кода",
+      "description": "Прощаюсь с деревней\n\n+ Приложение Days для краткого описания дней\n+ Этот сайт",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9ST19EdU92V0FIYyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPSIiPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.41500000000000004,
+      "position": 7.566666666666672
     },
     {
-        "title": "Пиксельный Психодел",
-        "description": "Пишу осмысленный сюжет комикса и рисую первые страницы.\nМеняю рисовку на более мягкую, минималистичную, \nно очень непредсказуемую.\n",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTEwNTMwMjQwL3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTEwMTAyNjA5NzUvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9kb3duZmFsbG9mZ2FpYS5iYW5kY2FtcC5jb20vYWxidW0vYWVvbi11bnZlaWxzLXRoZS10aHJvbmVzLW9mLWRlY2F5LTIiPkFlb24gVW52ZWlscyB0aGUgVGhyb25lcyBvZiBEZWNheSBieSBEb3duZmFsbCBvZiBHYWlhPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 7.16666666666667,
-        "size": 1
+      "title": "Пиксельный Психодел",
+      "description": "Пишу осмысленный сюжет комикса и рисую первые страницы.\nМеняю рисовку на более мягкую, минималистичную, \nно очень непредсказуемую.\n",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTEwNTMwMjQwL3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTEwMTAyNjA5NzUvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9kb3duZmFsbG9mZ2FpYS5iYW5kY2FtcC5jb20vYWxidW0vYWVvbi11bnZlaWxzLXRoZS10aHJvbmVzLW9mLWRlY2F5LTIiPkFlb24gVW52ZWlscyB0aGUgVGhyb25lcyBvZiBEZWNheSBieSBEb3duZmFsbCBvZiBHYWlhPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.8200000000000001,
+      "position": 7.16666666666667
     },
     {
-        "title": "Плавление Древесины",
-        "description": "Выжигаю кайфовые дымящиеся рисунки на дереве.\n\nПишу небольшой пиксельный top down шутер про поезда на c++,\nиспользуя код ресурсов и ИИ из NoumenalAnxiety.\nВ качестве редактора карт я снова выбрал блендер.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjgxNzU1NTYwMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNDM4OTAzMTE3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2VsaHVlcnZvLmJhbmRjYW1wLmNvbS9hbGJ1bS93b3JsZHMtZW5kIj5Xb3JsZCYjMzk7cyBFbmQgYnkgRWwgSHVlcnZvPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 6.866666666666666,
-        "size": 1
+      "title": "Плавление Древесины",
+      "description": "Выжигаю кайфовые дымящиеся рисунки на дереве.\n\nПишу небольшой пиксельный top down шутер про поезда на c++,\nиспользуя код ресурсов и ИИ из NoumenalAnxiety.\nВ качестве редактора карт я снова выбрал блендер.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjgxNzU1NTYwMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNDM4OTAzMTE3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2VsaHVlcnZvLmJhbmRjYW1wLmNvbS9hbGJ1bS93b3JsZHMtZW5kIj5Xb3JsZCYjMzk7cyBFbmQgYnkgRWwgSHVlcnZvPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.605,
+      "position": 6.866666666666666
     },
     {
-        "title": "Осознанные сны",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9kcjhXSkZ3LWVjbyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 6.533333333333335,
-        "size": 1
+      "title": "Осознанные сны",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9kcjhXSkZ3LWVjbyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.46499999999999997,
+      "position": 6.533333333333335
     },
     {
-        "title": "Вибрации",
-        "description": "Писал мелодичную музыку используя звуки записанные на рекордер.\nПисал метал.\nНесколько треков объединил в альбом (\"June 2020\" у меня в аудио).\n",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjg3MzM1Mjc5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTg4OTEzNjUzMC90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cDovL2R2YTIuYmFuZGNhbXAuY29tL2FsYnVtL2JvdGFuaWN1bGEiPkJPVEFOSUNVTEEgYnkgRHZhPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 6.299999999999994,
-        "size": 1
+      "title": "Вибрации",
+      "description": "Писал мелодичную музыку используя звуки записанные на рекордер.\nПисал метал.\nНесколько треков объединил в альбом (\"June 2020\" у меня в аудио).\n",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjg3MzM1Mjc5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTg4OTEzNjUzMC90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cDovL2R2YTIuYmFuZGNhbXAuY29tL2FsYnVtL2JvdGFuaWN1bGEiPkJPVEFOSUNVTEEgYnkgRHZhPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.63,
+      "position": 6.299999999999994
     },
     {
-        "title": "Гаррис",
-        "description": "Писал аддоны для гарриса и лепил карты.\n\n+ Аддон на инструмент коробки фиксирующей все объекты в ее поле.\n+ Аддон на шашлыки (мангал, шампуры, угли, мясо, квас, разделочная доска).\n+ Аддон на воду и чайник с дошиком и пакетиком специй.\n+ Аддон на регдолл Вани.\n+ Аддон на регдолл Миши.\n+ Карта квартиры Миши.\n+ Аддон на крутилку.\n\n[все мои аддоны](https://drive.google.com/drive/folders/1n-WwZ_4WKzufe5iVBaUlMbHcIL1kL9Ev)",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMxNzQ2NzI4Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPTRlYzVlYy90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNzA0NTk4MzI5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwOi8vbGViYW5vbmhhbm92ZXIuYmFuZGNhbXAuY29tL2FsYnVtL3RoZS13b3JsZC1pcy1nZXR0aW5nLWNvbGRlciI+VGhlIFdvcmxkIElzIEdldHRpbmcgQ29sZGVyIGJ5IExlYmFub24gSGFub3ZlcjwvYT48L2lmcmFtZT4="
-            }
-        ],
-        "position": 5.96666666666667,
-        "size": 1
+      "title": "Гаррис",
+      "description": "Писал аддоны для гарриса и лепил карты.\n\n+ Аддон на инструмент коробки фиксирующей все объекты в ее поле.\n+ Аддон на шашлыки (мангал, шампуры, угли, мясо, квас, разделочная доска).\n+ Аддон на воду и чайник с дошиком и пакетиком специй.\n+ Аддон на регдолл Вани.\n+ Аддон на регдолл Миши.\n+ Карта квартиры Миши.\n+ Аддон на крутилку.\n\n[все мои аддоны](https://drive.google.com/drive/folders/1n-WwZ_4WKzufe5iVBaUlMbHcIL1kL9Ev)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMxNzQ2NzI4Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPTRlYzVlYy90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNzA0NTk4MzI5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwOi8vbGViYW5vbmhhbm92ZXIuYmFuZGNhbXAuY29tL2FsYnVtL3RoZS13b3JsZC1pcy1nZXR0aW5nLWNvbGRlciI+VGhlIFdvcmxkIElzIEdldHRpbmcgQ29sZGVyIGJ5IExlYmFub24gSGFub3ZlcjwvYT48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.96,
+      "position": 5.96666666666667
     },
     {
-        "title": "NoumenalAnxiety #2",
-        "description": "Весь месяц работал над игрой.\n\n+ Сюжет.\n+ Аддон для блендера - экспорт сцены в мой формат карт.\n+ Генерация карт.\n+ ИИ и навигация по карте.\n+ Загрузка данных из своего формата об оружии, врагах.\n+ Первая нетестовая комната.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Nzk1NzgxMDY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTE0NjEwMTM3MDAvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9pbm5lcnN1ZmZlcmluZy5iYW5kY2FtcC5jb20vYWxidW0vdW5pbnNwaXJlZC1lcCI+dW5pbnNwaXJlZCBFUCBieSBJbm5lciBTdWZmZXJpbmc8L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 5.5333333333333385,
-        "size": 1
+      "title": "NoumenalAnxiety #2",
+      "description": "Весь месяц работал над игрой.\n\n+ Сюжет.\n+ Аддон для блендера - экспорт сцены в мой формат карт.\n+ Генерация карт.\n+ ИИ и навигация по карте.\n+ Загрузка данных из своего формата об оружии, врагах.\n+ Первая нетестовая комната.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Nzk1NzgxMDY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTE0NjEwMTM3MDAvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9pbm5lcnN1ZmZlcmluZy5iYW5kY2FtcC5jb20vYWxidW0vdW5pbnNwaXJlZC1lcCI+dW5pbnNwaXJlZCBFUCBieSBJbm5lciBTdWZmZXJpbmc8L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 1,
+      "position": 5.423333333333338
     },
     {
-        "title": "NoumenalAnxiety",
-        "description": "Начинаю думать о создании игры и пишу основу движка.\n\n+ Загрузка ресурсов.\n+ Рендеринг текстур и анимаций.\n+ Рендеринг карты.\n+ Физика.\n\nВ конце мая уехал в деревню.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE2NDM2OTY0Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNzU5Njg1NDg3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9hbGwtZmVsbC1zaWxlbnQtZXZlcnl0aGluZy13ZW50LXF1aWV0LTIiPkFsbCBmZWxsIHNpbGVudCwgZXZlcnl0aGluZyB3ZW50IHF1aWV0IGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 4.73333333333334,
-        "size": 1
+      "title": "NoumenalAnxiety",
+      "description": "Начинаю думать о создании игры и пишу основу движка.\n\n+ Загрузка ресурсов.\n+ Рендеринг текстур и анимаций.\n+ Рендеринг карты.\n+ Физика.\n\nВ конце мая уехал в деревню.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE2NDM2OTY0Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNzU5Njg1NDg3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9hbGwtZmVsbC1zaWxlbnQtZXZlcnl0aGluZy13ZW50LXF1aWV0LTIiPkFsbCBmZWxsIHNpbGVudCwgZXZlcnl0aGluZyB3ZW50IHF1aWV0IGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.86,
+      "position": 4.73333333333334
     },
     {
-        "title": "Stories",
-        "description": "Настроение писать рассказы.\nНекоторые опубликовал в вк.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMwMjk0OTE5Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xODg5OTcwMTQwL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS93aXRoZXJlZC1kcmVhbXMtc2luZ2xlcy0yMDEzLTIwMTciPldpdGhlcmVkIERyZWFtcyAoc2luZ2xlcyAyMDEzLTIwMTcpIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 4.066666666666666,
-        "size": 1
+      "title": "Stories",
+      "description": "Настроение писать рассказы.\nНекоторые опубликовал в вк.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMwMjk0OTE5Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xODg5OTcwMTQwL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS93aXRoZXJlZC1kcmVhbXMtc2luZ2xlcy0yMDEzLTIwMTciPldpdGhlcmVkIERyZWFtcyAoc2luZ2xlcyAyMDEzLTIwMTcpIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.905,
+      "position": 4.066666666666666
     },
     {
-        "title": "Комикс",
-        "description": "Зарождение идеи комикса.\n+ Первые тестовые страницы.\n+ Немного сюжета.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTAzMDQ4NzkwNy9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xMzU5MjUwMjI3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vb3N0cmFjYS5iYW5kY2FtcC5jb20vYWxidW0vbGFzdCI+bGFzdCBieSBvc3RyYWNhPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 4.466666666666667,
-        "size": 1
+      "title": "Комикс",
+      "description": "Зарождение идеи комикса.\n+ Первые тестовые страницы.\n+ Немного сюжета.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTAzMDQ4NzkwNy9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xMzU5MjUwMjI3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vb3N0cmFjYS5iYW5kY2FtcC5jb20vYWxidW0vbGFzdCI+bGFzdCBieSBvc3RyYWNhPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.565,
+      "position": 4.466666666666667
     },
     {
-        "title": "единственный",
-        "description": "холодные воспоминания.\nтатьянин парк, лес, солнечная зима.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQwNjk2NDg2My9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDI2NTk3MzcyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vcG9zbGVkbmllbXlzbGkuYmFuZGNhbXAuY29tL2FsYnVtLy0iPtC90LXQuNC30LLQtdGB0YLQvdC+0YHRgtGMIGJ5INC/0L7RgdC70LXQtNC90LjQtSDQvNGL0YHQu9C4PC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 1.400000000006794,
-        "size": 1
+      "title": "единственный",
+      "description": "холодные воспоминания.\nтатьянин парк, лес, солнечная зима.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQwNjk2NDg2My9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDI2NTk3MzcyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vcG9zbGVkbmllbXlzbGkuYmFuZGNhbXAuY29tL2FsYnVtLy0iPtC90LXQuNC30LLQtdGB0YLQvdC+0YHRgtGMIGJ5INC/0L7RgdC70LXQtNC90LjQtSDQvNGL0YHQu9C4PC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.78,
+      "position": 1.400000000006794
     },
     {
-        "title": "добровольный",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTkzMDAyNzE1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQzODA5NzUyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9ldGVybmFsIj5FdGVybmFsIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 2.0000000000000044,
-        "size": 1
+      "title": "добровольный",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTkzMDAyNzE1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQzODA5NzUyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9ldGVybmFsIj5FdGVybmFsIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.7849999999999999,
+      "position": 2.0000000000000044
     },
     {
-        "title": "Снег",
-        "description": "Зимний лес",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUyNDMyNDA5OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTM4MDMzNzc5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc29tYnJlc2ZvcmV0cy5iYW5kY2FtcC5jb20vYWxidW0vbGEtbW9ydC1kdS1zb2xlaWwiPkxhIE1vcnQgZHUgU29sZWlsIGJ5IFNvbWJyZXMgRm9yw6p0czwvYT48L2lmcmFtZT4="
-            }
-        ],
-        "position": 0.5000000000000037,
-        "size": 1
+      "title": "Снег",
+      "description": "Зимний лес",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUyNDMyNDA5OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTM4MDMzNzc5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc29tYnJlc2ZvcmV0cy5iYW5kY2FtcC5jb20vYWxidW0vbGEtbW9ydC1kdS1zb2xlaWwiPkxhIE1vcnQgZHUgU29sZWlsIGJ5IFNvbWJyZXMgRm9yw6p0czwvYT48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.965,
+      "position": 0.5000000000000037
     },
     {
-        "title": "Больница",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjc5MjAwNjg0OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz00MTY0NjkwOTc4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vaW5uZXJzdWZmZXJpbmcuYmFuZGNhbXAuY29tL2FsYnVtL3doZW4taGVhcnRzLWdyb3ctY29sZCI+V2hlbiBIZWFydHMgR3JvdyBDb2xkIGJ5IElubmVyIFN1ZmZlcmluZzwvYT48L2lmcmFtZT4="
-            }
-        ],
-        "position": -1.3666666666666625,
-        "size": 1
+      "title": "Больница",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjc5MjAwNjg0OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz00MTY0NjkwOTc4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vaW5uZXJzdWZmZXJpbmcuYmFuZGNhbXAuY29tL2FsYnVtL3doZW4taGVhcnRzLWdyb3ctY29sZCI+V2hlbiBIZWFydHMgR3JvdyBDb2xkIGJ5IElubmVyIFN1ZmZlcmluZzwvYT48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.785,
+      "position": -1.3666666666666625
     },
     {
-        "title": "Romanticized Suicide",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUwMjc5NjY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2lubmVyc3VmZmVyaW5nLmJhbmRjYW1wLmNvbS9hbGJ1bS9yb21hbnRpY2l6ZWQtc3VpY2lkZSI+Um9tYW50aWNpemVkIFN1aWNpZGUgYnkgSW5uZXIgU3VmZmVyaW5nPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": -3.4999999999999956,
-        "size": 1
+      "title": "Romanticized Suicide",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUwMjc5NjY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2lubmVyc3VmZmVyaW5nLmJhbmRjYW1wLmNvbS9hbGJ1bS9yb21hbnRpY2l6ZWQtc3VpY2lkZSI+Um9tYW50aWNpemVkIFN1aWNpZGUgYnkgSW5uZXIgU3VmZmVyaW5nPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 1,
+      "position": -3.4999999999999956
     },
     {
-        "title": "в начале",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9OUzhnTXlaMWVNSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": -2.5333333333333306,
-        "size": 1
+      "title": "в начале",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9OUzhnTXlaMWVNSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 1,
+      "position": -2.5333333333333306
     },
     {
-        "title": "спокойствие",
-        "description": "нейронные сети с pytorch\n\nудобный ImageViewer на c++ с поддержкой gif\ngithub: [ImageViewer](https://github.com/AshenHermit/ImageViewer)",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQyNTM3ODg1MS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zMjQ4NTkxMzk3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3RoZWNhcmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vZXZlcnl3aGVyZS1hdC10aGUtZW5kLW9mLXRpbWUiPkV2ZXJ5d2hlcmUgYXQgdGhlIGVuZCBvZiB0aW1lIGJ5IFRoZSBDYXJldGFrZXI8L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 8.066666666666665,
-        "size": 1
+      "title": "спокойствие",
+      "description": "нейронные сети с pytorch\n\nудобный ImageViewer на c++ с поддержкой gif\ngithub: [ImageViewer](https://github.com/AshenHermit/ImageViewer)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQyNTM3ODg1MS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zMjQ4NTkxMzk3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3RoZWNhcmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vZXZlcnl3aGVyZS1hdC10aGUtZW5kLW9mLXRpbWUiPkV2ZXJ5d2hlcmUgYXQgdGhlIGVuZCBvZiB0aW1lIGJ5IFRoZSBDYXJldGFrZXI8L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.865,
+      "position": 8.066666666666665
     },
     {
-        "title": "задымленный",
-        "description": "кулинарный мультиплеер на unity\nvfx в blender\nпереписывал движок noumenal anxiety\nтреки: froth, hesitance\n\nнаписал бота для авто-подключения к дистанционным урокам\ngithub: [LessonsAutoConnector](https://github.com/AshenHermit/LessonsAutoConnector)\n\nначал лечить зубы",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMDAiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3BsYXlsaXN0cy80MDgxNzYmYW1wO2NvbG9yPSUyM2ZmNTUwMCZhbXA7YXV0b19wbGF5PWZhbHNlJmFtcDtoaWRlX3JlbGF0ZWQ9ZmFsc2UmYW1wO3Nob3dfY29tbWVudHM9dHJ1ZSZhbXA7c2hvd191c2VyPXRydWUmYW1wO3Nob3dfcmVwb3N0cz1mYWxzZSZhbXA7c2hvd190ZWFzZXI9dHJ1ZSZhbXA7dmlzdWFsPXRydWUiPjwvaWZyYW1lPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMTBweDsgY29sb3I6ICNjY2NjY2M7bGluZS1icmVhazogYW55d2hlcmU7d29yZC1icmVhazogbm9ybWFsO292ZXJmbG93OiBoaWRkZW47d2hpdGUtc3BhY2U6IG5vd3JhcDt0ZXh0LW92ZXJmbG93OiBlbGxpcHNpczsgZm9udC1mYW1pbHk6IEludGVyc3RhdGUsTHVjaWRhIEdyYW5kZSxMdWNpZGEgU2FucyBVbmljb2RlLEx1Y2lkYSBTYW5zLEdhcnVkYSxWZXJkYW5hLFRhaG9tYSxzYW5zLXNlcmlmO2ZvbnQtd2VpZ2h0OiAxMDA7Ij48YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbiIgdGl0bGU9ImR5aW5nX2luX21vdGlvbiIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogI2NjY2NjYzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyI+ZHlpbmdfaW5fbW90aW9uPC9hPiDCtyA8YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbi9zZXRzL3dpZS13aXItbGF1dC1zaW5kIiB0aXRsZT0id2llIHdpciBsYXV0IHNpbmQiIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICNjY2NjY2M7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsiPndpZSB3aXIgbGF1dCBzaW5kPC9hPjwvZGl2Pg=="
-            }
-        ],
-        "position": 9.166666666666679,
-        "size": 1
+      "title": "задымленный",
+      "description": "кулинарный мультиплеер на unity\nvfx в blender\nпереписывал движок noumenal anxiety\nтреки: froth, hesitance\n\nнаписал бота для авто-подключения к дистанционным урокам\ngithub: [LessonsAutoConnector](https://github.com/AshenHermit/LessonsAutoConnector)\n\nначал лечить зубы",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMDAiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3BsYXlsaXN0cy80MDgxNzYmYW1wO2NvbG9yPSUyM2ZmNTUwMCZhbXA7YXV0b19wbGF5PWZhbHNlJmFtcDtoaWRlX3JlbGF0ZWQ9ZmFsc2UmYW1wO3Nob3dfY29tbWVudHM9dHJ1ZSZhbXA7c2hvd191c2VyPXRydWUmYW1wO3Nob3dfcmVwb3N0cz1mYWxzZSZhbXA7c2hvd190ZWFzZXI9dHJ1ZSZhbXA7dmlzdWFsPXRydWUiPjwvaWZyYW1lPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMTBweDsgY29sb3I6ICNjY2NjY2M7bGluZS1icmVhazogYW55d2hlcmU7d29yZC1icmVhazogbm9ybWFsO292ZXJmbG93OiBoaWRkZW47d2hpdGUtc3BhY2U6IG5vd3JhcDt0ZXh0LW92ZXJmbG93OiBlbGxpcHNpczsgZm9udC1mYW1pbHk6IEludGVyc3RhdGUsTHVjaWRhIEdyYW5kZSxMdWNpZGEgU2FucyBVbmljb2RlLEx1Y2lkYSBTYW5zLEdhcnVkYSxWZXJkYW5hLFRhaG9tYSxzYW5zLXNlcmlmO2ZvbnQtd2VpZ2h0OiAxMDA7Ij48YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbiIgdGl0bGU9ImR5aW5nX2luX21vdGlvbiIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogI2NjY2NjYzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyI+ZHlpbmdfaW5fbW90aW9uPC9hPiDCtyA8YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbi9zZXRzL3dpZS13aXItbGF1dC1zaW5kIiB0aXRsZT0id2llIHdpciBsYXV0IHNpbmQiIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICNjY2NjY2M7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsiPndpZSB3aXIgbGF1dCBzaW5kPC9hPjwvZGl2Pg=="
+        }
+      ],
+      "size": 0.935,
+      "position": 9.166666666666679
     },
     {
-        "title": "не то",
-        "description": "дождь\nднюха миши",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA3NTIwMTQ4OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjA1NDc2MDY1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xlYmFub25oYW5vdmVyLmJhbmRjYW1wLmNvbS9hbGJ1bS93aHktbm90LWp1c3QtYmUtc29sbyI+V2h5IE5vdCBKdXN0IEJlIFNvbG8gYnkgTGViYW5vbiBIYW5vdmVyPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": -6.133333333333331,
-        "size": 1
+      "title": "не то",
+      "description": "дождь\nднюха миши",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA3NTIwMTQ4OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjA1NDc2MDY1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xlYmFub25oYW5vdmVyLmJhbmRjYW1wLmNvbS9hbGJ1bS93aHktbm90LWp1c3QtYmUtc29sbyI+V2h5IE5vdCBKdXN0IEJlIFNvbG8gYnkgTGViYW5vbiBIYW5vdmVyPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 1,
+      "position": -6.133333333333331
     },
     {
-        "title": "темно",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA1MTExNDgxMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDA4NDk1MzU4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL3BzeWNob25hdXQ0LmJhbmRjYW1wLmNvbS9hbGJ1bS9uZXVyYXN0aGVuaWEiPk5ldXJhc3RoZW5pYSBieSBQc3ljaG9uYXV0IDQ8L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": -5.499999999999995,
-        "size": 1
+      "title": "темно",
+      "description": "писал психоделический top down shooter про мишу",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA1MTExNDgxMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDA4NDk1MzU4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL3BzeWNob25hdXQ0LmJhbmRjYW1wLmNvbS9hbGJ1bS9uZXVyYXN0aGVuaWEiPk5ldXJhc3RoZW5pYSBieSBQc3ljaG9uYXV0IDQ8L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 1,
+      "position": -5.499999999999995
     },
     {
-        "title": "свежий комунитет",
-        "description": "съезды\nзаписи импровизаций\n\nтреки:\nnegligence\nкомунитет - а может мечта\nкомунитет - покинутый",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjMzODkxNTI0MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDAzNjgzNzI1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2FzaGVuLWhlcm1pdC5iYW5kY2FtcC5jb20vYWxidW0vLSI+0LzQuNGI0LDQuNC7INC/0YDQvtC00LDQutGI0L0gYnkg0LrQvtC80YPQvdC40YLQtdGCPC9hPjwvaWZyYW1lPg=="
-            },
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzAxMzQ2NjkzMi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz01NjYwNDQyMy90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cHM6Ly9qb3ZlbXdlcnRoZXIuYmFuZGNhbXAuY29tL2FsYnVtL2VwLTIiPkVQIGJ5IEpvdmVtIFdlcnRoZXI8L2E+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 9.76666666666668,
-        "size": 1
+      "title": "свежий комунитет",
+      "description": "съезды\nзаписи импровизаций\n\nтреки:\nnegligence\nкомунитет - а может мечта\nкомунитет - покинутый",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjMzODkxNTI0MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDAzNjgzNzI1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2FzaGVuLWhlcm1pdC5iYW5kY2FtcC5jb20vYWxidW0vLSI+0LzQuNGI0LDQuNC7INC/0YDQvtC00LDQutGI0L0gYnkg0LrQvtC80YPQvdC40YLQtdGCPC9hPjwvaWZyYW1lPg=="
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzAxMzQ2NjkzMi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz01NjYwNDQyMy90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cHM6Ly9qb3ZlbXdlcnRoZXIuYmFuZGNhbXAuY29tL2FsYnVtL2VwLTIiPkVQIGJ5IEpvdmVtIFdlcnRoZXI8L2E+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.715,
+      "position": 9.76666666666668
     },
     {
-        "title": "Script IO",
-        "description": "писал мультиплеерное приложение с пользовательскими скриптами и их применением в реальном времени\ngithub: [ScriptIO](https://github.com/AshenHermit/ScriptIO)\n\nпопытка написать CubeWorld: [gdrive](https://drive.google.com/file/d/17aCe8mQIRlZqZqo96jlwJ0u3zdfuZaup/view?usp=sharing)\nесть мультиплеер\n\nа еще мне брекеты поставили",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE5NDI0NzA1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjIwOTMzMjYxL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2NyeXN0YWxjYXN0bGVzLmJhbmRjYW1wLmNvbS9hbGJ1bS9paSI+SUkgYnkgQ3J5c3RhbCBDYXN0bGVzPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 10.333333333333323,
-        "size": 1
+      "title": "Script IO",
+      "description": "писал мультиплеерное приложение с пользовательскими скриптами и их применением в реальном времени\ngithub: [ScriptIO](https://github.com/AshenHermit/ScriptIO)\n\nпопытка написать CubeWorld: [gdrive](https://drive.google.com/file/d/17aCe8mQIRlZqZqo96jlwJ0u3zdfuZaup/view?usp=sharing)\nесть мультиплеер\n\nа еще мне брекеты поставили",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE5NDI0NzA1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjIwOTMzMjYxL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2NyeXN0YWxjYXN0bGVzLmJhbmRjYW1wLmNvbS9hbGJ1bS9paSI+SUkgYnkgQ3J5c3RhbCBDYXN0bGVzPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 1,
+      "position": 10.333333333333323
     },
     {
-        "title": "Lullaby Of The Leaves",
-        "description": "",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC81Rk5IcXdNQlhQRSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 8.633333333333335,
-        "size": 1
+      "title": "Lullaby Of The Leaves",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC81Rk5IcXdNQlhQRSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.6300000000000001,
+      "position": 8.633333333333335
     },
     {
-        "title": "математический",
-        "description": "Учусь играть math-rock, посещаю игровые сессии михаила.\n\nТакже пишу ScriptIO на c++, только вместо одиночных скриптов там папки аддонов, и редактор внешний. очень долго разбирался с curl.\n\nПисал бота для вк (Amusei) который ищет арты с некоторых сайтов, оценивает с помощью нейронной сети теги, палитру, и кидает лучшее в беседу.\n\n+ трек nival disillusion",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzMxMTUyNjI0Ny9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQ0MDU5NjY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2Zsb3JhbDEuYmFuZGNhbXAuY29tL2FsYnVtL2Zsb3JhbC1scCI+RmxvcmFsIExQIGJ5IEZsb3JhbDwvYT48L2lmcmFtZT4="
-            }
-        ],
-        "position": 11.233333333333313,
-        "size": 1
+      "title": "математический",
+      "description": "Учусь играть math-rock, посещаю игровые сессии михаила.\n\nТакже пишу ScriptIO на c++, только вместо одиночных скриптов там папки аддонов, и редактор внешний. очень долго разбирался с curl.\n\nПисал бота для вк (Amusei) который ищет арты с некоторых сайтов, оценивает с помощью нейронной сети теги, палитру, и кидает лучшее в беседу.\n\n+ трек nival disillusion",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzMxMTUyNjI0Ny9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQ0MDU5NjY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2Zsb3JhbDEuYmFuZGNhbXAuY29tL2FsYnVtL2Zsb3JhbC1scCI+RmxvcmFsIExQIGJ5IEZsb3JhbDwvYT48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.875,
+      "position": 11.233333333333313
     },
     {
-        "title": "Fermata In Mistic Air",
-        "description": "Рисую в блендере разные архитектуры.\nРазобрался в языке Rust, но кодить на нем скорее всего не буду.",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qMC05dWRZY3hPSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
-            }
-        ],
-        "position": 12.333333333333318,
-        "size": 1
+      "title": "Fermata In Mistic Air",
+      "description": "Рисую в блендере разные архитектуры.\nРазобрался в языке Rust, но кодить на нем скорее всего не буду.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qMC05dWRZY3hPSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
+        }
+      ],
+      "size": 0.815,
+      "position": 12.333333333333318
     },
     {
-        "title": "новые инструменты",
-        "description": "мне подарили гитарный процессор\nпишу метал\n\n+ треки:\nerstwhile, \nit never happened,\nSunlight (Inner Suffering cover),\ncollections",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzQyNzA1MzU4MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yNTc2NTM4MzY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xpZmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vcGl0LXZpcGVyIj5QaXQgVmlwZXIgYnkgTGlmZXRha2VyPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 13.066666666666647,
-        "size": 1
+      "title": "новые инструменты",
+      "description": "мне подарили гитарный процессор\nпишу метал\n\n+ треки:\nerstwhile, \nit never happened,\nSunlight (Inner Suffering cover),\ncollections",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzQyNzA1MzU4MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yNTc2NTM4MzY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xpZmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vcGl0LXZpcGVyIj5QaXQgVmlwZXIgYnkgTGlmZXRha2VyPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.6799999999999999,
+      "position": 13.066666666666647
     },
     {
-        "title": "White Shore",
-        "description": "основа рогалика Sleep: [gdrive](https://drive.google.com/file/d/1qIUk2WkQbjxZDXzB9EtbmEYsn7aafHOR/view?usp=sharing)\n\nget_off_this_board: [github](https://github.com/AshenHermit/get_off_this_board)\n\nkept_generator: \n[youtube](https://www.youtube.com/watch?v=1l8HUaGdpjs)\n[github](https://github.com/AshenHermit/kept_generator)\n\nimage_sequence_generator: [youtube](https://www.youtube.com/watch?v=NMvV3QL-sdM)\n\nглубоко изучаю c#, пишу игры и редакторы для них на DirectX и XNA\n\n+ трек [cant_finish_1]",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjkwMjA2NzczMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTIzMjg1ODI2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3doaXRlc2hvcmUxLmJhbmRjYW1wLmNvbS9hbGJ1bS9jaXR5LXZpYmVzIj5DaXR5IFZpYmVzIGJ5IFdoaXRlIFNob3JlPC9hPjwvaWZyYW1lPg=="
-            }
-        ],
-        "position": 14.466666666666642,
-        "size": 1
+      "title": "White Shore",
+      "description": "основа рогалика Sleep: [gdrive](https://drive.google.com/file/d/1qIUk2WkQbjxZDXzB9EtbmEYsn7aafHOR/view?usp=sharing)\n\nget_off_this_board: [github](https://github.com/AshenHermit/get_off_this_board)\n\nkept_generator: \n[youtube](https://www.youtube.com/watch?v=1l8HUaGdpjs)\n[github](https://github.com/AshenHermit/kept_generator)\n\nimage_sequence_generator: [youtube](https://www.youtube.com/watch?v=NMvV3QL-sdM)\n\nглубоко изучаю c#, пишу игры и редакторы для них на DirectX и XNA\n\n+ трек [cant_finish_1]",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjkwMjA2NzczMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTIzMjg1ODI2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3doaXRlc2hvcmUxLmJhbmRjYW1wLmNvbS9hbGJ1bS9jaXR5LXZpYmVzIj5DaXR5IFZpYmVzIGJ5IFdoaXRlIFNob3JlPC9hPjwvaWZyYW1lPg=="
+        }
+      ],
+      "size": 0.9600000000000001,
+      "position": 14.466666666666642
     },
     {
-        "title": "say smth",
-        "description": "делаю аддоны для гариса, полезные скрипты.\nразбираюсь в linux и инструментах kali.\n[anime_pics_v2](https://ashen-hermit.000webhostapp.com/anime_pics_v2)\n\nрисую. альбом: [vk](https://vk.com/album576828276_280693704)",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qUzh0cHp6YXFYTSIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
-            }
-        ],
-        "position": 15.73333333333331,
-        "size": 1
+      "title": "say smth",
+      "description": "делаю аддоны для гариса, полезные скрипты.\nразбираюсь в linux и инструментах kali.\n[anime_pics_v2](https://ashen-hermit.000webhostapp.com/anime_pics_v2)\n\nрисую. альбом: [vk](https://vk.com/album576828276_280693704)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qUzh0cHp6YXFYTSIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.925,
+      "position": 15.73333333333331
     },
     {
-        "title": "chaos theory",
-        "description": "пишу нейросети для определения размера груди и ее нахождения. [colab](https://colab.research.google.com/drive/10poj4ukMPyIfOZbF_ojlvTcMToDitjO7)\n\nинструмент для выделения грудей в [anime_collection](https://ashen-hermit.000webhostapp.com/anime_pics)\n",
-        "tracks": [
-            {
-                "title": "",
-                "artist": "",
-                "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9DakhsZnNkZUYwdyIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
-            }
-        ],
-        "position": 15.166666666666645,
-        "size": 1
+      "title": "chaos theory",
+      "description": "пишу нейросети для определения размера груди и ее нахождения. [colab](https://colab.research.google.com/drive/10poj4ukMPyIfOZbF_ojlvTcMToDitjO7)\n\nинструмент для выделения грудей в anime_pics\n",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9DakhsZnNkZUYwdyIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
+        }
+      ],
+      "size": 0.64,
+      "position": 15.166666666666645
     }
-]
+  ]
+}
