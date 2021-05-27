@@ -167,11 +167,12 @@ export class YearCircle extends React.Component{
      * @param {PostStruct} post 
      */
     drawPost(post, circle_radius, view_position){
-        var position = post.position
-
-        if(client.is_in_edit_mode && post == this.active_post){
-            position = client.edit_mode_fields.post_position
+        var post_is_active = post == this.active_post
+        
+        if(client.is_in_edit_mode && post_is_active){
+            post = client.edit_mode_post
         }
+        var position = post.position
         var angle = YearCircle.postPositionToAngle(position)
         
         var x = Math.cos(angle) * (circle_radius)
@@ -180,19 +181,14 @@ export class YearCircle extends React.Component{
         this.ctx.globalAlpha = utils.clamp(1-Math.abs(view_position - position) / 3, 0, 1) * 0.5
         if(this.ctx.globalAlpha > 0){
             this.ctx.lineWidth = 5 * this.canvas_scale
-            this.ctx.strokeStyle = post == this.active_post ? "#ffc677" : "#353535"
+            this.ctx.strokeStyle = post_is_active ? "#ffc677" : "#353535"
             this.ctx.fillStyle = "#fff"
             var size = post.size
             var title = post.title
 
-            if(post == this.active_post){
+            if(post_is_active){
                 this.ctx.fillStyle = "#ffc677"
                 this.ctx.globalAlpha = 1
-
-                if(client.is_in_edit_mode){
-                    size = client.edit_mode_fields.post_size
-                    title = client.edit_mode_fields.post_title
-                }
             }
             size = size * circle_radius / 6
 

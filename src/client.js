@@ -14,6 +14,8 @@ class EditModeFields{
     post_size = 0
     post_tracks_count = 0
 
+    post_tracks = []
+
     get_array(count, preffix, keys){
         var array = []
         var thisCopy = Object.assign({}, this)
@@ -53,8 +55,7 @@ export class Client{
 
         this.is_in_edit_mode = false
         /**@type {EditModeFields} */
-        this.edit_mode_fields = new EditModeFields()
-        this.edit_mode_fields.onchange_callback = this.onEditModeFieldsChange.bind(this)
+        this.edit_mode_post = new PostStruct()
     }
 
     addPlaceholderPost(){
@@ -84,28 +85,18 @@ export class Client{
     /** @param {PostStruct} post*/
     setActivePost(post){
         this.active_post = post
-        this.edit_mode_fields.post_tracks_count = this.active_post.tracks.length
-        this.main_content_component.setActivePost(this.active_post)
-        this.music_menu_component.setActivePost(this.active_post)
-        
+        var post_to_set = post
+        if(this.is_in_edit_mode){
+            this.edit_mode_post = PostStruct.from_raw_data(this.active_post.to_raw_data())
+            post_to_set = this.edit_mode_post
+        }
+        this.main_content_component.setActivePost(post_to_set)
+        this.music_menu_component.setActivePost(post_to_set)
     }
 
     saveActivePost(){
         if(this.is_in_edit_mode){
-            this.active_post.title = this.edit_mode_fields.post_title
-            this.active_post.description = this.edit_mode_fields.post_description
-            this.active_post.size = this.edit_mode_fields.post_size
-            this.active_post.position = this.edit_mode_fields.post_position
-            var tracks = this.edit_mode_fields.get_array(this.edit_mode_fields.post_tracks_count, 
-                                                        "post_track", ["title", "artist", "embedding_code"])
-            this.active_post.tracks = tracks.map(info=>{
-                var track = new TrackStruct()
-                track.artist = info.artist
-                track.embedding_code = info.embedding_code
-                track.title = info.title
-                return track
-            })
-            // this.exitEditMode()
+            Object.assign(this.active_post, this.edit_mode_post)
             this.api.savePosts(this.posts)
         }
     }
@@ -131,17 +122,12 @@ export class Client{
     }
 
     addTrackInEditMode(){
-        this.edit_mode_fields.post_tracks_count += 1
+        this.edit_mode_post.tracks.push(new TrackStruct())
         this.music_menu_component.forceUpdate()
     }
     deleteTrackInFromEditMode(id){
-        for (let i = id+1; i < this.edit_mode_fields.post_tracks_count; i++) {
-            this.edit_mode_fields["post_track_"+(i-1)+"_title"] = this.edit_mode_fields["post_track_"+(i)+"_title"]
-            this.edit_mode_fields["post_track_"+(i-1)+"_artist"] = this.edit_mode_fields["post_track_"+(i)+"_artist"]
-            this.edit_mode_fields["post_track_"+(i-1)+"_embedding_code"] = this.edit_mode_fields["post_track_"+(i)+"_embedding_code"]
-        }
-        this.edit_mode_fields.post_tracks_count -= 1
-        this.music_menu_component.forceUpdate() // this resets all track fields, NOT GOOD
+        this.edit_mode_post.tracks.splice(id,1)
+        this.music_menu_component.forceUpdate()
     }
 
     showMusicMenu(){
@@ -158,8 +144,8 @@ export class Client{
         }
     }
 
-    onEditModeFieldsChange(fields){
-        this.year_circle_component.view_position_target = fields.post_position
+    onEditModeFieldsChange(){
+        this.year_circle_component.view_position_target = this.edit_mode_post.position
     }
 
     enterEditMode(){
@@ -168,6 +154,7 @@ export class Client{
             this.api.authorizeDB(access_token)
         }
         this.is_in_edit_mode = true
+        this.setActivePost(this.active_post)
         this.music_menu_component.forceUpdate()
         this.main_content_component.forceUpdate()
         this.topbar_component.forceUpdate()
@@ -178,7 +165,7 @@ export class Client{
         this.music_menu_component.forceUpdate()
         this.main_content_component.forceUpdate()
         this.topbar_component.forceUpdate()
-
+        
         this.year_circle_component.view_position_target = this.active_post.position
     }
     toggleEditMode(){

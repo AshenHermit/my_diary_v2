@@ -40,22 +40,24 @@ class EditModeTrack extends React.Component{
                 </div>
                 <Label text="title:"/>
                 <EditorInput 
-                    field_key={"post_track_"+this.props.idx+"_title"}
-                    edit_mode_fields={this.props.edit_mode_fields} 
+                    field_key={"title"}
+                    data_struct={this.props.data_struct}
                     className="editable-track-field"
-                    defaultValue={this.props.track.title}/>
+                    defaultValue={this.props.data_struct.title}/>
+
                 <Label text="artist:"/>
                 <EditorInput 
-                    field_key={"post_track_"+this.props.idx+"_artist"}
-                    edit_mode_fields={this.props.edit_mode_fields} 
+                    field_key={"artist"}
+                    data_struct={this.props.data_struct} 
                     className="editable-track-field"
-                    defaultValue={this.props.track.artist}/>
+                    defaultValue={this.props.data_struct.artist}/>
+                    
                 <Label text="embedding code:"/>
                 <EditorInput 
-                    field_key={"post_track_"+this.props.idx+"_embedding_code"}
-                    edit_mode_fields={this.props.edit_mode_fields} 
+                    field_key={"embedding_code"}
+                    data_struct={this.props.data_struct} 
                     className="editable-track-field embedding-code"
-                    defaultValue={this.props.track.embedding_code}
+                    defaultValue={this.props.data_struct.embedding_code}
                     onChange={this.onEmbeddingCodeChange}/>
 
                 <div ref={this.embedding_ref} className="track-embedding">
@@ -86,19 +88,11 @@ export class MusicMenu extends EditableComponent{
     }
     edit_render(){
         var items = [];
-        for (var i = 0; i < client.edit_mode_fields.post_tracks_count; i++) {
-            var track
-            if(this.state.active_post.tracks.length>0){
-                track = this.state.active_post.tracks[utils.clamp(i, 0, this.state.active_post.tracks.length-1)]
-            }else{
-                track = new TrackStruct()
-            }
+        for (var i = 0; i < client.edit_mode_post.tracks.length; i++) {
             items.push(
-                <EditModeTrack 
-                    key={"track_"+i} 
+                <EditModeTrack key={i} 
                     idx={i} 
-                    edit_mode_fields={client.edit_mode_fields} 
-                    track={track}/>);
+                    data_struct={client.edit_mode_post.tracks[i]}/>);
         }
         return (
             <div className="music-menu" ref={this.frame}>

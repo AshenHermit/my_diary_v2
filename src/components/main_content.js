@@ -12,8 +12,8 @@ class Title extends EditableComponent{
     edit_render(){
         return (
             <EditorInput 
-                field_key="post_title" 
-                edit_mode_fields={this.props.edit_mode_fields} 
+                field_key="title" 
+                data_struct={this.props.data_struct} 
                 className="title" 
                 defaultValue={this.props.text}/>
         )
@@ -34,8 +34,8 @@ class Description extends EditableComponent{
     edit_render(){
         return (
             <EditorInput 
-                field_key="post_description" 
-                edit_mode_fields={this.props.edit_mode_fields} 
+                field_key="description" 
+                data_struct={this.props.data_struct} 
                 className="description" 
                 defaultValue={this.props.text}/>
         )
@@ -73,8 +73,8 @@ export class MainContent extends React.Component{
                         <IconButton icon_src="res/floppy_memory.png" onClick={()=>{client.saveActivePost()}}/>
                     </div>
                     <Slider 
-                        field_key="post_position" 
-                        edit_mode_fields={client.edit_mode_fields} 
+                        field_key="position" 
+                        data_struct={client.edit_mode_post} 
                         change_factor={0.01}
                         min={-20}
                         max={999}
@@ -82,8 +82,8 @@ export class MainContent extends React.Component{
                         icon_src="res/memory_translate.png"/>
 
                     <Slider 
-                        field_key="post_size" 
-                        edit_mode_fields={client.edit_mode_fields} 
+                        field_key="size" 
+                        data_struct={client.edit_mode_post} 
                         change_factor={0.005}
                         min={0.1}
                         max={1}
@@ -95,10 +95,10 @@ export class MainContent extends React.Component{
 
                 <div className="post-info">
                     <Title text={this.state.active_post.title} 
-                        is_in_edit_mode={client.is_in_edit_mode} edit_mode_fields={client.edit_mode_fields}/>
+                        is_in_edit_mode={client.is_in_edit_mode} data_struct={client.edit_mode_post}/>
 
                     <Description text={this.state.active_post.description} 
-                        is_in_edit_mode={client.is_in_edit_mode} edit_mode_fields={client.edit_mode_fields}/>
+                        is_in_edit_mode={client.is_in_edit_mode} data_struct={client.edit_mode_post}/>
                 </div>
             </div>
         )
