@@ -18,8 +18,18 @@ utils.replaceRegexp = function(text, regexp, replace_func){
 }
 utils.renderMarkup = function(text){
     // links
+    var pics_start_pattern = "-pics-"
+    var pics_start_index = text.indexOf(pics_start_pattern)
+    if(pics_start_index != -1){
+        var contents = this.renderMarkup(text.substring(pics_start_index + pics_start_pattern.length))
+        text = text.substring(0, pics_start_index) + `<div class="pics-container">${contents}</div>`
+    }
+
+    text = this.replaceRegexp(text, 
+        /\!\[([^`(]+)\]\(([^`\[]+)\)/m, 
+        args=>`<a class="picture" target="_blank" href="${args[1]}"><img src="${args[1]}" title="${args[0]}" alt="${args[0]}"/></a>`)
 	text = this.replaceRegexp(text, 
-        /\[(.*)\]\((.*)\)/m, 
+        /\[([^`(]+)\]\(([^`\[]+)\)/m, 
         args=>`<a target="_blank" href="${args[1]}">${args[0]}</a>`)
         
     text = this.textToHTML(text)
@@ -43,6 +53,7 @@ utils.getPostNearestToPosition = function(posts_array, position){
 
 utils.getLastPost = function(posts_array){
     var last_post = Array.from(posts_array).sort((x, y)=>{
+        if (!x.can_be_first()) return 1
         if (x.position > y.position) return -1
         if (x.position < y.position) return 1
         return 0

@@ -181,13 +181,15 @@ export class YearCircle extends React.Component{
         this.ctx.globalAlpha = utils.clamp(1-Math.abs(view_position - position) / 3, 0, 1) * 0.5
         if(this.ctx.globalAlpha > 0){
             this.ctx.lineWidth = 5 * this.canvas_scale
-            this.ctx.strokeStyle = post_is_active ? "#ffc677" : "#353535"
+            // this.ctx.strokeStyle = post_is_active ? "#ffc677" : "#353535"
+            this.ctx.strokeStyle = "#fff"
             this.ctx.fillStyle = "#fff"
             var size = post.size
             var title = post.title
 
             if(post_is_active){
                 this.ctx.fillStyle = "#ffc677"
+                this.ctx.strokeStyle = "#ffc677"
                 this.ctx.globalAlpha = 1
             }
             size = size * circle_radius / 6
@@ -196,13 +198,15 @@ export class YearCircle extends React.Component{
             var font_height = Math.floor(circle_radius/15+this.canvas_scale*2)
             this.ctx.font = font_height+"px monospace";
             this.ctx.translate(this.canvas.width/2, this.canvas.height/2);
+            var offset = 8
+            if(post.type==1) offset += 2
             if(x > 0){
                 this.ctx.rotate(angle)
-                this.ctx.translate(circle_radius+size+8, 4);
+                this.ctx.translate(circle_radius+size + offset, 4);
                 this.ctx.textAlign = "left"
             }else{
                 this.ctx.rotate(angle + Math.PI)
-                this.ctx.translate(-circle_radius-size-8, 4);
+                this.ctx.translate(-circle_radius-size - offset, 4);
                 this.ctx.textAlign = "right"
             }
             this.ctx.fillText(title, 0, 0)
@@ -210,7 +214,10 @@ export class YearCircle extends React.Component{
             
             this.ctx.beginPath()
             this.ctx.arc(this.canvas.width/2 + x, this.canvas.height/2 + y, size, 0, 2 * Math.PI)
-            this.ctx.fill()
+            if(post.type==0)
+                this.ctx.fill()
+            else if(post.type==1)
+                this.ctx.stroke()
         }
         this.ctx.globalAlpha = 1
     }

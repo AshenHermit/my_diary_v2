@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { createRef } from 'react'
 import {default as utils} from '../utils'
 import {client} from '../init'
 
@@ -21,6 +21,55 @@ IconButton.defaultProps = {
     visible: true
 }
 
+export class Radio extends React.Component{
+    constructor(props){
+        super(props)
+        /**@type {{icons: Array<String>, field_key: String, data_struct: Object}} */
+        this.props = props
+        this.onclick = this.onclick.bind(this)
+        this.radioRef = createRef()
+    }
+    unselectAllButtons(){
+        Array.from(this.radioRef.current.children).forEach(button=>{
+            button.classList.remove("selected")
+        })
+    }
+    selectButton(index){
+        var button = this.radioRef.current.children[index]
+        button.classList.add("selected")
+    }
+    updateSelection(){
+        this.unselectAllButtons()
+        this.selectButton(this.props.data_struct[this.props.field_key])
+    }
+    onclick(e){
+        var src = e.target.children[0].getAttribute("src")
+        var id = this.props.icons.indexOf(src)
+        this.props.data_struct[this.props.field_key] = id
+        this.updateSelection()
+    }
+    componentDidMount(){
+        this.updateSelection()
+    }
+    componentDidUpdate(){
+        this.updateSelection()
+    }
+    render(){
+        return (
+            <div className="radio" ref={this.radioRef}>
+                {
+                    this.props.icons.map(icon_src=>
+                        <button 
+                            className="icon-button radio-button" 
+                            onClick={this.onclick}>
+                                <img src={icon_src}></img>
+                        </button>
+                    )
+                }
+            </div>
+        )
+    }
+}
 export class Slider extends React.Component{
     constructor(props){
         super(props)
@@ -120,7 +169,7 @@ export class EditableComponent extends React.Component{
         super(props)
     }
     edit_render(){
-
+        
     }
     default_render(){
         

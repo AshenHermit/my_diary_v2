@@ -16,6 +16,9 @@ class Track extends React.Component{
                 <div className="track-embedding" 
                     dangerouslySetInnerHTML={{__html: this.props.track.embedding_code}}>
                 </div>
+                {this.props.track.comment.trim()!="" ? 
+                <div className="comment">{this.props.track.comment}</div>
+                : ''}
             </div>
         )
     }
@@ -35,23 +38,35 @@ class EditModeTrack extends React.Component{
     render(){
         return (
             <div className="track edit-mode">
-                <div className="button-row-right">
+                <div className="buttons-row-right">
                     <IconButton icon_src="res/trash_can.png" onClick={()=>{client.deleteTrackInFromEditMode(this.props.idx)}}/>
                 </div>
-                <Label text="title:"/>
-                <EditorInput 
-                    field_key={"title"}
-                    data_struct={this.props.data_struct}
-                    className="editable-track-field"
-                    defaultValue={this.props.data_struct.title}/>
+                <div className="row">
+                    <div className="row-element">
+                        <Label text="artist:"/>
+                        <EditorInput 
+                            field_key={"artist"}
+                            data_struct={this.props.data_struct} 
+                            className="editable-track-field"
+                            defaultValue={this.props.data_struct.artist}/>
+                    </div>
+                    <div className="row-element">
+                        <Label text="title:"/>
+                        <EditorInput 
+                            field_key={"title"}
+                            data_struct={this.props.data_struct}
+                            className="editable-track-field"
+                            defaultValue={this.props.data_struct.title}/>
+                    </div>        
+                </div>
 
-                <Label text="artist:"/>
+                <Label text="comment:"/>
                 <EditorInput 
-                    field_key={"artist"}
+                    field_key={"comment"}
                     data_struct={this.props.data_struct} 
                     className="editable-track-field"
-                    defaultValue={this.props.data_struct.artist}/>
-                    
+                    defaultValue={this.props.data_struct.comment}/>
+
                 <Label text="embedding code:"/>
                 <EditorInput 
                     field_key={"embedding_code"}
@@ -79,11 +94,11 @@ export class MusicMenu extends EditableComponent{
         this.setState({active_post: post})
     }
     show(){
-        this.frame.current.style.top = '0px'
+        this.frame.current.style.display = ''
         this.is_shown = true
     }
     hide(){
-        this.frame.current.style.top = '-100vh'
+        this.frame.current.style.display = 'none'
         this.is_shown = false
     }
     edit_render(){

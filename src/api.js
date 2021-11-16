@@ -1,8 +1,8 @@
-import {debug_posts} from './config'
+import {debug_posts, debug_data} from './config'
+import { client } from './init';
 import { default as utils } from "./utils";
 require('isomorphic-fetch');
 var Dropbox = require('dropbox').Dropbox;
-
 
 /**
  * Track Struct
@@ -11,6 +11,7 @@ export class TrackStruct{
     title = "track title"
     artist = "artist"
     embedding_code = ""
+    comment = ""
 
     constructor(){
     }
@@ -39,6 +40,11 @@ export class PostStruct{
     tracks = []
     size = 1
     position = 0
+    type = 0
+
+    can_be_first(){
+        return this.title.toLowerCase() != "конец" && this.title.toLowerCase() != "the end"
+    }
 
     constructor(){
     }
@@ -68,6 +74,9 @@ export class PostStruct{
 
 export class Api{
     posts = []
+    lastUpdate = ""
+    about = "about"
+
     DEBUG = false
     access_token = ""
     authorized = false
@@ -76,6 +85,10 @@ export class Api{
 
     constructor(){
         console.log(process.env.NODE_ENV)
+    }
+    logIn(userdata){
+        this.userdata = userdata
+        client.logIn(this.userdata)
     }
 
     authorizeDB(access_token){
@@ -104,27 +117,40 @@ export class Api{
     makeRawDataObject(){
         var lastUpdate = utils.getCurrentDate()
         var posts = this.mapPostsToRaw()
-        var raw_data = {"last_update": lastUpdate, "memories": posts}
+        var raw_data = {"last_update": lastUpdate, "memories": posts, "about": this.about}
         return raw_data
     }
     
     loadPosts(callback){
-        if(this.DEBUG){
-            this.posts = JSON.parse(debug_posts)
-            this.posts = this.posts.map(data=>PostStruct.from_raw_data(data))
+        // bad, old solution. i wish i had strength to improve it, like in group-captains-tool
+        this.getPostsRawData(raw_data=>{
+            if(raw_data.about) this.about = raw_data.about
+            if(raw_data.last_update) this.lastUpdate = raw_data.last_update
+            this.posts = raw_data.memories.map(data=>PostStruct.from_raw_data(data))
             callback(this.posts)
+        })
+    }
+
+    getPostsRawData(callback){
+        if(this.DEBUG){
+            var raw_data = JSON.parse(debug_data)
+            console.log(raw_data)
+            callback(raw_data)
         }else{
             fetch("https://dl.dropbox.com/s/so8ud7sp9lae0vj/memories.json")
             .then(res=>res.json())
             .then(raw_data=>{
-                this.posts = raw_data.memories.map(data=>PostStruct.from_raw_data(data))
-                callback(this.posts)
+                callback(raw_data)
             })
         }
-        
     }
-
+    
     savePosts(posts, callback){
+        if(this.DEBUG){
+            console.log("cant save memories, app is in debug mode")
+            callback()
+            return
+        }
         if(this.authorized){
             var raw_data = this.makeRawDataObject()
             this.dbx.filesUpload({

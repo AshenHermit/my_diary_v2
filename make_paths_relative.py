@@ -1,8 +1,8 @@
 from pathlib import Path
 import re
 
-def main():
-    file = Path("./build/index.html")
+def make_paths_relative(build_folder):
+    file = Path(build_folder+"index.html")
     text = file.read_text()
 
     offset = 0
@@ -21,6 +21,8 @@ def main():
     
     file.write_text(text)
 
+def main():
+    make_paths_relative("./build/")
 
 if __name__ == '__main__':
     main()

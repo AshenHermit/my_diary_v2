@@ -5,10 +5,12 @@ import {api, client} from './init'
 import {MainContent} from './components/main_content'
 import {MusicMenu} from './components/music_menu'
 import {IconButton} from './components/editable_components'
+import { AboutPanel } from './components/about_panel';
 
 class TopBar extends React.Component{
   constructor(props){
     super(props)
+    this.state = {username:""}
   }
   componentDidMount(){
     client.topbar_component = this
@@ -22,6 +24,15 @@ class TopBar extends React.Component{
       </div>
 
       <div className="top-bar-item">
+        {/* {this.state.username==""?
+          <div className="sign-in-with-google" onClick={window.onGoogleSignInClick()}>Sign in with Google</div>
+          :
+          <div className="signed-in">{this.state.username}</div>
+        } */}
+      </div>
+
+      <div className="top-bar-item">
+        <IconButton icon_src="res/about.png" onClick={()=>{client.toggleAboutPanel()}}/>
         <IconButton icon_src="res/notes.png" onClick={()=>{client.toggleMusicMenu()}}/>
       </div>
     </div>
@@ -32,11 +43,15 @@ class TopBar extends React.Component{
 class Footer extends React.Component{
   constructor(props){
     super(props)
+    client.footer_component = this
   }
   render(){
     return (
       <div className="footer">
-        
+        <div className="last-update">
+          {client.api.lastUpdate}
+          { client.api.lastUpdate!="" ? <span style={{fontSize:"14px", color: "#bdbdbd"}}> - последнее обновление</span> : ""}
+        </div>
       </div>
     )
   }
@@ -52,7 +67,10 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <MusicMenu/>
+        <div className="floating-window">
+          <MusicMenu/>
+        </div>
+        <AboutPanel/>
         <TopBar/>
         <MainContent/>
         <Footer/>

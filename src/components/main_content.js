@@ -3,7 +3,7 @@ import {YearCircle} from './year_circle'
 import {client, _post_placeholder} from '../init'
 import {PostStruct} from '../api'
 import {default as utils} from '../utils'
-import {EditableComponent, EditorInput, Slider, IconButton} from './editable_components'
+import {EditableComponent, EditorInput, Slider, IconButton, Radio} from './editable_components'
 
 class Title extends EditableComponent{
     constructor(props){
@@ -67,6 +67,11 @@ export class MainContent extends React.Component{
 
                 {client.is_in_edit_mode ? 
                 <React.Fragment>
+                    <Radio 
+                        field_key="type" 
+                        data_struct={client.edit_mode_post} 
+                        icons={["res/filled_circle.png", "res/circle_stroke.png"]}
+                        />
                     <div className="buttons-row">
                         <IconButton icon_src="res/trash_can.png" onClick={()=>{client.deleteActivePost()}}/>
                         <IconButton icon_src="res/plus.png" onClick={()=>{client.createPostOnViewPos()}}/>

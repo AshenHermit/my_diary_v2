@@ -11,6 +11,7 @@
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    
     <style>
       body{
         background: url(/res/bg.png)
@@ -20,10 +21,31 @@
 
     <script src="https://unpkg.com/dropbox/dist/Dropbox-sdk.min.js"></script>
 	  <script src="https://unpkg.com/dropbox/dist/DropboxTeam-sdk.min.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script crossorigin='' src="https://apis.google.com/js/api.js?onload=onGoogleLibraryLoaded"></script>
     
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+        function onGoogleLibraryLoaded(){
+          gapi.auth2.init({
+            client_id: '1099208279262-2aklqclrt7173dfl7km22sntdt7m3edr.apps.googleusercontent.com',
+            scope: 'profile'
+          })
+        }
+        function onGoogleSignInClick(){
+          gapi.load('auth2', function() {
+              gapi.auth2.signIn().then(function(googleUser) {
+                  this.userdata = googleUser
+                  client.logIn(this.userdata)
+              }, function(error) {
+                  console.log('user failed to sign in')
+              })
+          })
+        }
+    </script>
   </body>
 </html>

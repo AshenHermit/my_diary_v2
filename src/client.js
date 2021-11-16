@@ -6,6 +6,7 @@ import {MainContent} from './components/main_content'
 import {YearCircle} from './components/year_circle'
 import {MusicMenu} from './components/music_menu'
 import {isMobile} from 'react-device-detect'
+import { AboutPanel } from './components/about_panel';
 
 class EditModeFields{
     post_title = ""
@@ -38,14 +39,19 @@ export class Client{
     constructor(api){
         this.api = api
 
+        // awful
         /**@type {MusicMenu} */
         this.music_menu_component = null
+        /**@type {AboutPanel} */
+        this.about_panel_component = null
         /**@type {MainContent} */
         this.main_content_component = null
         /**@type {YearCircle} */
         this.year_circle_component = null
         /**@type {React.Component} */
         this.topbar_component = null
+        /**@type {React.Component} */
+        this.footer_component = null
 
         /**@type {PostStruct} */
         this.active_post = {}
@@ -72,11 +78,14 @@ export class Client{
         this.year_circle_component.setPosts(this.posts)
         this.year_circle_component.setActivePost(this.posts[0], true)
         if(isMobile) this.hideMusicMenu()
+        this.hideAboutPanel()
 
         this.api.loadPosts(posts=>{
             this.posts = posts
             this.year_circle_component.setPosts(this.posts)
             this.year_circle_component.setActivePost(utils.getLastPost(this.posts), true)
+            this.footer_component.forceUpdate()
+            this.about_panel_component.forceUpdate()
         })
 
         this.remove000WebhostElements()
@@ -144,6 +153,20 @@ export class Client{
         }
     }
 
+    showAboutPanel(){
+        this.about_panel_component.show()
+    }
+    hideAboutPanel(){
+        this.about_panel_component.hide()
+    }
+    toggleAboutPanel(){
+        if(this.about_panel_component.is_shown){
+            this.hideAboutPanel()
+        }else{
+            this.showAboutPanel()
+        }
+    }
+
     onEditModeFieldsChange(){
         this.year_circle_component.view_position_target = this.edit_mode_post.position
     }
@@ -156,15 +179,19 @@ export class Client{
         this.is_in_edit_mode = true
         this.setActivePost(this.active_post)
         this.music_menu_component.forceUpdate()
+        this.about_panel_component.forceUpdate()
         this.main_content_component.forceUpdate()
         this.topbar_component.forceUpdate()
+        this.footer_component.forceUpdate()
     }
     exitEditMode(){
         this.is_in_edit_mode = false
         this.year_circle_component.setActivePost(this.active_post)
         this.music_menu_component.forceUpdate()
+        this.about_panel_component.forceUpdate()
         this.main_content_component.forceUpdate()
         this.topbar_component.forceUpdate()
+        this.footer_component.forceUpdate()
         
         this.year_circle_component.view_position_target = this.active_post.position
     }
@@ -188,5 +215,9 @@ export class Client{
             }
         }, (10));
         
+    }
+
+    logIn(userdata){
+        this.topbar_component.setState({username: userdata.getName()})
     }
 }
