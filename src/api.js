@@ -8,8 +8,8 @@ var Dropbox = require('dropbox').Dropbox;
  * Track Struct
  */
 export class TrackStruct{
-    title = "track title"
-    artist = "artist"
+    title = ""
+    artist = ""
     embedding_code = ""
     comment = ""
 
@@ -34,13 +34,14 @@ export class TrackStruct{
  * Post (Memory) Struct
  */
 export class PostStruct{
-    title = "Title"
-    description = "Description"
+    title = "..."
+    description = ""
     /**@type {Array<TrackStruct>}*/
     tracks = []
-    size = 1
+    size = 0.2
     position = 0
-    type = 0
+    type = 1
+    uid = -1
 
     can_be_first(){
         return this.title.toLowerCase() != "конец" && this.title.toLowerCase() != "the end"

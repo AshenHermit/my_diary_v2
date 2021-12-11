@@ -23,3 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 upload.bat
+
+__pycache__/

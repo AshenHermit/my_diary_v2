@@ -4,6 +4,7 @@ import {client, _post_placeholder} from '../init'
 import {default as utils} from '../utils'
 import {months, start_year} from '../config'
 import {isMobile} from 'react-device-detect'
+import { searchParams } from '../searchParams'
 
 export class YearCircle extends React.Component{
     constructor(props){
@@ -54,7 +55,7 @@ export class YearCircle extends React.Component{
         var nearest_post = utils.getPostNearestToPosition(this.posts, this.view_position_target)
 
         if(nearest_post != this.active_post){
-            this.setActivePost(nearest_post)
+            client.setActivePost(nearest_post)
         }
     }
 
@@ -69,9 +70,8 @@ export class YearCircle extends React.Component{
         if(scroll_anyway){
             this.view_position_target = post.position
         }
-
+        
         this.active_post = post
-        client.setActivePost(this.active_post)
     }
     
     componentDidMount(){

@@ -7,39 +7,17 @@ import {YearCircle} from './components/year_circle'
 import {MusicMenu} from './components/music_menu'
 import {isMobile} from 'react-device-detect'
 import { AboutPanel } from './components/about_panel';
+import { EventHandler } from 'event-js';
+import { searchParams } from './searchParams';
 
-class EditModeFields{
-    post_title = ""
-    post_description = ""
-    post_position = 0
-    post_size = 0
-    post_tracks_count = 0
-
-    post_tracks = []
-
-    get_array(count, preffix, keys){
-        var array = []
-        var thisCopy = Object.assign({}, this)
-        for (let i = 0; i < count; i++) {
-            var item = {}
-            keys.forEach(key=>{item[key] = thisCopy[preffix+"_"+i+"_"+key]})
-            array.push(item)
-        }
-        return array
-    }
-
-    onchange_callback = function(fields){}
-    onchange(){
-        this.onchange_callback(this)
-    }
-}
+// TODO: not object oriented enough
+// quite awful logic
 
 export class Client{
     /** @param {Api} api */
     constructor(api){
         this.api = api
 
-        // awful
         /**@type {MusicMenu} */
         this.music_menu_component = null
         /**@type {AboutPanel} */
@@ -58,6 +36,7 @@ export class Client{
         
         /**@type {Array<PostStruct>} */
         this.posts = []
+        this.next_post_uid = 0
 
         this.is_in_edit_mode = false
         /**@type {EditModeFields} */
@@ -72,18 +51,26 @@ export class Client{
         post.size = 1
         this.posts.push(post)
     }
-
+    
     initialize(){
+        searchParams.updateParams()
+        
         this.addPlaceholderPost()
         this.year_circle_component.setPosts(this.posts)
-        this.year_circle_component.setActivePost(this.posts[0], true)
+        this.setActivePost(this.posts[0], false, true)
         if(isMobile) this.hideMusicMenu()
         this.hideAboutPanel()
 
         this.api.loadPosts(posts=>{
             this.posts = posts
+            this.next_post_uid = Math.max(...this.posts.map(x=>x.uid))+1
             this.year_circle_component.setPosts(this.posts)
-            this.year_circle_component.setActivePost(utils.getLastPost(this.posts), true)
+            console.log(searchParams.post_uid)
+            if(searchParams.post_uid!=-1){
+                this.setActivePost(this.posts.find(x=>x.uid == searchParams.post_uid))
+            }else{
+                this.setActivePost(utils.getLastPost(this.posts))
+            }
             this.footer_component.forceUpdate()
             this.about_panel_component.forceUpdate()
         })
@@ -92,7 +79,7 @@ export class Client{
     }
 
     /** @param {PostStruct} post*/
-    setActivePost(post){
+    setActivePost(post, replaceSearchParams=true, scrollAnyway=false){
         this.active_post = post
         var post_to_set = post
         if(this.is_in_edit_mode){
@@ -101,6 +88,12 @@ export class Client{
         }
         this.main_content_component.setActivePost(post_to_set)
         this.music_menu_component.setActivePost(post_to_set)
+        this.year_circle_component.setActivePost(post_to_set, scrollAnyway)
+
+        if(replaceSearchParams){
+            searchParams.post_uid = post.uid
+            searchParams.replaceParams()
+        }
     }
 
     saveActivePost(){
@@ -113,6 +106,8 @@ export class Client{
     createPost(position){
         var post = new PostStruct()
         post.position = position
+        post.uid = this.next_post_uid
+        this.next_post_uid+=1
         this.posts.push(post)
         this.year_circle_component.checkNearestPost()
     }
