@@ -26,10 +26,10 @@ utils.renderMarkup = function(text){
     }
 
     text = this.replaceRegexp(text, 
-        /\!\[([^`(]+)\]\(([^`\[]+)\)/m, 
+        /\!\[([^\]]+)\]\(([^\)]+)\)/m, 
         args=>`<a class="picture" target="_blank" href="${args[1]}"><img src="${args[1]}" title="${args[0]}" alt="${args[0]}"/></a>`)
 	text = this.replaceRegexp(text, 
-        /\[([^`(]+)\]\(([^`\[]+)\)/m, 
+        /\[([^\]]+)\]\(([^\)]+)\)/m, 
         args=>`<a target="_blank" href="${args[1]}">${args[0]}</a>`)
         
     text = this.textToHTML(text)
