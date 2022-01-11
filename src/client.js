@@ -16,6 +16,8 @@ import { searchParams } from './searchParams';
 export class Client{
     /** @param {Api} api */
     constructor(api){
+        this.app_name = "Hermit's Diary"
+
         this.api = api
 
         /**@type {MusicMenu} */
@@ -43,6 +45,14 @@ export class Client{
         this.edit_mode_post = new PostStruct()
     }
 
+    updateWindowTitle(){
+        var title = this.app_name
+        if(this.active_post){
+            title += " - " + this.active_post.title
+        }
+        document.title = title
+    }
+
     addPlaceholderPost(){
         var post = PostStruct.build_placeholder()
         post.position = 0
@@ -60,7 +70,7 @@ export class Client{
         this.setActivePost(this.posts[0], false, true)
         if(isMobile) this.hideMusicMenu()
         this.hideAboutPanel()
-
+        
         this.api.loadPosts(posts=>{
             this.posts = posts
             this.next_post_uid = Math.max(...this.posts.map(x=>x.uid))+1
@@ -74,8 +84,9 @@ export class Client{
             this.footer_component.forceUpdate()
             this.about_panel_component.forceUpdate()
         })
-
+        
         this.remove000WebhostElements()
+        this.updateWindowTitle()
     }
 
     /** @param {PostStruct} post*/
@@ -94,6 +105,7 @@ export class Client{
             searchParams.post_uid = post.uid
             searchParams.replaceParams()
         }
+        this.updateWindowTitle()
     }
 
     saveActivePost(){
@@ -209,7 +221,6 @@ export class Client{
                 console.error(e)
             }
         }, (10));
-        
     }
 
     logIn(userdata){
