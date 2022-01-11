@@ -84,7 +84,8 @@ export class MainContent extends React.Component{
                         min={-20}
                         max={999}
                         defaultValue={this.state.active_post.position}
-                        icon_src="res/memory_translate.png"/>
+                        icon_src="res/memory_translate.png"
+                        onChange={client.scrollToEditModePost.bind(client)}/>
 
                     <Slider 
                         field_key="size" 
@@ -93,7 +94,8 @@ export class MainContent extends React.Component{
                         min={0.1}
                         max={1}
                         defaultValue={this.state.active_post.size}
-                        icon_src="res/memory_resize.png"/>
+                        icon_src="res/memory_resize.png"
+                        onChange={client.scrollToEditModePost.bind(client)}/>
                     
                 </React.Fragment>
                 :''}

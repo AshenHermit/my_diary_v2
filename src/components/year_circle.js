@@ -238,7 +238,7 @@ export class YearCircle extends React.Component{
 
         for (let i = 0; i < this.posts.length; i++) {
             const post = this.posts[i];
-            if(post != this.active_post){
+            if(post.uid != this.active_post.uid){
                 this.drawPost(post, circle_radius, view_position)
             }
         }

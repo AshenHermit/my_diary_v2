@@ -162,8 +162,10 @@ export class Client{
         }
     }
 
-    onEditModeFieldsChange(){
-        this.year_circle_component.view_position_target = this.edit_mode_post.position
+    scrollToEditModePost(){
+        if(this.edit_mode_post!=null){
+            this.year_circle_component.view_position_target = this.edit_mode_post.position
+        }
     }
 
     enterEditMode(){
@@ -181,14 +183,12 @@ export class Client{
     }
     exitEditMode(){
         this.is_in_edit_mode = false
-        this.year_circle_component.setActivePost(this.active_post)
+        this.year_circle_component.setActivePost(this.active_post, true)
         this.music_menu_component.forceUpdate()
         this.about_panel_component.forceUpdate()
         this.main_content_component.forceUpdate()
         this.topbar_component.forceUpdate()
         this.footer_component.forceUpdate()
-        
-        this.year_circle_component.view_position_target = this.active_post.position
     }
     toggleEditMode(){
         if (this.is_in_edit_mode){

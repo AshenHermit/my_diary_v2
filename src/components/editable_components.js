@@ -85,8 +85,10 @@ export class Slider extends React.Component{
         this.is_dragging = false
     }
     updateEditModeField(){
-        this.props.data_struct[this.props.field_key] = this.value
-        client.onEditModeFieldsChange()
+        if(this.value != this.props.data_struct[this.props.field_key]){
+            this.props.data_struct[this.props.field_key] = this.value
+            if(this.props.onChange!=null) this.props.onChange(this.value)
+        }
     }
     resetValueToDefault(){
         this.value = this.props.defaultValue
@@ -139,7 +141,6 @@ export class EditorInput extends React.Component{
     updateEditModeField(){
         this.value = this.input_ref.current.innerText
         this.props.data_struct[this.props.field_key] = this.value
-        client.onEditModeFieldsChange()
         if(this.props.onChange!=null) this.props.onChange(this.value)
     }
     resetValueToDefault(){
