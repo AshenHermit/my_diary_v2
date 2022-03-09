@@ -20,12 +20,12 @@ export class TrackStruct{
         data = Object.assign({}, data)
         var track = new TrackStruct()
         Object.assign(track, data)
-        track.embedding_code = atob(track.embedding_code)
+        track.embedding_code = decodeURI(track.embedding_code)
         return track
     }
     to_raw_data(){
         var data = JSON.parse(JSON.stringify(this))
-        data.embedding_code = btoa(data.embedding_code)
+        data.embedding_code = encodeURI(data.embedding_code)
         return data
     }
 }

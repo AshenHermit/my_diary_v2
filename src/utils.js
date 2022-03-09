@@ -18,10 +18,11 @@ utils.replaceRegexp = function(text, regexp, replace_func){
 }
 utils.renderMarkup = function(text){
     // links
-    var pics_start_pattern = "-pics-"
+    var pics_start_pattern = "-pics-\n"
     var pics_start_index = text.indexOf(pics_start_pattern)
     if(pics_start_index != -1){
-        var contents = this.renderMarkup(text.substring(pics_start_index + pics_start_pattern.length))
+        var pattern_end = pics_start_index + pics_start_pattern.length - 1
+        var contents = this.renderMarkup(text.substring(pattern_end))
         text = text.substring(0, pics_start_index) + `<div class="pics-container">${contents}</div>`
     }
 
