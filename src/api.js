@@ -93,19 +93,23 @@ export class Api{
     }
 
     authorizeDB(access_token){
-        this.dbx = new Dropbox({ accessToken: access_token });
-        this.dbx.filesListFolder({path: ''})
-        .then((function(response) {
-            console.log(response);
-            console.log("authorized");
-            this.authorized = true
-            this.access_token = access_token
-        }).bind(this))
-        .catch((function(error) {
-            console.error(error)
-            this.access_token = ""
-            this.authorized = false
-        }).bind(this));
+        return new Promise((resolve, reject)=>{
+            this.dbx = new Dropbox({ accessToken: access_token });
+            this.dbx.filesListFolder({path: ''})
+            .then((function(response) {
+                console.log(response);
+                console.log("authorized");
+                this.authorized = true
+                this.access_token = access_token
+                resolve(true)
+            }).bind(this))
+            .catch((function(error) {
+                console.error(error)
+                this.access_token = ""
+                this.authorized = false
+                resolve(false)
+            }).bind(this));
+        })
     }
 
     executeWithAccessToDB(callback){

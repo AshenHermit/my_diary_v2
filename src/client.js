@@ -13,6 +13,26 @@ import { searchParams } from './searchParams';
 // TODO: not object oriented enough
 // quite awful logic
 
+export class Logger{
+    constructor(){
+        this.onMessage = new EventHandler(this)
+        this.onWarning = new EventHandler(this)
+        this.onError = new EventHandler(this)
+    }
+    message(text){
+        this.onMessage.publish(text)
+        console.log(text)
+    }
+    warning(text){
+        this.onWarning.publish(text)
+        console.warn(text)
+    }
+    error(text){
+        this.onError.publish(text)
+        console.error(text)
+    }
+}
+
 export class Client{
     /** @param {Api} api */
     constructor(api){
@@ -43,6 +63,8 @@ export class Client{
         this.is_in_edit_mode = false
         /**@type {EditModeFields} */
         this.edit_mode_post = new PostStruct()
+
+        this.logger = new Logger()
     }
 
     updateWindowTitle(){
@@ -71,22 +93,32 @@ export class Client{
         if(isMobile) this.hideMusicMenu()
         this.hideAboutPanel()
         
-        this.api.loadPosts(posts=>{
-            this.posts = posts
-            this.next_post_uid = Math.max(...this.posts.map(x=>x.uid))+1
-            this.year_circle_component.setPosts(this.posts)
-            console.log(searchParams.post_uid)
-            if(searchParams.post_uid!=-1){
-                this.setActivePost(this.posts.find(x=>x.uid == searchParams.post_uid))
-            }else{
-                this.setActivePost(utils.getLastPost(this.posts))
-            }
-            this.footer_component.forceUpdate()
-            this.about_panel_component.forceUpdate()
-        })
+        this.api.loadPosts(this.initializePosts.bind(this))
         
         this.remove000WebhostElements()
         this.updateWindowTitle()
+    }
+
+    initializePosts(posts){
+        this.posts = posts
+        this.next_post_uid = Math.max(...this.posts.map(x=>x.uid))+1
+        this.year_circle_component.setPosts(this.posts)
+        
+        let post_uid = searchParams.post_uid
+
+        console.log(post_uid)
+        
+        this.setActivePost(utils.getLastPost(this.posts))
+        if(post_uid!=-1){
+            let post = this.posts.find(x=>x.uid == post_uid)
+            if(post){
+                this.setActivePost(post)
+            }else{
+                this.logger.error(`Post with id ${post_uid} not found`)
+            }
+        }
+        this.footer_component.forceUpdate()
+        this.about_panel_component.forceUpdate()
     }
 
     /** @param {PostStruct} post*/
@@ -183,7 +215,11 @@ export class Client{
     enterEditMode(){
         if(!this.api.authorized){
             var access_token = prompt("please, enter a dropbox access token", "")
-            this.api.authorizeDB(access_token)
+            this.api.authorizeDB(access_token).then((result=>{
+                if(!result){
+                    this.logger.error("failed to authorize")
+                }
+            }).bind(this))
         }
         this.is_in_edit_mode = true
         this.setActivePost(this.active_post)

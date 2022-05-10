@@ -81,8 +81,8 @@ export class MainContent extends React.Component{
                         field_key="position" 
                         data_struct={client.edit_mode_post} 
                         change_factor={0.01}
-                        min={-20}
-                        max={999}
+                        min={null}
+                        max={null}
                         defaultValue={this.state.active_post.position}
                         icon_src="res/memory_translate.png"
                         onChange={client.scrollToEditModePost.bind(client)}/>

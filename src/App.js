@@ -6,6 +6,7 @@ import {MainContent} from './components/main_content'
 import {MusicMenu} from './components/music_menu'
 import {IconButton} from './components/editable_components'
 import { AboutPanel } from './components/about_panel';
+import { PopupsList } from './components/popups_list';
 
 class TopBar extends React.Component{
   constructor(props){
@@ -70,6 +71,7 @@ class App extends React.Component{
         <div className="floating-window">
           <MusicMenu/>
         </div>
+        <PopupsList/>
         <AboutPanel/>
         <TopBar/>
         <MainContent/>
