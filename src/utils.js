@@ -96,4 +96,38 @@ utils.getCurrentDate = function(){
 	return txt
 }
 
+class TrackInfo{
+    constructor(author="", title=""){
+        this.author = author
+        this.title = title
+    }
+}
+utils.TrackInfo = TrackInfo
+
+utils.getAuthorTitleFromEmbed = function(code){
+    var algos = [
+        utils.getBndcmpEmbedAuthorTitle
+    ]
+    var info = null
+    for (let i = 0; i < algos.length; i++) {
+        var algo = algos[i];
+        info = algo(code)
+        if(!info) break
+    }
+    return info
+}
+utils.getBndcmpEmbedAuthorTitle = function(code){
+    var info = null
+    var idx = code.indexOf("bandcamp.com/EmbeddedPlayer/")
+    if (idx == -1) return info
+
+    var parser = new DOMParser()
+    var htmlDoc = parser.parseFromString(code, 'text/html')
+    var inFrame = parser.parseFromString(htmlDoc.body.children[0].innerText, 'text/html')
+    var linkText = inFrame.getElementsByTagName("a")[0].innerText
+    var titleAuthor = linkText.split("by").map((x)=>x.trim())
+    info = new TrackInfo(titleAuthor[1], titleAuthor[0])
+    return info
+}
+
 export default utils

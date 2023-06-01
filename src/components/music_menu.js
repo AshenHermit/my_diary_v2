@@ -28,11 +28,18 @@ class EditModeTrack extends React.Component{
     constructor(props){
         super(props)
         this.embedding_ref = React.createRef()
+        this.author_ref = React.createRef()
+        this.title_ref = React.createRef()
         this.onEmbeddingCodeChange = this.onEmbeddingCodeChange.bind(this)
     }
     onEmbeddingCodeChange(code){
         setTimeout(() => {
             this.embedding_ref.current.innerHTML = code
+            var trachInfo = utils.getAuthorTitleFromEmbed(code)
+            if (trachInfo){
+                this.author_ref.current.setValue(trachInfo.author)
+                this.title_ref.current.setValue(trachInfo.title)
+            }
         }, 10);
     }
     render(){
@@ -45,6 +52,7 @@ class EditModeTrack extends React.Component{
                     <div className="row-element">
                         <Label text="artist:"/>
                         <EditorInput 
+                            ref={this.author_ref}
                             field_key={"artist"}
                             data_struct={this.props.data_struct} 
                             className="editable-track-field"
@@ -53,6 +61,7 @@ class EditModeTrack extends React.Component{
                     <div className="row-element">
                         <Label text="title:"/>
                         <EditorInput 
+                            ref={this.title_ref}
                             field_key={"title"}
                             data_struct={this.props.data_struct}
                             className="editable-track-field"

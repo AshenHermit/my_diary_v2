@@ -144,7 +144,10 @@ export class EditorInput extends React.Component{
         if(this.props.onChange!=null) this.props.onChange(this.value)
     }
     resetValueToDefault(){
-        this.input_ref.current.textContent = this.props.defaultValue
+        this.setValue(this.props.defaultValue)
+    }
+    setValue(value){
+        this.input_ref.current.textContent = value
         this.updateEditModeField()
     }
 
