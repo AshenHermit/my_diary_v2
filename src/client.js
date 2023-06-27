@@ -141,7 +141,7 @@ export class Client{
         this.active_post = post
         var post_to_set = post
         if(this.is_in_edit_mode){
-            this.edit_mode_post = PostStruct.from_raw_data(this.active_post.to_raw_data())
+            this.edit_mode_post = this.active_post.copy()
             post_to_set = this.edit_mode_post
         }
         this.main_content_component.setActivePost(post_to_set)

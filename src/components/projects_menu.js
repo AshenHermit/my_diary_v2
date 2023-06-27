@@ -84,7 +84,7 @@ export class ProjectsMenu extends React.Component{
             if (x.position > y.position) return -1
             if (x.position < y.position) return 1
         }).map(post=>{
-            post.projects.forEach(proj=>{proj.post = post})
+            post.projects.forEach(proj=>{proj.post = {uid: post.uid, position: post.position}})
             if(this.searchTags.length==0){
                 return post.projects
             }else{
