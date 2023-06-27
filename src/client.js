@@ -9,6 +9,7 @@ import {isMobile} from 'react-device-detect'
 import { AboutPanel } from './components/about_panel';
 import { EventHandler } from 'event-js';
 import { searchParams } from './searchParams';
+import { ProjectsMenu } from './components/projects_menu';
 
 // TODO: not object oriented enough
 // quite awful logic
@@ -42,6 +43,8 @@ export class Client{
 
         /**@type {MusicMenu} */
         this.music_menu_component = null
+        /**@type {ProjectsMenu} */
+        this.projects_menu = null
         /**@type {AboutPanel} */
         this.about_panel_component = null
         /**@type {MainContent} */
@@ -56,8 +59,6 @@ export class Client{
         /**@type {PostStruct} */
         this.active_post = {}
         
-        /**@type {Array<PostStruct>} */
-        this.posts = []
         this.next_post_uid = 0
 
         this.is_in_edit_mode = false
@@ -65,6 +66,8 @@ export class Client{
         this.edit_mode_post = new PostStruct()
 
         this.logger = new Logger()
+
+        this.activePostChanged = new EventHandler()
     }
 
     updateWindowTitle(){
@@ -81,16 +84,17 @@ export class Client{
         post.title = "memories are loading..."
         post.description = "please wait"
         post.size = 1
-        this.posts.push(post)
+        this.api.data.posts.push(post)
     }
     
     initialize(){
         searchParams.updateParams()
+        this.initEventsLogging()
         
         this.addPlaceholderPost()
-        this.year_circle_component.setPosts(this.posts)
-        this.setActivePost(this.posts[0], false, true)
-        if(isMobile) this.hideMusicMenu()
+        this.year_circle_component.setPosts(this.api.data.posts)
+        this.setActivePost(this.api.data.posts[0], false, true)
+        // if(isMobile) this.hideMusicMenu()
         this.hideAboutPanel()
         
         this.api.loadPosts(this.initializePosts.bind(this))
@@ -98,27 +102,38 @@ export class Client{
         this.remove000WebhostElements()
         this.updateWindowTitle()
     }
+    
+    initEventsLogging(){
+        this.api.dataSavedEvent.subscribe(()=>{
+            this.logger.message("saved")
+        })
+        this.api.dataNotSavedEvent.subscribe(()=>{
+            this.logger.error("cant save data")
+        })
+    }
 
     initializePosts(posts){
-        this.posts = posts
-        this.next_post_uid = Math.max(...this.posts.map(x=>x.uid))+1
-        this.year_circle_component.setPosts(this.posts)
+        this.next_post_uid = Math.max(...this.api.data.posts.map(x=>x.uid))+1
+        this.year_circle_component.setPosts(this.api.data.posts)
         
         let post_uid = searchParams.post_uid
 
         console.log(post_uid)
         
-        this.setActivePost(utils.getLastPost(this.posts))
+        if(post_uid==-1) post_uid = utils.getLastPost(this.api.data.posts).uid
+        this.goToPost(post_uid)
+        this.footer_component.forceUpdate()
+        this.about_panel_component.forceUpdate()
+    }
+    goToPost(post_uid){
         if(post_uid!=-1){
-            let post = this.posts.find(x=>x.uid == post_uid)
+            let post = this.api.data.posts.find(x=>x.uid == post_uid)
             if(post){
                 this.setActivePost(post)
             }else{
                 this.logger.error(`Post with id ${post_uid} not found`)
             }
         }
-        this.footer_component.forceUpdate()
-        this.about_panel_component.forceUpdate()
     }
 
     /** @param {PostStruct} post*/
@@ -138,12 +153,13 @@ export class Client{
             searchParams.replaceParams()
         }
         this.updateWindowTitle()
+        this.activePostChanged.publish()
     }
 
     saveActivePost(){
         if(this.is_in_edit_mode){
             Object.assign(this.active_post, this.edit_mode_post)
-            this.api.savePosts(this.posts)
+            this.api.savePosts(this.api.data.posts)
         }
     }
     
@@ -152,13 +168,13 @@ export class Client{
         post.position = position
         post.uid = this.next_post_uid
         this.next_post_uid+=1
-        this.posts.push(post)
+        this.api.data.posts.push(post)
         this.year_circle_component.checkNearestPost()
     }
 
     deletePost(post){
-        var idx = this.posts.indexOf(post)
-        this.posts.splice(idx, 1)
+        var idx = this.api.data.posts.indexOf(post)
+        this.api.data.posts.splice(idx, 1)
         this.year_circle_component.checkNearestPost()
     }
 
@@ -173,7 +189,7 @@ export class Client{
         this.edit_mode_post.tracks.push(new TrackStruct())
         this.music_menu_component.forceUpdate()
     }
-    deleteTrackInFromEditMode(id){
+    deleteTrackInEditMode(id){
         this.edit_mode_post.tracks.splice(id,1)
         this.music_menu_component.forceUpdate()
     }

@@ -1,19 +1,32 @@
+import { Exportable, FC } from 'extripo';
 import {debug_posts, debug_data} from './config'
 import { client } from './init';
 import { default as utils } from "./utils";
+import { EventHandler } from 'event-js';
 require('isomorphic-fetch');
 var Dropbox = require('dropbox').Dropbox;
 
 /**
  * Track Struct
  */
-export class TrackStruct{
-    title = ""
-    artist = ""
-    embedding_code = ""
-    comment = ""
-
+export class TrackStruct extends Exportable{
     constructor(){
+        super()
+        this.title = ""
+        this.artist = ""
+        this.embedding_code = ""
+        this.comment = ""
+    }
+
+    importData(data){
+        super.importData(data)
+        this.embedding_code = decodeURI(this.embedding_code)
+        return this
+    }
+    exportData(){
+        var data = super.exportData()
+        data.embedding_code = encodeURI(data.embedding_code)
+        return data
     }
 
     static from_raw_data(data){
@@ -30,24 +43,43 @@ export class TrackStruct{
     }
 }
 
+export class ProjectStruct extends Exportable{
+    constructor(){
+        super()
+        this.configFields({
+            post: FC.ignore()
+        })
+        this.title = ""
+        this.description = ""
+        this.tags = []
+        this.image_url = ""
+    }
+}
+
 /**
  * Post (Memory) Struct
  */
-export class PostStruct{
-    title = "..."
-    description = ""
-    /**@type {Array<TrackStruct>}*/
-    tracks = []
-    size = 0.2
-    position = 0
-    type = 1
-    uid = -1
+export class PostStruct extends Exportable{
 
     can_be_first(){
         return this.title.toLowerCase() != "конец" && this.title.toLowerCase() != "the end"
     }
 
     constructor(){
+        super()
+        this.configFields({
+            tracks: FC.arrayOf(TrackStruct),
+            projects: FC.arrayOf(ProjectStruct)
+        })
+        this.title = "..."
+        this.description = ""
+        /**@type {Array<TrackStruct>}*/
+        this.tracks = []
+        this.projects = []
+        this.size = 0.2
+        this.position = 0
+        this.type = 1
+        this.uid = -1
     }
 
     static from_raw_data(data){
@@ -73,6 +105,20 @@ export class PostStruct{
 
 }
 
+export class DiaryData extends Exportable{
+    constructor(){
+        super()
+        this.configFields({
+            posts: FC.arrayOf(PostStruct)
+        })
+        this.about = ""
+        this.last_update = ""
+        this.posts = []
+    }
+}
+
+window.DiaryData = DiaryData
+
 export class Api{
     posts = []
     lastUpdate = ""
@@ -84,8 +130,15 @@ export class Api{
     /**@type {Dropbox} */
     dbx = null
 
+    data = null
+
     constructor(){
         console.log(process.env.NODE_ENV)
+
+        this.dataLoaded = new EventHandler(this)
+        this.dataSavedEvent = new EventHandler(this)
+        this.dataNotSavedEvent = new EventHandler(this)
+        this.data = new DiaryData()
     }
     logIn(userdata){
         this.userdata = userdata
@@ -122,17 +175,21 @@ export class Api{
     makeRawDataObject(){
         var lastUpdate = utils.getCurrentDate()
         var posts = this.mapPostsToRaw()
-        var raw_data = {"last_update": lastUpdate, "memories": posts, "about": this.about}
+        var raw_data = {"last_update": lastUpdate, "posts": posts, "about": this.about}
         return raw_data
     }
     
     loadPosts(callback){
         // bad, old solution. i wish i had strength to improve it, like in group-captains-tool
         this.getPostsRawData(raw_data=>{
+            this.data = DiaryData.create(raw_data)
+            window.posts_fetched_data = raw_data
             if(raw_data.about) this.about = raw_data.about
             if(raw_data.last_update) this.lastUpdate = raw_data.last_update
-            this.posts = raw_data.memories.map(data=>PostStruct.from_raw_data(data))
+            this.posts = this.data.posts
+            // this.posts = raw_data.posts.map(data=>PostStruct.from_raw_data(data))
             callback(this.posts)
+            this.dataLoaded.publish()
         })
     }
 
@@ -146,6 +203,8 @@ export class Api{
             .then(res=>res.json())
             .then(raw_data=>{
                 callback(raw_data)
+            }).catch(()=>{
+                
             })
         }
     }
@@ -158,6 +217,8 @@ export class Api{
         }
         if(this.authorized){
             var raw_data = this.makeRawDataObject()
+            var raw_data = this.data.exportData()
+            
             this.dbx.filesUpload({
                 "path": "/memories.json",
                 "contents": JSON.stringify(raw_data, null, 2),
@@ -165,10 +226,14 @@ export class Api{
                 "autorename": false,
                 "mute": true,
                 "strict_conflict": false
-            }).then(function(req){
+            }).then((function(req){
                 console.log("saved");
+                this.dataSavedEvent.publish()
                 if(callback!=null) callback()
-            })
+            }).bind(this)).catch((function(reason){
+                this.dataNotSavedEvent.publish()
+                console.error(reason)
+            }).bind(this))
         }
     }
 }

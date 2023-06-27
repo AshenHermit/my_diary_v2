@@ -1,5 +1,5 @@
 {
-  "last_update": "12.05.2021",
+  "last_update": "16.06.2023",
   "memories": [
     {
       "title": "Ожидая",
@@ -8,24 +8,42 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTQ0MTc3NDQxNC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yODEyNjM1NDczL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc2VsZm11dGlsYXRpb25zZXJ2aWNlcy5jb20vYWxidW0vZmFpbGluZy10by1jb25mcm9udC1zdWljaWRhbC10aG91Z2h0cyI="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1441774414/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/track=2812635473/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://selfmutilationservices.com/album/failing-to-confront-suicidal-thoughts%22",
+          "comment": ""
         }
       ],
-      "size": 1,
-      "position": -0.5333333333333333
+      "size": 0.795,
+      "position": -0.7733333333333332,
+      "type": 0,
+      "uid": 0
     },
     {
       "title": "Кода",
-      "description": "Прощаюсь с деревней\n\n+ Приложение Days для краткого описания дней\n+ Этот сайт",
+      "description": "Прощаюсь с деревней\n\n+ Приложение Days для краткого описания дней\n+ Первая версия этого сайта - [MyDiary](https://ashenhermit.github.io/myDiary/)",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9ST19EdU92V0FIYyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPSIiPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Acusuev09DQ%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Песенка о святости, мыше и камыше",
+          "artist": "Егор Летов",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/pEz8M1Z2Ek4%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Сто лет одиночества",
+          "artist": "Егор и Опизденевшие",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Fg7iXkcXvWc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "На самом деле не в это время, но в какой-то пеиод летом я переслушивал и играл альбомы \"Сто лет одиночества\" и \"Вершки и корешки\""
         }
       ],
       "size": 0.41500000000000004,
-      "position": 7.566666666666672
+      "position": 7.566666666666672,
+      "type": 0,
+      "uid": 1
     },
     {
       "title": "Пиксельный Психодел",
@@ -34,11 +52,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTEwNTMwMjQwL3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTEwMTAyNjA5NzUvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9kb3duZmFsbG9mZ2FpYS5iYW5kY2FtcC5jb20vYWxidW0vYWVvbi11bnZlaWxzLXRoZS10aHJvbmVzLW9mLWRlY2F5LTIiPkFlb24gVW52ZWlscyB0aGUgVGhyb25lcyBvZiBEZWNheSBieSBEb3duZmFsbCBvZiBHYWlhPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=110530240/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1010260975/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://downfallofgaia.bandcamp.com/album/aeon-unveils-the-thrones-of-decay-2%22%3EAeon%20Unveils%20the%20Thrones%20of%20Decay%20by%20Downfall%20of%20Gaia%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.8200000000000001,
-      "position": 7.16666666666667
+      "position": 7.16666666666667,
+      "type": 0,
+      "uid": 2
     },
     {
       "title": "Плавление Древесины",
@@ -47,11 +68,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjgxNzU1NTYwMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNDM4OTAzMTE3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2VsaHVlcnZvLmJhbmRjYW1wLmNvbS9hbGJ1bS93b3JsZHMtZW5kIj5Xb3JsZCYjMzk7cyBFbmQgYnkgRWwgSHVlcnZvPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2817555600/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/artwork=small/track=3438903117/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://elhuervo.bandcamp.com/album/worlds-end%22%3EWorld&#39;s%20End%20by%20El%20Huervo%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.605,
-      "position": 6.866666666666666
+      "position": 6.866666666666666,
+      "type": 0,
+      "uid": 3
     },
     {
       "title": "Осознанные сны",
@@ -60,11 +84,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9kcjhXSkZ3LWVjbyIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/dr8WJFw-eco%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.46499999999999997,
-      "position": 6.533333333333335
+      "position": 6.533333333333335,
+      "type": 1,
+      "uid": 4
     },
     {
       "title": "Вибрации",
@@ -73,11 +100,20 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjg3MzM1Mjc5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTg4OTEzNjUzMC90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cDovL2R2YTIuYmFuZGNhbXAuY29tL2FsYnVtL2JvdGFuaWN1bGEiPkJPVEFOSUNVTEEgYnkgRHZhPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=287335279/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=889136530/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://dva2.bandcamp.com/album/botanicula%22%3EBOTANICULA%20by%20Dva%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ca%20href=%22https://vk.com/music/playlist/-172457577_23_0e612628f9d1d44ecd%22%20target=%22_blank%22%3E%3Cdiv%20style=%22display:%20flex;gap:%2015px;%22%3E%3Cimg%20src=%22https://sun1-57.userapi.com/impf/ev1yRgQ8aImYxlDPidTsTqDg8Fg8eGWoxqCBaQ/7apIydp5O18.jpg?size=300x0&quality=90&sign=0d21efdf79ee6f52a7eb9e56a578af83%22%20width=%22128%22%3E%3Cdiv%3Ejune;2020%3Cbr/%3E%5Bvk%5D%3C/div%3E%3C/div%3E%3C/a%3E",
+          "comment": ""
         }
       ],
       "size": 0.63,
-      "position": 6.299999999999994
+      "position": 6.299999999999994,
+      "type": 0,
+      "uid": 5
     },
     {
       "title": "Гаррис",
@@ -86,11 +122,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMxNzQ2NzI4Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPTRlYzVlYy90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNzA0NTk4MzI5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwOi8vbGViYW5vbmhhbm92ZXIuYmFuZGNhbXAuY29tL2FsYnVtL3RoZS13b3JsZC1pcy1nZXR0aW5nLWNvbGRlciI+VGhlIFdvcmxkIElzIEdldHRpbmcgQ29sZGVyIGJ5IExlYmFub24gSGFub3ZlcjwvYT48L2lmcmFtZT4="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1317467286/size=large/bgcol=333333/linkcol=4ec5ec/tracklist=false/artwork=small/track=1704598329/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22http://lebanonhanover.bandcamp.com/album/the-world-is-getting-colder%22%3EThe%20World%20Is%20Getting%20Colder%20by%20Lebanon%20Hanover%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.96,
-      "position": 5.96666666666667
+      "position": 5.96666666666667,
+      "type": 0,
+      "uid": 6
     },
     {
       "title": "NoumenalAnxiety #2",
@@ -99,11 +138,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Nzk1NzgxMDY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYWNrPTE0NjEwMTM3MDAvdHJhbnNwYXJlbnQ9dHJ1ZS8iIHNlYW1sZXNzPjxhIGhyZWY9Imh0dHA6Ly9pbm5lcnN1ZmZlcmluZy5iYW5kY2FtcC5jb20vYWxidW0vdW5pbnNwaXJlZC1lcCI+dW5pbnNwaXJlZCBFUCBieSBJbm5lciBTdWZmZXJpbmc8L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=795781069/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1461013700/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://innersuffering.bandcamp.com/album/uninspired-ep%22%3Euninspired%20EP%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": 5.423333333333338
+      "position": 5.423333333333338,
+      "type": 0,
+      "uid": 7
     },
     {
       "title": "NoumenalAnxiety",
@@ -112,11 +154,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE2NDM2OTY0Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNzU5Njg1NDg3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9hbGwtZmVsbC1zaWxlbnQtZXZlcnl0aGluZy13ZW50LXF1aWV0LTIiPkFsbCBmZWxsIHNpbGVudCwgZXZlcnl0aGluZyB3ZW50IHF1aWV0IGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4164369642/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3759685487/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://anautumnforcrippledchildren.bandcamp.com/album/all-fell-silent-everything-went-quiet-2%22%3EAll%20fell%20silent,%20everything%20went%20quiet%20by%20An%20Autumn%20For%20Crippled%20Children%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.86,
-      "position": 4.73333333333334
+      "position": 4.73333333333334,
+      "type": 0,
+      "uid": 8
     },
     {
       "title": "Stories",
@@ -125,11 +170,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTMwMjk0OTE5Mi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xODg5OTcwMTQwL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS93aXRoZXJlZC1kcmVhbXMtc2luZ2xlcy0yMDEzLTIwMTciPldpdGhlcmVkIERyZWFtcyAoc2luZ2xlcyAyMDEzLTIwMTcpIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1302949192/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1889970140/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://anautumnforcrippledchildren.bandcamp.com/album/withered-dreams-singles-2013-2017%22%3EWithered%20Dreams%20(singles%202013-2017)%20by%20An%20Autumn%20For%20Crippled%20Children%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.905,
-      "position": 4.066666666666666
+      "position": 4.066666666666666,
+      "type": 0,
+      "uid": 9
     },
     {
       "title": "Комикс",
@@ -138,63 +186,174 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTAzMDQ4NzkwNy9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xMzU5MjUwMjI3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vb3N0cmFjYS5iYW5kY2FtcC5jb20vYWxidW0vbGFzdCI+bGFzdCBieSBvc3RyYWNhPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1030487907/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1359250227/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://ostraca.bandcamp.com/album/last%22%3Elast%20by%20ostraca%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.565,
-      "position": 4.466666666666667
+      "position": 4.466666666666667,
+      "type": 0,
+      "uid": 10
     },
     {
       "title": "единственный",
-      "description": "холодные воспоминания.\nтатьянин парк, лес, солнечная зима.",
+      "description": "...холодные солнечные воспоминания, зимний лес. \nКласс переходит в новую, недавно отстроенную школу. Местами работы продолжаются, все запечатано, все пахнет ремонтом и новой мебелью, просторно. Справа пустое поле, слева неухоженный лес и мой дом, сзади уютно расположены частные дома, а спереди - не так давно отстроенный татьянин парк. \n\nПервое что приходит в голову, сесть-где подальше от всех. Каждый этаж школы оснащен панорамаными окнами, с видом на поле и гипермаркет с трассой. Находясь влотную к этому зрелищу, я рисую текстуры для игры, вещи, с тревогой оглядываюсь, как бы кто-нибудь меня не увидел. Одиночество для меня давно стало условием всей моей действительности. \n\nДелаю игры.\n\n-pics-\n![бумажные текстуры](https://www.dropbox.com/s/1f1dfhjt8663uk7/boxes.jpg?raw=1)\n![last thoughts](https://www.dropbox.com/s/dekmnq897p3nyaj/last_thoughts_screenshot.jpg?raw=1)",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQwNjk2NDg2My9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZlN2VhZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDI2NTk3MzcyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vcG9zbGVkbmllbXlzbGkuYmFuZGNhbXAuY29tL2FsYnVtLy0iPtC90LXQuNC30LLQtdGB0YLQvdC+0YHRgtGMIGJ5INC/0L7RgdC70LXQtNC90LjQtSDQvNGL0YHQu9C4PC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2406964863/size=large/bgcol=333333/linkcol=fe7eaf/tracklist=false/artwork=small/track=1426597372/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://posledniemysli.bandcamp.com/album/-%22%3E%C3%90%C2%BD%C3%90%C2%B5%C3%90%C2%B8%C3%90%C2%B7%C3%90%C2%B2%C3%90%C2%B5%C3%91%C2%81%C3%91%C2%82%C3%90%C2%BD%C3%90%C2%BE%C3%91%C2%81%C3%91%C2%82%C3%91%C2%8C%20by%20%C3%90%C2%BF%C3%90%C2%BE%C3%91%C2%81%C3%90%C2%BB%C3%90%C2%B5%C3%90%C2%B4%C3%90%C2%BD%C3%90%C2%B8%C3%90%C2%B5%20%C3%90%C2%BC%C3%91%C2%8B%C3%91%C2%81%C3%90%C2%BB%C3%90%C2%B8%3C/a%3E%3C/iframe%3E",
+          "comment": "чудесный альбом. погружает в печаль и одиночество. трудно отличить реальность от сна."
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3412008342/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://anautumnforcrippledchildren.bandcamp.com/album/morfine-ep%22%3Emorfine%20EP%20by%20An%20Autumn%20For%20Crippled%20Children%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3188502134/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2893641293/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://anautumnforcrippledchildren.bandcamp.com/album/everything%22%3EEverything%20by%20An%20Autumn%20For%20Crippled%20Children%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/i6L9Cbs0m_U%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "я тут еще silent hill проходил. немного попробовал первую, и полностью вторую."
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2369640342/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1669813122/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/dissonance%22%3EDissonance%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Oso",
+          "artist": "Jorge Arana Trio",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2327969817/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3370486821/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://jorgearanatrio.bandcamp.com/album/oso%22%3EOso%20by%20Jorge%20Arana%20Trio%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Mammoth",
+          "artist": "Jorge Arana Trio",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=903444942/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1853545365/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://jorgearanatrio.bandcamp.com/album/mammoth%22%3EMammoth%20by%20Jorge%20Arana%20Trio%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
-      "size": 0.78,
-      "position": 1.400000000006794
+      "size": 0.765,
+      "position": 1.4800000000067939,
+      "type": 0,
+      "uid": 11
     },
     {
       "title": "добровольный",
-      "description": "",
+      "description": "Этот лес - одно из немногих доступных мест где я чувствую себя спокойно. В нем я встречаю каждое свое утро, и с каждым разом все сильнее не понимаю, зачем куда-то спешу. Даже после школы, деревья становятся моим укрытием, которое, думаю, играет роль катализатора моих эмоций. Я могу сесть рядом с любимым выкорчеванным стволом и рисовать. Могу исследовать новые глубокие заросли. Время проведенное в лесу, оказывается целительнее всего, что может меня исцелить.\n\nСовсем немного дс2, помню нравилось ходить по солнечным локациям под I Tried My Best\n\nПишу музыку\n\n-pics-\n![утренний лес 1](https://www.dropbox.com/s/wnl7wuwrvz8q620/P_20200304_073647.jpg?raw=1)\n![утренний лес 2](https://www.dropbox.com/s/hk86xm4y0v5xgfm/P_20200304_073728.jpg?raw=1)\n![солнечный лес](https://www.dropbox.com/s/f53cyff5kogw2cz/P_20200310_160417.jpg?raw=1)\n\n![деревня](https://www.dropbox.com/s/wt93auoxg5nd7rx/P_20200307_171529.jpg?raw=1)\n\n![лестница](https://www.dropbox.com/s/m0nth1766vcu8bp/ladder.jpg?raw=1)\n![топор](https://www.dropbox.com/s/4cb6sr4yp7p24qq/axe.jpg?raw=1)\n\n![withering](https://www.dropbox.com/s/00bmv341j6k7gfl/withering_screenshot.jpg?raw=1)",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTkzMDAyNzE1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQzODA5NzUyL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vYW5hdXR1bW5mb3JjcmlwcGxlZGNoaWxkcmVuLmJhbmRjYW1wLmNvbS9hbGJ1bS9ldGVybmFsIj5FdGVybmFsIGJ5IEFuIEF1dHVtbiBGb3IgQ3JpcHBsZWQgQ2hpbGRyZW48L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1930027156/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2143809752/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://anautumnforcrippledchildren.bandcamp.com/album/eternal%22%3EEternal%20by%20An%20Autumn%20For%20Crippled%20Children%3C/a%3E%3C/iframe%3E",
+          "comment": "эта музыка сильно впечатлила. возникает много мыслей, фантазий."
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1452656613/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/frigid%22%3EFrigid%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": "один из моих самых любимых альбомов Inner Suffering. до боли приятное отчаяние и смирение."
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/6n2U3bNoYAc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "в деревне слушал."
+        },
+        {
+          "title": "bell ringing III",
+          "artist": "wordclock",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/O2RG1bdzuMg%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "альбом Heralds"
+        },
+        {
+          "title": "st.george",
+          "artist": "wordclock",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/p7xyeXLhJoo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
-      "size": 0.7849999999999999,
-      "position": 2.0000000000000044
+      "size": 1,
+      "position": 2.100000000000004,
+      "type": 0,
+      "uid": 12
     },
     {
       "title": "Снег",
-      "description": "Зимний лес",
+      "description": "Зимний лес\n",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUyNDMyNDA5OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTM4MDMzNzc5L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vc29tYnJlc2ZvcmV0cy5iYW5kY2FtcC5jb20vYWxidW0vbGEtbW9ydC1kdS1zb2xlaWwiPkxhIE1vcnQgZHUgU29sZWlsIGJ5IFNvbWJyZXMgRm9yw6p0czwvYT48L2lmcmFtZT4="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1524324099/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3538033779/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://sombresforets.bandcamp.com/album/la-mort-du-soleil%22%3ELa%20Mort%20du%20Soleil%20by%20Sombres%20For%C3%83%C2%AAts%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
-      "size": 0.965,
-      "position": 0.5000000000000037
+      "size": 0.795,
+      "position": 0.5400000000000036,
+      "type": 0,
+      "uid": 13
     },
     {
       "title": "Больница",
-      "description": "",
+      "description": "...я ощутил свободу. Стены и окна больницы отгораживают меня от вчерашнего дня и от всего что могло меня волновать. Ночи я провожу не в своей привычной кровати, днем я виджу не своих родных, и под рукой нет никаких инструментов. Кажется, о последнем я сожалею больше всего.\n\nКак всегда, в своем оживленном странствии, жизнь зажигает новые себе подобные огни. Ужиная за одним столом со мной, мальчик по своей воле, взял и рассказал мне о фильме, котором смотрел в тот момент на телефоне. Врач, который приходит ко мне днем и спрашивает о самочувствии, явно не выглядит так, будто его работа никогда не имела результатов и не оправдывала его усилий. Мне становится спокойнее от осознания что жизнь все еще преследует меня, и мой облик все еще похож на вещи которые меня окружают.\n\nТем не менее, Inner Suffering, Miserere Luminis, Depressive Years и мои ужасные мысли - составляют мне прекрасную компанию на протяжении всего времени. Возле окон, в коридорах, в кровати - все время меня не покидает страх, мысли о небытие. Сейчас, в моем представлении освобождается много, до сих пор занятого силами и планами, места, которое торопясь заполняется разочарованием. Я один. Ничто не мешает мне отрывать себя ото сна в котором пребывают все меня окружающие.\n\nВторая половина моей остановки в больнице - интересный период, он настал после двух-дневного отпуска домой, где я немного поработал над игровым движком на c++. У меня ноутбук мамы, на нем, в [DefleMask трекере](https://www.deflemask.com/), я пишу [немного своих треков](https://vk.com/music/playlist/-172457577_21_287235bb64294b029d), и делаю каверы на музыку вышеупамянутых исполнителей. Также пишу себе приложение для ежедневной записи и анализа всяких медицинских характеристик. Пишу на js нейросеть для генерации мелодий, и редактор для нее.\n\n\n---дописать----",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09Mjc5MjAwNjg0OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz00MTY0NjkwOTc4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwOi8vaW5uZXJzdWZmZXJpbmcuYmFuZGNhbXAuY29tL2FsYnVtL3doZW4taGVhcnRzLWdyb3ctY29sZCI+V2hlbiBIZWFydHMgR3JvdyBDb2xkIGJ5IElubmVyIFN1ZmZlcmluZzwvYT48L2lmcmFtZT4="
+          "embedding_code": "%3Ca%20href=%22https://vk.com/music/playlist/-172457577_21_287235bb64294b029d%22%20target=%22_blank%22%3E%3Cdiv%20style=%22display:%20flex;gap:%2015px;%22%3E%3Cimg%20src=%22https://sun1-54.userapi.com/impf/cLZpVI4mmdmEx_R-cFtNTxzOuPs90IUvL5ZTxQ/Bo0CovIKSqA.jpg?size=400x0&amp;quality=90&amp;sign=acf1fb9e4c1b3eca434fe54e37b2674e%22%20width=%22128%22%3E%3Cdiv%3Ewhile%20the%20street%20inhales%20snow%3Cbr/%3E%5Bvk%5D%3C/div%3E%3C/div%3E%3C/a%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2792006849/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4164690978/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://innersuffering.bandcamp.com/album/when-hearts-grow-cold%22%3EWhen%20Hearts%20Grow%20Cold%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": "весь альбом прекрасен"
+        },
+        {
+          "title": "Ciel Tragique",
+          "artist": "Miserere Luminis",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=876001534/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1605650795/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://miserereluminis.bandcamp.com/album/miserere-luminis%22%3EMiserere%20Luminis%20by%20Miserere%20Luminis%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Birth Of New Ages",
+          "artist": "Miserere Luminis",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=876001534/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4218800270/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://miserereluminis.bandcamp.com/album/miserere-luminis%22%3EMiserere%20Luminis%20by%20Miserere%20Luminis%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "The Mist",
+          "artist": "Miserere Luminis",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=876001534/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1121223000/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://miserereluminis.bandcamp.com/album/miserere-luminis%22%3EMiserere%20Luminis%20by%20Miserere%20Luminis%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "night air",
+          "artist": "Shadowed Silhouette",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2588742548/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2532589123/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://shadowedsilhouette.bandcamp.com/album/prowler%22%3EProwler%20by%20Shadowed%20Silhouette%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1441774414/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/track=2812635473/transparent=true/%22%20seamless%3E%3Ca%20href=%22http://selfmutilationservices.com/album/failing-to-confront-suicidal-thoughts%22",
+          "comment": ""
         }
       ],
-      "size": 0.785,
-      "position": -1.3666666666666625
+      "size": 0.775,
+      "position": -1.7566666666666624,
+      "type": 1,
+      "uid": 14
     },
     {
       "title": "Romanticized Suicide",
@@ -203,24 +362,30 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MTUwMjc5NjY5L3NpemU9bGFyZ2UvYmdjb2w9MzMzMzMzL2xpbmtjb2w9ZmZmZmZmL3RyYWNrbGlzdD1mYWxzZS9hcnR3b3JrPXNtYWxsL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2lubmVyc3VmZmVyaW5nLmJhbmRjYW1wLmNvbS9hbGJ1bS9yb21hbnRpY2l6ZWQtc3VpY2lkZSI+Um9tYW50aWNpemVkIFN1aWNpZGUgYnkgSW5uZXIgU3VmZmVyaW5nPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=150279669/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/romanticized-suicide%22%3ERomanticized%20Suicide%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": -3.4999999999999956
+      "position": -3.4999999999999956,
+      "type": 0,
+      "uid": 15
     },
     {
-      "title": "в начале",
+      "title": "слово",
       "description": "",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9OUzhnTXlaMWVNSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgZW5jcnlwdGVkLW1lZGlhOyBneXJvc2NvcGU7IHBpY3R1cmUtaW4tcGljdHVyZSIgYWxsb3dmdWxsc2NyZWVuPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/NS8gMyZ1eMI%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": -2.5333333333333306
+      "position": -2.5333333333333306,
+      "type": 0,
+      "uid": 16
     },
     {
       "title": "спокойствие",
@@ -229,11 +394,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjQyNTM3ODg1MS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zMjQ4NTkxMzk3L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3RoZWNhcmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vZXZlcnl3aGVyZS1hdC10aGUtZW5kLW9mLXRpbWUiPkV2ZXJ5d2hlcmUgYXQgdGhlIGVuZCBvZiB0aW1lIGJ5IFRoZSBDYXJldGFrZXI8L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2425378851/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3248591397/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22https://thecaretaker.bandcamp.com/album/everywhere-at-the-end-of-time%22%3EEverywhere%20at%20the%20end%20of%20time%20by%20The%20Caretaker%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.865,
-      "position": 8.066666666666665
+      "position": 8.066666666666665,
+      "type": 0,
+      "uid": 17
     },
     {
       "title": "задымленный",
@@ -242,11 +410,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMDAiIHNjcm9sbGluZz0ibm8iIGZyYW1lYm9yZGVyPSJubyIgYWxsb3c9ImF1dG9wbGF5IiBzcmM9Imh0dHBzOi8vdy5zb3VuZGNsb3VkLmNvbS9wbGF5ZXIvP3VybD1odHRwcyUzQS8vYXBpLnNvdW5kY2xvdWQuY29tL3BsYXlsaXN0cy80MDgxNzYmYW1wO2NvbG9yPSUyM2ZmNTUwMCZhbXA7YXV0b19wbGF5PWZhbHNlJmFtcDtoaWRlX3JlbGF0ZWQ9ZmFsc2UmYW1wO3Nob3dfY29tbWVudHM9dHJ1ZSZhbXA7c2hvd191c2VyPXRydWUmYW1wO3Nob3dfcmVwb3N0cz1mYWxzZSZhbXA7c2hvd190ZWFzZXI9dHJ1ZSZhbXA7dmlzdWFsPXRydWUiPjwvaWZyYW1lPjxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMTBweDsgY29sb3I6ICNjY2NjY2M7bGluZS1icmVhazogYW55d2hlcmU7d29yZC1icmVhazogbm9ybWFsO292ZXJmbG93OiBoaWRkZW47d2hpdGUtc3BhY2U6IG5vd3JhcDt0ZXh0LW92ZXJmbG93OiBlbGxpcHNpczsgZm9udC1mYW1pbHk6IEludGVyc3RhdGUsTHVjaWRhIEdyYW5kZSxMdWNpZGEgU2FucyBVbmljb2RlLEx1Y2lkYSBTYW5zLEdhcnVkYSxWZXJkYW5hLFRhaG9tYSxzYW5zLXNlcmlmO2ZvbnQtd2VpZ2h0OiAxMDA7Ij48YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbiIgdGl0bGU9ImR5aW5nX2luX21vdGlvbiIgdGFyZ2V0PSJfYmxhbmsiIHN0eWxlPSJjb2xvcjogI2NjY2NjYzsgdGV4dC1kZWNvcmF0aW9uOiBub25lOyI+ZHlpbmdfaW5fbW90aW9uPC9hPiDCtyA8YSBocmVmPSJodHRwczovL3NvdW5kY2xvdWQuY29tL2R5aW5nX2luX21vdGlvbi9zZXRzL3dpZS13aXItbGF1dC1zaW5kIiB0aXRsZT0id2llIHdpciBsYXV0IHNpbmQiIHRhcmdldD0iX2JsYW5rIiBzdHlsZT0iY29sb3I6ICNjY2NjY2M7IHRleHQtZGVjb3JhdGlvbjogbm9uZTsiPndpZSB3aXIgbGF1dCBzaW5kPC9hPjwvZGl2Pg=="
+          "embedding_code": "%3Ciframe%20width=%22100%25%22%20height=%22300%22%20scrolling=%22no%22%20frameborder=%22no%22%20allow=%22autoplay%22%20src=%22https://w.soundcloud.com/player/?url=https%253A//api.soundcloud.com/playlists/408176&amp;color=%2523ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true%22%3E%3C/iframe%3E%3Cdiv%20style=%22font-size:%2010px;%20color:%20#cccccc;line-break:%20anywhere;word-break:%20normal;overflow:%20hidden;white-space:%20nowrap;text-overflow:%20ellipsis;%20font-family:%20Interstate,Lucida%20Grande,Lucida%20Sans%20Unicode,Lucida%20Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight:%20100;%22%3E%3Ca%20href=%22https://soundcloud.com/dying_in_motion%22%20title=%22dying_in_motion%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3Edying_in_motion%3C/a%3E%20%C3%82%C2%B7%20%3Ca%20href=%22https://soundcloud.com/dying_in_motion/sets/wie-wir-laut-sind%22%20title=%22wie%20wir%20laut%20sind%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3Ewie%20wir%20laut%20sind%3C/a%3E%3C/div%3E",
+          "comment": ""
         }
       ],
       "size": 0.935,
-      "position": 9.166666666666679
+      "position": 9.166666666666679,
+      "type": 0,
+      "uid": 18
     },
     {
       "title": "не то",
@@ -255,42 +426,52 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA3NTIwMTQ4OS9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjA1NDc2MDY1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xlYmFub25oYW5vdmVyLmJhbmRjYW1wLmNvbS9hbGJ1bS93aHktbm90LWp1c3QtYmUtc29sbyI+V2h5IE5vdCBKdXN0IEJlIFNvbG8gYnkgTGViYW5vbiBIYW5vdmVyPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4075201489/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2205476065/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://lebanonhanover.bandcamp.com/album/why-not-just-be-solo%22%3EWhy%20Not%20Just%20Be%20Solo%20by%20Lebanon%20Hanover%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": -6.133333333333331
+      "position": -6.373333333333331,
+      "type": 0,
+      "uid": 19
     },
     {
       "title": "темно",
-      "description": "писал психоделический top down shooter про мишу",
+      "description": "писал психоделический top down shooter про мишу\n\n\n-pics-\n![0](https://www.dropbox.com/s/wvltxx27l1ozcud/0.jpg?raw=1)",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDA1MTExNDgxMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWUzMmMxNC90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDA4NDk1MzU4L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL3BzeWNob25hdXQ0LmJhbmRjYW1wLmNvbS9hbGJ1bS9uZXVyYXN0aGVuaWEiPk5ldXJhc3RoZW5pYSBieSBQc3ljaG9uYXV0IDQ8L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4051114810/size=large/bgcol=333333/linkcol=e32c14/tracklist=false/artwork=small/track=1408495358/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://psychonaut4.bandcamp.com/album/neurasthenia%22%3ENeurasthenia%20by%20Psychonaut%204%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": -5.499999999999995
+      "position": -5.719999999999994,
+      "type": 0,
+      "uid": 20
     },
     {
       "title": "свежий комунитет",
-      "description": "съезды\nзаписи импровизаций\n\nтреки:\nnegligence\nкомунитет - а может мечта\nкомунитет - покинутый",
+      "description": "съезды\nзаписи треков. альбом [мишаил продакшн](https://ashen-hermit.bandcamp.com/album/-)\n\nтреки:\nnegligence\nкомунитет - а может мечта\nкомунитет - покинутый",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjMzODkxNTI0MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0xNDAzNjgzNzI1L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2FzaGVuLWhlcm1pdC5iYW5kY2FtcC5jb20vYWxidW0vLSI+0LzQuNGI0LDQuNC7INC/0YDQvtC00LDQutGI0L0gYnkg0LrQvtC80YPQvdC40YLQtdGCPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2338915240/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1403683725/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22https://ashen-hermit.bandcamp.com/album/-%22%3E%C3%90%C2%BC%C3%90%C2%B8%C3%91%C2%88%C3%90%C2%B0%C3%90%C2%B8%C3%90%C2%BB%20%C3%90%C2%BF%C3%91%C2%80%C3%90%C2%BE%C3%90%C2%B4%C3%90%C2%B0%C3%90%C2%BA%C3%91%C2%88%C3%90%C2%BD%20by%20%C3%90%C2%BA%C3%90%C2%BE%C3%90%C2%BC%C3%91%C2%83%C3%90%C2%BD%C3%90%C2%B8%C3%91%C2%82%C3%90%C2%B5%C3%91%C2%82%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         },
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzAxMzQ2NjkzMi9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz01NjYwNDQyMy90cmFuc3BhcmVudD10cnVlLyIgc2VhbWxlc3M+PGEgaHJlZj0iaHR0cHM6Ly9qb3ZlbXdlcnRoZXIuYmFuZGNhbXAuY29tL2FsYnVtL2VwLTIiPkVQIGJ5IEpvdmVtIFdlcnRoZXI8L2E+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3013466932/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=56604423/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://jovemwerther.bandcamp.com/album/ep-2%22%3EEP%20by%20Jovem%20Werther%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.715,
-      "position": 9.76666666666668
+      "position": 9.76666666666668,
+      "type": 0,
+      "uid": 21
     },
     {
       "title": "Script IO",
@@ -299,11 +480,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09NDE5NDI0NzA1Ni9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMjIwOTMzMjYxL3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2NyeXN0YWxjYXN0bGVzLmJhbmRjYW1wLmNvbS9hbGJ1bS9paSI+SUkgYnkgQ3J5c3RhbCBDYXN0bGVzPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4194247056/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2220933261/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22https://crystalcastles.bandcamp.com/album/ii%22%3EII%20by%20Crystal%20Castles%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 1,
-      "position": 10.333333333333323
+      "position": 10.333333333333323,
+      "type": 0,
+      "uid": 22
     },
     {
       "title": "Lullaby Of The Leaves",
@@ -312,11 +496,14 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC81Rk5IcXdNQlhQRSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/5FNHqwMBXPE%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.6300000000000001,
-      "position": 8.633333333333335
+      "position": 8.633333333333335,
+      "type": 0,
+      "uid": 23
     },
     {
       "title": "математический",
@@ -325,24 +512,30 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzMxMTUyNjI0Ny9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yMTQ0MDU5NjY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL2Zsb3JhbDEuYmFuZGNhbXAuY29tL2FsYnVtL2Zsb3JhbC1scCI+RmxvcmFsIExQIGJ5IEZsb3JhbDwvYT48L2lmcmFtZT4="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3311526247/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2144059666/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22https://floral1.bandcamp.com/album/floral-lp%22%3EFloral%20LP%20by%20Floral%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.875,
-      "position": 11.233333333333313
+      "position": 11.233333333333313,
+      "type": 0,
+      "uid": 24
     },
     {
       "title": "Fermata In Mistic Air",
-      "description": "Рисую в блендере разные архитектуры.\nРазобрался в языке Rust, но кодить на нем скорее всего не буду.",
+      "description": "Рисую в блендере разные архитектуры.\n[ancient bridges](https://sketchfab.com/3d-models/ancient-bridges-0c48c164bfb24b5aa731d3436b8b2251)\n[mill](https://sketchfab.com/3d-models/mill-1-918d22a394444ad8a8f1b8f2b247eba8)\n[temple_1](https://sketchfab.com/3d-models/temple-1-1995757985a44b38a2208e10672114cf)\n\nРазобрался в языке Rust, но кодить на нем скорее всего не буду.",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qMC05dWRZY3hPSSIgZnJhbWVib3JkZXI9IjAiIGFsbG93PSJhY2NlbGVyb21ldGVyOyBhdXRvcGxheTsgY2xpcGJvYXJkLXdyaXRlOyBlbmNyeXB0ZWQtbWVkaWE7IGd5cm9zY29wZTsgcGljdHVyZS1pbi1waWN0dXJlIiBhbGxvd2Z1bGxzY3JlZW4+PC9pZnJhbWU+"
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/j0-9udYcxOI%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.815,
-      "position": 12.333333333333318
+      "position": 12.333333333333318,
+      "type": 0,
+      "uid": 25
     },
     {
       "title": "новые инструменты",
@@ -351,50 +544,1413 @@
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MzQyNzA1MzU4MC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0yNTc2NTM4MzY2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz48YSBocmVmPSJodHRwczovL2xpZmV0YWtlci5iYW5kY2FtcC5jb20vYWxidW0vcGl0LXZpcGVyIj5QaXQgVmlwZXIgYnkgTGlmZXRha2VyPC9hPjwvaWZyYW1lPg=="
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3427053580/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2576538366/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://lifetaker.bandcamp.com/album/pit-viper%22%3EPit%20Viper%20by%20Lifetaker%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.6799999999999999,
-      "position": 13.066666666666647
+      "position": 13.066666666666647,
+      "type": 0,
+      "uid": 26
     },
     {
       "title": "White Shore",
-      "description": "основа рогалика Sleep: [gdrive](https://drive.google.com/file/d/1qIUk2WkQbjxZDXzB9EtbmEYsn7aafHOR/view?usp=sharing)\n\nget_off_this_board: [github](https://github.com/AshenHermit/get_off_this_board)\n\nkept_generator: \n[youtube](https://www.youtube.com/watch?v=1l8HUaGdpjs)\n[github](https://github.com/AshenHermit/kept_generator)\n\nimage_sequence_generator: [youtube](https://www.youtube.com/watch?v=NMvV3QL-sdM)\n\nглубоко изучаю c#, пишу игры и редакторы для них на DirectX и XNA\n\n+ трек [cant_finish_1]",
+      "description": "основа рогалика Sleep: [gdrive](https://drive.google.com/file/d/1qIUk2WkQbjxZDXzB9EtbmEYsn7aafHOR/view?usp=sharing)\n\nget_off_this_board: [github](https://github.com/AshenHermit/get_off_this_board)\n\nkept_generator: [youtube](https://www.youtube.com/watch?v=1l8HUaGdpjs) \n[github](https://github.com/AshenHermit/kept_generator)\n\nimage_sequence_generator: [vk](https://vk.com/video?z=video576828276_456239509%2Fpl_cat_updates)\n\nглубоко изучаю c#, пишу игры и редакторы для них на DirectX и XNA\n\n+ трек [cant_finish_1]\n\n\n-pics-\n![avatar](https://www.dropbox.com/s/jmn20gi7wm6ko89/avatar.jpg?raw=1)",
       "tracks": [
         {
-          "title": "",
-          "artist": "",
-          "embedding_code": "PGlmcmFtZSBzdHlsZT0iYm9yZGVyOiAwOyB3aWR0aDogMTAwJTsgaGVpZ2h0OiAxMjBweDsiIHNyYz0iaHR0cHM6Ly9iYW5kY2FtcC5jb20vRW1iZWRkZWRQbGF5ZXIvYWxidW09MjkwMjA2NzczMC9zaXplPWxhcmdlL2JnY29sPTMzMzMzMy9saW5rY29sPWZmZmZmZi90cmFja2xpc3Q9ZmFsc2UvYXJ0d29yaz1zbWFsbC90cmFjaz0zNTIzMjg1ODI2L3RyYW5zcGFyZW50PXRydWUvIiBzZWFtbGVzcz0iIj48YSBocmVmPSJodHRwczovL3doaXRlc2hvcmUxLmJhbmRjYW1wLmNvbS9hbGJ1bS9jaXR5LXZpYmVzIj5DaXR5IFZpYmVzIGJ5IFdoaXRlIFNob3JlPC9hPjwvaWZyYW1lPg=="
+          "title": "City Vibes",
+          "artist": "White Shore",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2902067730/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=3523285826/transparent=true/%22%20seamless=%22%22%3E%3Ca%20href=%22https://whiteshore1.bandcamp.com/album/city-vibes%22%3ECity%20Vibes%20by%20White%20Shore%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Roam",
+          "artist": "White Shore",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4056078178/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1817104780/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://whiteshore1.bandcamp.com/album/views-demo%22%3EViews(demo)%20by%20White%20Shore%3C/a%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.9600000000000001,
-      "position": 14.466666666666642
+      "position": 14.466666666666642,
+      "type": 0,
+      "uid": 27
     },
     {
       "title": "say smth",
-      "description": "делаю аддоны для гариса, полезные скрипты.\nразбираюсь в linux и инструментах kali.\n[anime_pics_v2](https://ashen-hermit.000webhostapp.com/anime_pics_v2)\n\nрисую. альбом: [vk](https://vk.com/album576828276_280693704)",
+      "description": "делаю аддоны для гариса, полезные скрипты.\n[все мои аддоны](https://drive.google.com/drive/folders/1n-WwZ_4WKzufe5iVBaUlMbHcIL1kL9Ev)\nразбираюсь в linux и инструментах kali.\n[anime_pics_v2](https://ashen-hermit.000webhostapp.com/anime_pics_v2)\n+ Этот сайт (вторая версия)\n\nрисую. альбом: [vk](https://vk.com/album576828276_280693704)",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9qUzh0cHp6YXFYTSIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/jS8tpzzaqXM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen=%22%22%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.925,
-      "position": 15.73333333333331
+      "position": 15.73333333333331,
+      "type": 0,
+      "uid": 28
     },
     {
       "title": "chaos theory",
-      "description": "пишу нейросети для определения размера груди и ее нахождения. [colab](https://colab.research.google.com/drive/10poj4ukMPyIfOZbF_ojlvTcMToDitjO7)\n\nинструмент для выделения грудей в anime_pics\n",
+      "description": "пишу нейросети для определения размера груди и ее нахождения. [colab](https://colab.research.google.com/drive/10poj4ukMPyIfOZbF_ojlvTcMToDitjO7)\n\nдля сборки датасета добавил инструмент в anime_pics\nсейчас это [anime_pics_v2](http://ashen-hermit.42web.io/anime_pics)\n",
       "tracks": [
         {
           "title": "",
           "artist": "",
-          "embedding_code": "PGlmcmFtZSB3aWR0aD0iNTYwIiBoZWlnaHQ9IjMxNSIgc3JjPSJodHRwczovL3d3dy55b3V0dWJlLmNvbS9lbWJlZC9DakhsZnNkZUYwdyIgdGl0bGU9IllvdVR1YmUgdmlkZW8gcGxheWVyIiBmcmFtZWJvcmRlcj0iMCIgYWxsb3c9ImFjY2VsZXJvbWV0ZXI7IGF1dG9wbGF5OyBjbGlwYm9hcmQtd3JpdGU7IGVuY3J5cHRlZC1tZWRpYTsgZ3lyb3Njb3BlOyBwaWN0dXJlLWluLXBpY3R1cmUiIGFsbG93ZnVsbHNjcmVlbj0iIj48L2lmcmFtZT4="
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/CjHlfsdeF0w%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen=%22%22%3E%3C/iframe%3E",
+          "comment": ""
         }
       ],
       "size": 0.64,
-      "position": 15.166666666666645
+      "position": 15.166666666666645,
+      "type": 0,
+      "uid": 29
+    },
+    {
+      "title": "ana/kata",
+      "description": "mevoil script\nconstruct glsl\n\n",
+      "tracks": [
+        {
+          "title": "Imago",
+          "artist": "Näo",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/iqoDESsBWbs%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/O1iBX66JP74%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/-jnaNiOsOgw%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.855,
+      "position": -9.63333333333333,
+      "type": 0,
+      "uid": 30
+    },
+    {
+      "title": "шуе",
+      "description": "",
+      "tracks": [
+        {
+          "title": "Я медленно сходил с ума",
+          "artist": "Doren Groff",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/JE7RSvNsNwE%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.6100000000000001,
+      "position": -8.493333333333329,
+      "type": 0,
+      "uid": 31
+    },
+    {
+      "title": "mind game",
+      "description": "mind game [github](https://github.com/AshenHermit/mindGame)",
+      "tracks": [
+        {
+          "title": "Ночное Рандеву",
+          "artist": "Черниковская Хата",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/pocg4Pg4hIw%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.91,
+      "position": -7.533333333333329,
+      "type": 0,
+      "uid": 32
+    },
+    {
+      "title": "Экзамены",
+      "description": "Болею, готовлюсь, пишу under_standing - игра с видом от третьего лица, генерацией геометрии мира и воздушных построек.\nПосмотреть можно тут: [UnderStanding gdrive](https://drive.google.com/file/d/1QGBRQn-Wvu_LpaTmDoiuvvusWgl_sCAv/view?usp=sharing)\n\n",
+      "tracks": [
+        {
+          "title": "Perishable Consistency",
+          "artist": "Bkode",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1951780304/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=834602137/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://bkode.bandcamp.com/album/suicidal-complex%22%3ESuicidal%20Complex%20by%20Bkode%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Deadlight",
+          "artist": "Nfract",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/track=2972975886/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://nfract.bandcamp.com/track/deadlight%22%3EDeadlight%20by%20Nfract%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Tuesday",
+          "artist": "Crystal Castles",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/zpH1JQFOQO4%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "It Fit When I Was A Kid",
+          "artist": "Liars",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/0tHEHHr8GkA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "ремикс от Crystal Castles тоже кайфовый"
+        },
+        {
+          "title": "FRIDAY NIGHT BASEMENT",
+          "artist": "YAMEII",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/p9iiua8Yxgc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Poison Tree",
+          "artist": "Grouper",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/6gnKBDlJutA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 17.453333333333312,
+      "type": 0,
+      "uid": 33
+    },
+    {
+      "title": "Природа",
+      "description": "Был в Десногорске.\nНачинаю писать Downfall of Perception, который является переосмысленной версией [UnderStanding](?post_uid=33).\nВ нем тоже есть разные миры, генерация мировой геометрии, но нет генерированных построек.",
+      "tracks": [
+        {
+          "title": "Акустика",
+          "artist": "Аквариум",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/-U8ycRxg5k8%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Image",
+          "artist": "Brian Bennett",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/VB4zG-of4co%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.84,
+      "position": 18.24333333333331,
+      "type": 0,
+      "uid": 34
+    },
+    {
+      "title": "Downfall of Perception",
+      "description": "Активно работаю над игрой.\nВот результат: [Downfall of Perception](https://ashen-hermit.itch.io/downfall-of-perception)",
+      "tracks": [
+        {
+          "title": "Drinking Songs",
+          "artist": "Matt Elliott",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/mETSsQ3N8W4%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "The ßlack Lodge",
+          "artist": "ΔCID rar",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/tZtx7mUhkhg%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Det Hviskes Blant Sorte Vinder",
+          "artist": "Strid",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Jwa-3THi90c%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Sterile Nails And Thunderbowels",
+          "artist": "Silencer",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/cUVERB9B3A8%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 18.853333333333314,
+      "type": 0,
+      "uid": 35
+    },
+    {
+      "title": "paradise",
+      "description": "lepeshechka paradise - игра на unity, приключение в мире еды\nделались: 2d версия на ардуино, 2d версия на js, 2d версия на unity, 3d версия на unity\n[редактор карт](https://ashenhermit.github.io/LepeshechksEditor/)\n2d игровой движок для arduino\n\n",
+      "tracks": [],
+      "size": 1,
+      "position": -17.693333333333324,
+      "type": 0,
+      "uid": 36
+    },
+    {
+      "title": "Что-то уводит от мыслей",
+      "description": "сделал cursed crystal castles радио на ютубе, которое мешало такты в треках. [github](https://github.com/AshenHermit/kept_generator)\nк сожалению youtube удалил трансляцию\n\nTimeline Tracks Editor. [github](https://github.com/AshenHermit/TimelineTracksEditor)\n\n+ трек verdant thing",
+      "tracks": [
+        {
+          "title": "Trapped Within Nightmares",
+          "artist": "Life's Illusion",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Y8ihrfrH8oU%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=184206547/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://ashen-hermit.bandcamp.com/album/long-road-in-the-past%22%3ELong%20Road%20in%20the%20Past%20by%20Forlorn%20Ashes%3C/a%3E%3C/iframe%3E",
+          "comment": "это я собрал свой метал c начала 2021го года и до осени."
+        }
+      ],
+      "size": 0.655,
+      "position": 19.473333333333315,
+      "type": 0,
+      "uid": 37
+    },
+    {
+      "title": "Что-то с отвращением напоминает о себе",
+      "description": "Group Captain's Tool [github](https://github.com/AshenHermit/group-captain-tool)",
+      "tracks": [
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/cUjTx-8wjms%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/9sI90CxP0mM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/35MYohCMuxo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.7699999999999999,
+      "position": 19.903333333333315,
+      "type": 0,
+      "uid": 38
+    },
+    {
+      "title": "Одно из немногих",
+      "description": "Писал приложения на Dart и Flutter\nАльбом [Disapperearing](https://ashen-hermit.bandcamp.com/album/disappearing)\n\n-pics-\n![avatar](https://www.dropbox.com/s/wuvvdpou0jkf0ve/avatar_2_2.jpg?raw=1)",
+      "tracks": [
+        {
+          "title": "Morgondagen",
+          "artist": "Apati",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3345901787/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2625860288/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://artofpropaganda.bandcamp.com/album/morgondagen-inst-lld-i-brist-p-intresse%22%3EMorgondagen%20inst%C3%A4lld%20i%20brist%20p%C3%A5%20intresse%20by%20Apati%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Destination: Ingenstans",
+          "artist": "Lifelover",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3930346690/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2646718007/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://osmoseproductions.bandcamp.com/album/dekadens%22%3EDekadens%20by%20Lifelover%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Eufori",
+          "artist": "Apati",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3998539494/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2288798735/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://artofpropaganda.bandcamp.com/album/eufori%22%3EEufori%20by%20Apati%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Disappearing",
+          "artist": "Forlorn Ashes",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=355874861/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://ashen-hermit.bandcamp.com/album/disappearing%22%3EDisappearing%20by%20Forlorn%20Ashes%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 20.62333333333332,
+      "type": 0,
+      "uid": 40
+    },
+    {
+      "title": "Вода",
+      "description": "...Бассейн.\nЗдесь течет спокойное время. \nперепрохожу дс1, но пробую его модифицировать\n\n\n-pics-\n![зимняя ночь](https://www.dropbox.com/s/vomx17l9xvcxlr0/IMG_20200126_021015.jpg?raw=1)\n![зимняя ночь](https://www.dropbox.com/s/0m4agzhyb2m0sie/IMG_20200126_021037.jpg?raw=1)\n\n![зимняя ночь](https://www.dropbox.com/s/b0v7ha5hus2w65c/IMG_20200126_021221.jpg?raw=1)\n\n![зимняя ночь](https://www.dropbox.com/s/utiv3w9lzrg5d0s/IMG_20200126_021248.jpg?raw=1)\n",
+      "tracks": [
+        {
+          "title": "S.N.M.",
+          "artist": "UADA",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=336486757/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1126190258/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://uada.bandcamp.com/album/devoid-of-light%22%3EDevoid%20of%20Light%20by%20UADA%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Der Abschied",
+          "artist": "Balnasar",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/QC1fhyv1B4I%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3999402694/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=8580224/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://downfallofgaia.bandcamp.com/album/atrophy%22%3EAtrophy%20by%20Downfall%20of%20Gaia%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=302569069/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://no-solace.bandcamp.com/album/exercises-in-futility-lp-2015%22%3EExercises%20in%20futility%20by%20Mgla%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.61,
+      "position": 0.9900000000067938,
+      "type": 1,
+      "uid": 41
+    },
+    {
+      "title": "DS1",
+      "description": "Параллельно с работой над проектам, я прохожу первый Dark Souls. Но важно только то, что я проходил его под Inner Suffering. Атмосферу первого ds я ни с чем не могу сравнить, ценю в ней то как одиноко и отчаянно себя чувствуешь скитаясь по ее миру. После такого опыта, нектороые его альбомы у меня ассоциируются с ds, хорошее было время. Хотя, чесно говоря, и поиграть я решил лишь потому что заметил ее на его [youtube канале](https://www.youtube.com/channel/UC1pZvssTvaUG3gakYJ-LJ7g/videos).\nПод эти же альбомы я иногда гуляю по лесу.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2955450879/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/hermit%22%3EHermit%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "aawdawdawgawdawf",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2831482977/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/led-astray%22%3ELed%20Astray%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1467961243/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://innersuffering.bandcamp.com/album/desolated%22%3EDesolated%20by%20Inner%20Suffering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.64,
+      "position": -1.2066666666666623,
+      "type": 1,
+      "uid": 42
+    },
+    {
+      "title": "happiness",
+      "description": "...я знаю, что в зимних 7-ми часах ночи, я просыпаюсь, лишь когда недалеко от автобусной остановки, надо мной и под фонарями неспокойно носится снег. У заснеженной железной дороги нельзя заметить поездов. Рядом с путями, под снегом, в темном, пустом трехэтажном здании, невозможно встретить ни один чужой взгляд, только безымянные шаги за стенами. Спустя час здание затапливает отвратительными голосами и светом. Все превращается в несистематизированный хаос, и я снова засыпаю. Просыаюсь уже в лесу, или когда родители вечером везут меня в центр москвы, смотреть на улицы в ожидании нового года.\n",
+      "tracks": [
+        {
+          "title": "Brooklyn",
+          "artist": "Lowering",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3312525033/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://loweringmusic.bandcamp.com/album/brooklyn%22%3EBrooklyn%20by%20Lowering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Happiness",
+          "artist": "Lowering",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2252578101/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://loweringmusic.bandcamp.com/album/happiness%22%3EHappiness%20by%20Lowering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2588742548/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2532589123/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://shadowedsilhouette.bandcamp.com/album/prowler%22%3EProwler%20by%20Shadowed%20Silhouette%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=965457541/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://shadowedsilhouette.bandcamp.com/album/pessimism%22%3EPessimism%20by%20Shadowed%20Silhouette%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.6850000000000002,
+      "position": -0.4133333333333333,
+      "type": 1,
+      "uid": 43
+    },
+    {
+      "title": "NÄO",
+      "description": "экспериментировал с three.js\n\n\n[morws](https://ashenhermit.github.io/morws/)\n\n\n+ трек \"3.5 Dimension\"\n\n-pics-\n![morws](https://raw.githubusercontent.com/AshenHermit/ashenhermit.github.io/master/morws/screenshot.jpg)",
+      "tracks": [
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/videoseries?list=PLDseiAcczaLVdH18mYNy0g9jWonh5Z5PQ%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22100%25%22%20height=%22300%22%20scrolling=%22no%22%20frameborder=%22no%22%20allow=%22autoplay%22%20src=%22https://w.soundcloud.com/player/?url=https%253A//api.soundcloud.com/tracks/581751840&color=%2523ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E%3C/iframe%3E%3Cdiv%20style=%22font-size:%2010px;%20color:%20#cccccc;line-break:%20anywhere;word-break:%20normal;overflow:%20hidden;white-space:%20nowrap;text-overflow:%20ellipsis;%20font-family:%20Interstate,Lucida%20Grande,Lucida%20Sans%20Unicode,Lucida%20Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight:%20100;%22%3E%3Ca%20href=%22https://soundcloud.com/evoilsurface%22%20title=%22EVOIL%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3EEVOIL%3C/a%3E%20%C2%B7%20%3Ca%20href=%22https://soundcloud.com/evoilsurface/35-dimension%22%20title=%223.5%20Dimension%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3E3.5%20Dimension%3C/a%3E%3C/div%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": -10.54333333333333,
+      "type": 0,
+      "uid": 44
+    },
+    {
+      "title": "Дурькнет",
+      "description": "Дурькнет",
+      "tracks": [],
+      "size": 0.64,
+      "position": -9.923333333333332,
+      "type": 0,
+      "uid": 45
+    },
+    {
+      "title": "Title",
+      "description": "mevoil script \nconstruct \nrammstein ",
+      "tracks": [],
+      "size": 0.775,
+      "position": -9.143333333333329,
+      "type": 0,
+      "uid": 46
+    },
+    {
+      "title": "...",
+      "description": "\n",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/RpGJbidXohI%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/3Z2m7-768mw%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.7349999999999999,
+      "position": -12.26333333333333,
+      "type": 1,
+      "uid": 47
+    },
+    {
+      "title": "planet earth about to be recycled",
+      "description": "Решение проснуться в ничто, исключить из иллюзии нечто сформированное и пришедшее в следствии хаоса к сознанию. Должно быть, это самое иррациональное решение, ведь его рациональность невозможно оценить, а если и можно, то эта мера лишена смысла для черной, уже сравнявшейся с волокном небытия души. Души, которую вымыло на берег несуществующих мыслей, которые так трудно спутать с потерянностью, но они - знак уверенной, просто немного притупленной, определенности, некоторой болезненно зашифрованной истинны, заполняющей своим воем ослепший копотью сосуд крошечного мира вещей. Эти вещи силой затягивают и используют души в своем непрерывном становлении чем-то законченным, но сами же в этом заблуждаются. Очередная глупость для погруженного в сон, но находка, доставшаяся по случайному везению неспящему уму. Нечеловеческая идея, которой вещественный неизменчивый глаз не способен придать значения. Внушенные фантазии о прошлом, и, в особенности, о будущем, и всё эмпирически добытое - будто вовсе не существовало. Очень скоро его разочарование достигнет того уровня, когда смерть становится блаженством, превосходящим любую иллюзию удовольствия, пролитую из капиляров этого сна. Расцветает сильнейшая воля, которую только может синтезировать изломанный разум. Было бы неплохо заснуть и видеть сон о другом времени, в другом, на этот раз здоровом, теле.",
+      "tracks": [
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3345901787/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1771091269/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://artofpropaganda.bandcamp.com/album/morgondagen-inst-lld-i-brist-p-intresse%22%3EMorgondagen%20inst%C3%A4lld%20i%20brist%20p%C3%A5%20intresse%20by%20Apati%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.74,
+      "position": 21.803333333333327,
+      "type": 1,
+      "uid": 48
+    },
+    {
+      "title": "pilotredsun",
+      "description": "ai dungeon",
+      "tracks": [
+        {
+          "title": "track title",
+          "artist": "artist",
+          "embedding_code": "%3Ca%20href=%22https://vk.com/music/playlist/-172457577_18_ae38b5be98f6556b9b%22%20target=%22_blank%22%3E%3Cdiv%20style=%22display:%20flex;gap:%2015px;%22%3E%3Cimg%20src=%22https://sun1-97.userapi.com/impf/aJoNmKxUOLFZ31spRl2mtMweUA97tOFoqUmzPQ/Q39gQqzsEFA.jpg?size=400x0&quality=90&sign=87c6ac4a6ad1db960dc33a8362deba0d%22%20width=%22128%22%3E%3Cdiv%3Epilotredsun's%20decadence%3Cbr/%3E%5Bvk%5D%3C/div%3E%3C/div%3E%3C/a%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.76,
+      "position": 3.3266666666666667,
+      "type": 1,
+      "uid": 49
+    },
+    {
+      "title": "...",
+      "description": "[a star](https://ashenhermit.github.io/aStar/)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/fZfSk7DSJag%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "Особенно нравились треки \"Жить всегда\" и \"Завтра\""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/7FQQFgBYgBA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.7350000000000001,
+      "position": -11.86333333333333,
+      "type": 0,
+      "uid": 50
+    },
+    {
+      "title": "lifelover",
+      "description": "nodejs модуль Extripo | [github](https://github.com/AshenHermit/extripo) | [npm](https://www.npmjs.com/package/extripo) |\n\nподборы\ngdrive: [my guitar pro pick ups](https://drive.google.com/drive/folders/1l_UwAr7TU_qk_OWf51hbVNQcT3v9qDeq?usp=sharing)\nнекоторые опубликованы\nultimate-guitar.com:\n[Ofdrykkja - Bitterljuv Nostalgi](https://tabs.ultimate-guitar.com/tab/ofdrykkja/bitterljuv-nostalgi-guitar-pro-3955633)\n[Lifelover - Bitter Reflektion ver 2](https://tabs.ultimate-guitar.com/tab/lifelover/bitter-reflektion-guitar-pro-3970441)\n[Lifelover - Saltvatten Du Plus Jag Vs Tellus](https://tabs.ultimate-guitar.com/tab/lifelover/saltvatten-du-plus-jag-vs-tellus-guitar-pro-3970447)\n[Lifelover - Twitch ver 3](https://tabs.ultimate-guitar.com/tab/lifelover/twitch-guitar-pro-3972262)\n[Lifelover - Narcotic Devotion ver 2](https://tabs.ultimate-guitar.com/tab/lifelover/narcotic-devotion-guitar-pro-3973045)\n[Lifelover - En Sang Om Dig ver 2](https://tabs.ultimate-guitar.com/tab/lifelover/en-sang-om-dig-guitar-pro-3973873)\n[Lifelover - Original](https://tabs.ultimate-guitar.com/tab/lifelover/original-guitar-pro-3978067)\n[Lifelover - Humorets Bottenvaning : correction](https://tabs.ultimate-guitar.com/tab/lifelover/humorets-bottenvaning-guitar-pro-1478955)\nsongsterr.com:\n[Apati - Eufori : correction](https://www.songsterr.com/a/wsa/apati-eufori-tab-s398739)\n\n...",
+      "tracks": [
+        {
+          "title": "Erotik\n",
+          "artist": "Lifelover\n",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/hpJsK2jwdU4%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Konkurs",
+          "artist": "Lifelover",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/HZRcJ0gM_uo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Pulver",
+          "artist": "Lifelover",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/qqIc6ELjMDM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 22.73333333333333,
+      "type": 0,
+      "uid": 51
+    },
+    {
+      "title": "a life worth losing...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/uNt8w4cquyM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "страшный альбом"
+        }
+      ],
+      "size": 0.715,
+      "position": 21.25333333333333,
+      "type": 1,
+      "uid": 52
+    },
+    {
+      "title": "childhood",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4156553044/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1325037427/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://loweringmusic.bandcamp.com/album/struggling-with-the-dark%22%3EStruggling%20With%20The%20Dark%20by%20Lowering%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.395,
+      "position": 22.23333333333333,
+      "type": 1,
+      "uid": 53
+    },
+    {
+      "title": "horror",
+      "description": "brutality, murders, sex crimes, insanity and suicide\n\n\nДобавил в vk-cli методов для экспорта сообщений, вложений и подсчета всякой статистики.",
+      "tracks": [
+        {
+          "title": "Sjukdom",
+          "artist": "Lifelover",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/epniz6hTnTc?start=1540%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.79,
+      "position": 23.32333333333331,
+      "type": 1,
+      "uid": 54
+    },
+    {
+      "title": "soulfull",
+      "description": "Новый год встречаю в деревне, далеко от москвы. Yumme Nikki, еще пара странных японский игр на rpg maker'е и написание тайлового 2d редактора игровых карт (для soulless moon). Прогулки с рекордером по свалкам на поле. Искал звуки, записывал их с целью позже юзать в игре, думал о сюжете игры. А еще нашел насыщенный уединенный лес, он пополнил ряд мест где я чувствую себя лучше.\n\"Soulless Moon\", по идее - пиксельный 2d платформер, приключение в городе и в подземной библиотеке, которую населяет зло. Cюжет кринжовый. Отразившиеся в нем переживания оказались более личными чем в предыдущих играх.\n\nПоявляется [группа](https://vk.com/club172457577), где я загружаю альбомы меланхоличных и депрессивных исполнителей, которых нет в соц.сети.\n\n-pics-\n![редактор карт](https://sun9-68.userapi.com/impg/c850608/v850608966/c2cc7/hW2gu6Y1_tM.jpg?size=2560x1343&quality=96&sign=f3917839eb55aead4f864cb54393f118&type=album)\n![прототип soulless moon на c++](https://sun9-73.userapi.com/impg/c850608/v850608966/c2cd9/BAg6CuaNBK0.jpg?size=2560x1439&quality=96&sign=39e345d71038b56d85c2d0d2b8648f04&type=album)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/RpY7TJMfMLE%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/FWFsJGta5TU%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/4lyI7O7kLP0%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.8000000000000002,
+      "position": 0.07666666666666674,
+      "type": 0,
+      "uid": 55
+    },
+    {
+      "title": "Subliminal Horror",
+      "description": "Написал сеть для оценки и прогу для связи пайтона и js в браузере. Связал сеть и прогу, терь можно на любой странице в браузере запускать этот оценщик пикч.\n[github](https://github.com/AshenHermit/realtime-pics-estimator)\n[видос](https://vk.com/video-200878703_456239050)\n\nНачал проектировать программы в диаграммах.\nПопытался сделать генератор диаграмм из пайтоновского кода, не доделал.\n\nSystem Shock, Project Zomboid.\n\nПоявляются идеи для игры со взломом устройств.\n\n-pics-\n![че-то](https://www.dropbox.com/s/ez7e5cpqwaln9yw/0.jpg?raw=1)",
+      "tracks": [
+        {
+          "title": "Analog Ocean",
+          "artist": "ACID.rar\n",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=629783090/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2618315510/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://sunsetgrid.bandcamp.com/album/o-c-e-a-n%22%3E%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0%20O%20c%20e%20a%20n%20by%20%CE%94CID.rar%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Shadow",
+          "artist": "Subliminal Network\n",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2704612969/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://sunsetgrid.bandcamp.com/album/shadow%22%3EShadow%20by%20Subliminal%20Network%3C/a%3E%3C/iframe%3E",
+          "comment": "тут типо собраны отрывки остов из старых малоизвестных хоррор игр, клевая атмосфера."
+        }
+      ],
+      "size": 0.6099999999999999,
+      "position": 23.83333333333331,
+      "type": 0,
+      "uid": 57
+    },
+    {
+      "title": "подо льдом",
+      "description": "деревня, книжки, слешеры, лыжи, бесконечное снежное поле.\n\n-pics-\n![art](https://www.dropbox.com/s/dobchoyyk5lia55/Art_the_Clown.webp?raw=1)\n![1](https://www.dropbox.com/s/jxxofbs96np5g37/1.jpg?raw=1)\n![2](https://www.dropbox.com/s/j1dsawch819wbmx/2.jpg?raw=1)\n![3](https://www.dropbox.com/s/9oaq6bdf0y7ajag/3.jpg?raw=1)\n",
+      "tracks": [
+        {
+          "title": "The Room OST",
+          "artist": "Silent Hill",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/sYWayhJUETc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.485,
+      "position": 24.113333333333316,
+      "type": 1,
+      "uid": 58
+    },
+    {
+      "title": "Warming Place",
+      "description": "Написал [вот это](https://github.com/AshenHermit/steam-workshop-mods-installer), установщик контента со steam workshop. Надо еще добавить распаковку .gma файлов для гарриса.\n\nНачал делать игру, Warming Place, ту, с хакингом.\nВ ней нужно писать небольшие скрипты на пайтоне для достижения необходимых целей, влезать в среду выполнения всяких скриптовых объектов, будь то модуль управления дверьми в поезде, или маршрутизатор для враждебных роботов. Мир абстрактный, разрушающийся зимний город, мрачно все.\nВ качестве основы - сделанный летом [Downfall of Perception](?post_uid=35). Сильно улучшил систему катсцен. Добавил экспортируемые события в анимациях. Сделал систему x-модулей, только позже решил переписать и так и не дописал. и рабочий эксплоитер, инструмент с которым можно выполнять код и подключатся к игровым объектам имеющим x-модули.\n\nТакже правил свой экспортер, написал систему плагинов.\n\n-pics-\n![0](https://www.dropbox.com/s/hosusxl8wqgvxcb/0.jpg?raw=1)\n![1](https://www.dropbox.com/s/0p9jebw7xrkg6ui/1.jpg?raw=1)\n",
+      "tracks": [
+        {
+          "title": "Hurt",
+          "artist": "Andreas Ronnberg",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/JszCVD1kAII%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Ren Djävla Pollen",
+          "artist": "Andreas Ronnberg",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/crBUXYiAd8g%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "эти треки из альбома Cry of Fear (Lost Tracks & Memories). он весь прекрасен."
+        },
+        {
+          "title": "Jumping Strings",
+          "artist": "Andreas Ronnberg",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/7AMa15iizLY%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Conclusion",
+          "artist": "Andreas Ronnberg",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/j6PisBy1wtk%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.94,
+      "position": 24.593333333333316,
+      "type": 0,
+      "uid": 59
+    },
+    {
+      "title": "emi",
+      "description": "+ треки\n\"OnlyMyDreamKeepMeAlive\"\n\"emi...\"\n\"...sore\"\n",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22100%25%22%20height=%22300%22%20scrolling=%22no%22%20frameborder=%22no%22%20allow=%22autoplay%22%20src=%22https://w.soundcloud.com/player/?url=https%253A//api.soundcloud.com/tracks/655476173&color=%2523ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E%3C/iframe%3E%3Cdiv%20style=%22font-size:%2010px;%20color:%20#cccccc;line-break:%20anywhere;word-break:%20normal;overflow:%20hidden;white-space:%20nowrap;text-overflow:%20ellipsis;%20font-family:%20Interstate,Lucida%20Grande,Lucida%20Sans%20Unicode,Lucida%20Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight:%20100;%22%3E%3Ca%20href=%22https://soundcloud.com/evoilsurface%22%20title=%22EVOIL%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3EEVOIL%3C/a%3E%20%C2%B7%20%3Ca%20href=%22https://soundcloud.com/evoilsurface/onlymydreamkeepmealive-v2%22%20title=%22OnlyMyDreamKeepMeAlive%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3EOnlyMyDreamKeepMeAlive%3C/a%3E%3C/div%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22100%25%22%20height=%22300%22%20scrolling=%22no%22%20frameborder=%22no%22%20allow=%22autoplay%22%20src=%22https://w.soundcloud.com/player/?url=https%253A//api.soundcloud.com/tracks/659275235&color=%2523ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true%22%3E%3C/iframe%3E%3Cdiv%20style=%22font-size:%2010px;%20color:%20#cccccc;line-break:%20anywhere;word-break:%20normal;overflow:%20hidden;white-space:%20nowrap;text-overflow:%20ellipsis;%20font-family:%20Interstate,Lucida%20Grande,Lucida%20Sans%20Unicode,Lucida%20Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight:%20100;%22%3E%3Ca%20href=%22https://soundcloud.com/evoilsurface%22%20title=%22EVOIL%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3EEVOIL%3C/a%3E%20%C2%B7%20%3Ca%20href=%22https://soundcloud.com/evoilsurface/emi%22%20title=%22emi...%22%20target=%22_blank%22%20style=%22color:%20#cccccc;%20text-decoration:%20none;%22%3Eemi...%3C/a%3E%3C/div%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Cfigure%3E%3Cfigcaption%3EEVOIL%20-%20...sore%3C/figcaption%3E%3Caudio%20controls%20src=%22https://www.dropbox.com/s/0ozm4g2fl4oeiin/sore.mp3?raw=1%22/%3E%3C/figure%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.395,
+      "position": -5.106666666666685,
+      "type": 0,
+      "uid": 60
+    },
+    {
+      "title": "лунный",
+      "description": "разбирался в [s&box](https://sbox.facepunch.com/news)\n[во, пх](https://vk.com/video576828276_456240178)",
+      "tracks": [
+        {
+          "title": "Альбом Птица",
+          "artist": "Аукцыон",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/GB6dGglsnik%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.43499999999999994,
+      "position": 25.023333333333316,
+      "type": 0,
+      "uid": 61
+    },
+    {
+      "title": "Goodnight Source",
+      "description": "Делаю игру на source про мишу, паралельно работая над [плагином](https://github.com/AshenHermit/game-resources-exporter/tree/master/resources_exporter/plugins/source_game) для своего экспортера, для экспорта моделей, текстур и материалов для игр на source.",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/g2i6mblcwaA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/C4s7Bvt6MXc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Тошнота",
+          "artist": "Гражданская Оборона",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/nYwd2D95A3c%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E%0A%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/BG8ImTThpjo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E%0A",
+          "comment": ""
+        }
+      ],
+      "size": 0.7799999999999998,
+      "position": 25.403333333333315,
+      "type": 0,
+      "uid": 62
+    },
+    {
+      "title": "извне",
+      "description": "Сделал GUI клиент для своего экспортера, расширил возможности, отрефакторил, и вообще довел до вполне рабочей версии. Хорошая прога получилась.\n[GameResourcesExporter - github](https://github.com/AshenHermit/game-resources-exporter)",
+      "tracks": [
+        {
+          "title": "Люди на холме",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/7D1aaq5cIw4%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Во время дождя",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/-kBEDzyFBqg%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Последнее письмо",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/20MeiEazZvQ%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Летучий фрегат",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/x0IBUKCclPw%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Хлоп - Хлоп",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/v5nG5IQ5dMY%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Тёплые коты",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/RxsSx5TqVcM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.69,
+      "position": 25.993333333333318,
+      "type": 0,
+      "uid": 63
+    },
+    {
+      "title": "всякая всячина",
+      "description": "немного деревни на дне рождения сестры.\n\nрекордный по длинне съезд, демо-альбом [всякая всячина](https://ashen-hermit.bandcamp.com/album/--2)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Kbt0PVozDGI%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1535320621/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://ashen-hermit.bandcamp.com/album/--2%22%3E%D0%B2%D1%81%D1%8F%D0%BA%D0%B0%D1%8F%20%D0%B2%D1%81%D1%8F%D1%87%D0%B8%D0%BD%D0%B0%20by%20%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.6100000000000001,
+      "position": 26.37333333333332,
+      "type": 0,
+      "uid": 64
+    },
+    {
+      "title": "...",
+      "description": "[paradise pistol](https://sketchfab.com/3d-models/double-uzi-like-revolver-638c0226289c4e3fb8a9ccd0fd076f0f)",
+      "tracks": [
+        {
+          "title": "Panic",
+          "artist": "Anathema",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/DEe9FBXjnaI%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/videoseries?list=OLAK5uy_kUWN1Hu1RhTlADgOpTQIDSFUqEF4K6s5k%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.49500000000000005,
+      "position": -14.43333333333333,
+      "type": 1,
+      "uid": 65
+    },
+    {
+      "title": "...",
+      "description": "[System Dust](https://www.youtube.com/watch?v=v5d-gDR37ko)\n[Artifitial Death Traversal](https://www.youtube.com/watch?v=IfvBNO-a5WM)\n[Takyon Machine](https://www.youtube.com/watch?v=NmuUkZRrGGw)\n",
+      "tracks": [],
+      "size": 0.2,
+      "position": 17.98333333333332,
+      "type": 0,
+      "uid": 67
+    },
+    {
+      "title": "...",
+      "description": "[keys](https://sketchfab.com/3d-models/keys-b10f011ab32349e08ba1fe24a0bbf890)\n\n\nOyasumi Punpun",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Sb_wnuzW-yM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "в этот период я познакомился с korpiklaani, и позже на протяжении долгого времени иногда возвращался к ним и влюблялся в новые треки."
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/YU3RIA1jUVQ%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/rG9CtpWe8rM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": -23.973333333333308,
+      "type": 1,
+      "uid": 69
+    },
+    {
+      "title": "...",
+      "description": "[Серые мыши](https://amdm.ru/akkordi/pik_klakson/190924/serie_mishi/)\n[Пей, дружок, пей](https://amdm.ru/akkordi/pik_klakson/190893/pey_druzhok_pey/)\n[Наплевать](https://amdm.ru/akkordi/pik_klakson/190851/naplevat/)\n[Услуга](https://amdm.ru/akkordi/pik_klakson/190828/usluga/)",
+      "tracks": [
+        {
+          "title": "Серые мыши",
+          "artist": "Пик Клаксон",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/TFNtsb3Vgkc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Полуарлекин, полумонах",
+          "artist": "Пик Клаксон",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/cfzMCMVjTFA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Notting Hill Bus",
+          "artist": "AFX",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/DMO3cDKwdNw%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Alberto Balsalm",
+          "artist": "AFX",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/-ZVZgCrHy5E%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Rhubarb",
+          "artist": "AFX",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/_AWIqXzvX-U%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Vordhosbn",
+          "artist": "AFX",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/p8TAXHvPJdo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.7949999999999999,
+      "position": 26.91333333333331,
+      "type": 1,
+      "uid": 70
+    },
+    {
+      "title": "analord",
+      "description": "Стругацкие - Град обреченный, Обитаемый остров.\nИдиот Достоевского.\nГоголь.\n\n[models](https://vk.com/album576828276_285759335)\n\n-pics-\n\n![hotbed](https://sun9-83.userapi.com/s/v1/if2/vpvNjXmEXs4WlsY64UX_21KgY4V0hJrGQdVvgHbiTODWgu4O2izRO-X1zZ_avyDy8rVILVWcNRzPdUiQtEokuPjJ.jpg?size=1080x1080&quality=95&type=album)\n\n![transporter](https://sun9-74.userapi.com/s/v1/if2/FhfBsEYf9Mr1spv-nT-qDEVQv8IPfIRKEAUdIvhAhUI9KzIehT0nMJc1fc6NQTRASuerV9nByFbQeTL_OIzHT9eG.jpg?size=1920x1920&quality=95&type=album)\n\n![underseas](https://sun9-81.userapi.com/s/v1/if2/IB8c2mgC_3nfemsQ4-2VLYd90gbBBvfxzxXeOfgxRM3U4DQtPowlGgLuu44B1yThJVsPGzFPyNwFAXqBhB2voLhK.jpg?size=1920x1920&quality=95&type=album)\n\n\n![nobody's house](https://sun9-74.userapi.com/s/v1/if2/-rqYCxaPJpWZNwPP2D5FiYmuFypNzUuV8n18VaPUWvKYXK38dB8SkNUZ-H1pqvH0r8qiS_TzrYhMivT1sO31hi8L.jpg?size=1920x1080&quality=95&type=album)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/videoseries?list=PLbiz5J5mnnnaQc6odwqP3r2-vBD_k3NO5%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "плейлист Aphex Twin - Analord"
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/videoseries?list=PLqTBc48nicuhSvmHxtxlwgQNaIErcCG8N%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "мои любимые треки из альбома"
+        }
+      ],
+      "size": 1,
+      "position": 27.89333333333331,
+      "type": 0,
+      "uid": 72
+    },
+    {
+      "title": "...",
+      "description": "[Blender Factorio Utils](https://github.com/AshenHermit/blender-factorio-utils)",
+      "tracks": [
+        {
+          "title": "Requiem - Dies Irae",
+          "artist": "Giuseppe Verdi",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/cHw4GER-MiE%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.485,
+      "position": 28.38333333333331,
+      "type": 0,
+      "uid": 73
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/PHxf0NGmHvE%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": -4.7966666666666855,
+      "type": 1,
+      "uid": 74
+    },
+    {
+      "title": "...",
+      "description": "ладушки онлайн",
+      "tracks": [],
+      "size": 0.2,
+      "position": -15.646666666666679,
+      "type": 0,
+      "uid": 76
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/o3_gPomu9Mc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": 2.4633333333333103,
+      "type": 1,
+      "uid": 77
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/Ahoc5vVunIY%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/FiEoWtGeGtI%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E%0A%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/EtoR7ajgiVA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E%0A",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": -14.749999999993205,
+      "type": 1,
+      "uid": 78
+    },
+    {
+      "title": "ratboy genius",
+      "description": "и супирпила\n\n\nmix ore",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/SKgyAzKzyfU%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": -11.353333333333328,
+      "type": 1,
+      "uid": 79
+    },
+    {
+      "title": "delver",
+      "description": "delver mod\n\n",
+      "tracks": [],
+      "size": 0.2,
+      "position": -12.753333333333329,
+      "type": 0,
+      "uid": 80
+    },
+    {
+      "title": "slipknot",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/5abamRO41fE%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": -13.236666666666677,
+      "type": 1,
+      "uid": 81
+    },
+    {
+      "title": "dance with the dead",
+      "description": "[paradise pistol](https://sketchfab.com/3d-models/double-uzi-like-revolver-638c0226289c4e3fb8a9ccd0fd076f0f)",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/ewm6TG1yJ5Y%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 0.2,
+      "position": -13.65333333333333,
+      "type": 1,
+      "uid": 82
+    },
+    {
+      "title": "кмб",
+      "description": "тут я просто жил музыкой которую слушал последние 3 месяца\n\n\nрисунки позже будут",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 29.24333333333331,
+      "type": 1,
+      "uid": 83
+    },
+    {
+      "title": "ТРБшка",
+      "description": "тут я просто работал даче одного чудесного человечка с командования которого почему-то все хуесосят\nслушаю радио\nзаписываю стихи",
+      "tracks": [],
+      "size": 0.2,
+      "position": 30.47333333333331,
+      "type": 1,
+      "uid": 84
+    },
+    {
+      "title": "с кайфом и музычкой",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "CRIM3S",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=817659776/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://crim3s.bandcamp.com/album/stay-ugly-ep-2%22%3EStay%20Ugly%20EP%20by%20CRIM3S%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "CRIM3S EP",
+          "artist": "CRIM3S",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2294787794/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=569779057/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://crim3s.bandcamp.com/album/crim3s-ep%22%3ECRIM3S%20EP%20by%20CRIM3S%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 32.30333333333331,
+      "type": 1,
+      "uid": 85
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "Gate Of Grief",
+          "artist": "White Ring",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1978977539/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=2861012416/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://whitering.bandcamp.com/album/gate-of-grief%22%3EGate%20Of%20Grief%20by%20White%20Ring%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Black Earth That Made Me",
+          "artist": "White Ring",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2647181338/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=224280979/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://whitering.bandcamp.com/album/black-earth-that-made-me%22%3EBlack%20Earth%20That%20Made%20Me%20by%20White%20Ring%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 32.98333333333331,
+      "type": 1,
+      "uid": 86
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "we had good times together, don't forget that",
+          "artist": "Sewerslvt",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2350190403/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://sewerslvt.bandcamp.com/album/we-had-good-times-together-dont-forget-that%22%3Ewe%20had%20good%20times%20together,%20don&#39;t%20forget%20that%20by%20Sewerslvt%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Box Cutter",
+          "artist": "Bkode",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=3727425771/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1288435002/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://bkode.bandcamp.com/album/box-cutter%22%3EBox%20Cutter%20by%20Bkode%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Scarring Thought",
+          "artist": "Bkode",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2552514491/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=1025531145/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://bkode.bandcamp.com/album/scarring-thought%22%3EScarring%20Thought%20by%20Bkode%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "Reminiscence Of What Once Was",
+          "artist": "Bkode",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2509526671/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/track=4262851650/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://bkode.bandcamp.com/album/reminiscence-of-what-once-was%22%3EReminiscence%20Of%20What%20Once%20Was%20by%20Bkode%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "That Time You Left",
+          "artist": "Bkode",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=2853950994/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://bkode.bandcamp.com/album/that-time-you-left%22%3EThat%20Time%20You%20Left%20by%20Bkode%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 33.933333333333316,
+      "type": 1,
+      "uid": 87
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "witchblades",
+          "artist": "lil peep",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/E7sP6t1QyrI%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "save that shit",
+          "artist": "lil peep",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/V0r0CLhm23M%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/V72q3fomi3U%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/OKbFyxo9XCg%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 34.933333333333316,
+      "type": 1,
+      "uid": 88
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "",
+          "comment": "ну тут много всего: asap rocky, kanye west, travis scott, FACE, yung lean"
+        }
+      ],
+      "size": 1,
+      "position": 36.483333333333306,
+      "type": 1,
+      "uid": 89
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "BONES",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/UUw8i7k1mwc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "BONES",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/0IYght7FGdg%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/3HRMQ3mhl6s%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "тут я типо много сани качал, слушал, больше понравился альбом \"Экстримизм 1995\""
+        }
+      ],
+      "size": 1,
+      "position": 37.51333333333331,
+      "type": 1,
+      "uid": 90
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "Cherry Glazerr",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/xuuErrlTIqo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "Cherry Glazerr",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/l3Pnr3S10yA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "Cherry Glazerr",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/e7_VbRksShc%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "Cherry Glazerr",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/YLZYJ-u3WMo%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 38.5933333333333,
+      "type": 1,
+      "uid": 91
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "TRAUMA REDUCTION PRAYER",
+          "artist": "FREE.99",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1559892075/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://xfree99x.bandcamp.com/album/trauma-reduction-prayer%22%3ETRAUMA%20REDUCTION%20PRAYER%20by%20FREE.99%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "OUT FOR BLOOD",
+          "artist": "FREE.99",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4213664316/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://xfree99x.bandcamp.com/album/out-for-blood%22%3EOUT%20FOR%20BLOOD%20by%20FREE.99%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "throwaways",
+          "artist": "discarded",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=1982375865/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://xfree99x.bandcamp.com/album/throwaways%22%3Ethrowaways%20by%20discarded%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "May Your Heart Be Your Guiding Key",
+          "artist": "Yung Lain",
+          "embedding_code": "%3Ciframe%20style=%22border:%200;%20width:%20100%25;%20height:%20120px;%22%20src=%22https://bandcamp.com/EmbeddedPlayer/album=4057591164/size=large/bgcol=333333/linkcol=ffffff/tracklist=false/artwork=small/transparent=true/%22%20seamless%3E%3Ca%20href=%22https://lainwired.bandcamp.com/album/may-your-heart-be-your-guiding-key%22%3EMay%20Your%20Heart%20Be%20Your%20Guiding%20Key%20by%20Yung%20Lain%3C/a%3E%3C/iframe%3E",
+          "comment": ""
+        }
+      ],
+      "size": 1,
+      "position": 39.6633333333333,
+      "type": 1,
+      "uid": 92
+    },
+    {
+      "title": "...",
+      "description": "",
+      "tracks": [
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/c_xw1JDLN_A%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/yzTuBuRdAyA%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "",
+          "artist": "",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/1DpH-icPpl0%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": ""
+        },
+        {
+          "title": "False Alarm",
+          "artist": "The Weeknd",
+          "embedding_code": "%3Ciframe%20width=%22560%22%20height=%22315%22%20src=%22https://www.youtube.com/embed/CW5oGRx9CLM%22%20title=%22YouTube%20video%20player%22%20frameborder=%220%22%20allow=%22accelerometer;%20autoplay;%20clipboard-write;%20encrypted-media;%20gyroscope;%20picture-in-picture;%20web-share%22%20allowfullscreen%3E%3C/iframe%3E",
+          "comment": "The Weeknd - False Alarm"
+        }
+      ],
+      "size": 1,
+      "position": 40.4633333333333,
+      "type": 1,
+      "uid": 93
+    },
+    {
+      "title": "noise",
+      "description": "статья про генерацию комнат:\n[EVOIL site - room generation](https://ashenhermit.github.io/EVOIL/pages/room-generator.html)",
+      "tracks": [],
+      "size": 0.2,
+      "position": -16.136666666666677,
+      "type": 0,
+      "uid": 94
     }
-  ]
+  ],
+  "about": "Интересные элементы этого дневника - музыка и хронология творчетсва.\nВсе что здесь представлено кроме них - я оставляю для себя. Бывает кринж, но, думаю, в любом созидании - впадать в детство и становиться сентиментальным намного лучше чем находиться в кризисе и не иметь никакого движения.\n\nКруг в центре это бесконечная временная линия, в которой целый оборот - это один год. (Круг, потому что - не знаю как другие, но я всегда представляю события в жизни мысленно расположенными на круге года). \nКружки, расположенные на нем, это записи, каждая из коротых относится к своему отрезку времени. Они содержат информацию связанную со мной в то время, и музыку, которую я в то время слушал, или писал.\nЕсть разные виды кружков, за что отвечает каждый я не скажу.\nЕсли между кружками есть большое пустое пространство, значит скорее всего я не помню чем занимался в тот отрезок времени, или в то время занимался чем-то очень не значительным.\n\nТехнические детали:\n[код этого дневника](https://github.com/AshenHermit/my_diary_v2)\nпервую версию я написал [летом 2020го](?post_uid=1), вторую [весной 2021го](?post_uid=28).\nсписок записей хранится на dropbox'е - [memories.json](https://dl.dropbox.com/s/so8ud7sp9lae0vj/memories.json)\n\nTODO: доделать зиму 2019го\nTODO: вспомнить больше прошлого\n\n"
 }

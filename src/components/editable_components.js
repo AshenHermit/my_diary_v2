@@ -5,20 +5,40 @@ import {client} from '../init'
 export class IconButton extends React.Component{
     constructor(props){
         super(props)
+        this.onClick = this.onClick.bind(this)
+    }
+    onClick(){
+        this.props.onClick()
+    }
+    isActive(){
+        return false
     }
     render(){
         return (
-        <button 
-            style={{display: this.props.visible ? '' : 'none'}} 
-            className="icon-button" 
-            onClick={this.props.onClick}>
-            <img src={this.props.icon_src}></img>
-        </button>
+            <button 
+                style={{display: this.props.visible ? '' : 'none'}} 
+                className={"icon-button " + (this.isActive() ? 'active' : '')}
+                onClick={this.onClick}>
+                <img src={this.props.icon_src}></img>
+            </button>
         )
     }
 }
 IconButton.defaultProps = {
     visible: true
+}
+
+export class MenuToggleButton extends IconButton{
+    isActive(){
+        if(this.props.menu){
+            if (this.props.menu.current) return this.props.menu.current.is_shown
+        }
+        return false
+    }
+    onClick(){
+        this.props.menu.current.toggle()
+        this.forceUpdate()
+    }
 }
 
 export class Radio extends React.Component{
@@ -141,7 +161,6 @@ export class EditorInput extends React.Component{
     updateEditModeField(){
         this.value = this.input_ref.current.innerText
         this.props.data_struct[this.props.field_key] = this.value
-        if(this.props.onChange!=null) this.props.onChange(this.value)
     }
     resetValueToDefault(){
         this.setValue(this.props.defaultValue)
@@ -152,6 +171,7 @@ export class EditorInput extends React.Component{
     }
 
     onChange(e){
+        if(this.props.onChange!=null) this.props.onChange(this.value)
         this.updateEditModeField()
     }
     componentDidMount(){

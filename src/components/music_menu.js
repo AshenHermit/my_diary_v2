@@ -5,6 +5,8 @@ import {client, _post_placeholder} from '../init'
 import {default as utils} from '../utils'
 import {EditableComponent, EditorInput, IconButton} from './editable_components'
 import {Label} from './elements'
+import { CSSTransition } from 'react-transition-group'
+import { TransitionGroup } from 'react-transition-group'
 
 class Track extends React.Component{
     constructor(props){
@@ -12,7 +14,7 @@ class Track extends React.Component{
     }
     render(){
         return (
-            <div className="track">
+            <div style={this.props.style} className="track">
                 <div className="track-embedding" 
                     dangerouslySetInnerHTML={{__html: this.props.track.embedding_code}}>
                 </div>
@@ -46,7 +48,7 @@ class EditModeTrack extends React.Component{
         return (
             <div className="track edit-mode">
                 <div className="buttons-row-right">
-                    <IconButton icon_src="res/trash_can.png" onClick={()=>{client.deleteTrackInFromEditMode(this.props.idx)}}/>
+                    <IconButton icon_src="res/trash_can.png" onClick={()=>{client.deleteTrackInEditMode(this.props.idx)}}/>
                 </div>
                 <div className="row">
                     <div className="row-element">
@@ -99,6 +101,11 @@ export class MusicMenu extends EditableComponent{
         this.frame = React.createRef()
         this.is_shown = true
     }
+    componentDidMount(){
+        // super.componentDidMount()
+        if(!isMobile) utils.windowMenuHeightAdjust(this.frame.current)
+        if(this.props.hide) this.hide()
+    }
     setActivePost(post){
         this.setState({active_post: post})
     }
@@ -109,6 +116,10 @@ export class MusicMenu extends EditableComponent{
     hide(){
         this.frame.current.style.display = 'none'
         this.is_shown = false
+    }
+    toggle(){
+        if(this.is_shown) this.hide()
+        else this.show()
     }
     edit_render(){
         var items = [];
@@ -133,9 +144,20 @@ export class MusicMenu extends EditableComponent{
         return (
             <div className="music-menu" ref={this.frame}>
                 <div className="tracks-list">
+                    <TransitionGroup className="show-group">
                     {this.state.active_post.tracks.map((track, i)=>{
-                        return (<Track key={"track_"+i} idx={i} track={track}/>)
+                        return (<CSSTransition
+                            key={i}
+                            classNames="show"
+                            timeout={500 + i*100}
+                            >
+                                <Track
+                                    style={{ transitionDelay: `${(i+1)*100}ms` }} 
+                                    key={"track_"+i} idx={i} track={track}/>
+                            </CSSTransition>
+                        )
                     })}
+                    </TransitionGroup>
                 </div>
             </div>
         )

@@ -46,8 +46,8 @@ export class YearCircle extends React.Component{
         this.posts = posts_array
     }
     updateViewDate(view_position){
-        var month = utils.mod(Math.floor(view_position), 12)
-        var year = start_year + Math.floor(view_position/12)
+        var month = utils.positionToMonth(view_position)
+        var year = utils.positionToYear(view_position)
         this.setState({month: month, year: year})
     }
 
@@ -110,6 +110,7 @@ export class YearCircle extends React.Component{
         this.setupCanvasEventListeners()
     }
     resizeCanvas(){
+        if(this.canvas_container_ref.current == null) return
         var client_rect = this.canvas_container_ref.current.getClientRects()[0]
         this.canvas_container_ref.current.style.height = client_rect.width + 'px'
         client_rect.height = client_rect.width

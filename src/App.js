@@ -1,12 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import React from 'react'
+import './animations.css';
+import React, { createRef } from 'react'
 import {api, client} from './init'
 import {MainContent} from './components/main_content'
 import {MusicMenu} from './components/music_menu'
-import {IconButton} from './components/editable_components'
+import {IconButton, MenuToggleButton} from './components/editable_components'
 import { AboutPanel } from './components/about_panel';
 import { PopupsList } from './components/popups_list';
+import { ProjectsMenu } from './components/projects_menu';
+import { isMobile } from 'react-device-detect';
 
 class TopBar extends React.Component{
   constructor(props){
@@ -20,6 +23,7 @@ class TopBar extends React.Component{
     return (
     <div className="top-bar">
       <div className="top-bar-item">
+        <MenuToggleButton icon_src="res/projects.png" menu={this.props.projects_menu}/>
         <IconButton icon_src="res/pencil_and_paper.png" onClick={()=>{client.toggleEditMode()}}/>
         <IconButton visible={client.is_in_edit_mode} icon_src="res/floppy_memory.png" onClick={()=>{client.saveActivePost()}}/>
       </div>
@@ -34,7 +38,7 @@ class TopBar extends React.Component{
 
       <div className="top-bar-item">
         <IconButton icon_src="res/about.png" onClick={()=>{client.toggleAboutPanel()}}/>
-        <IconButton icon_src="res/notes.png" onClick={()=>{client.toggleMusicMenu()}}/>
+        <MenuToggleButton icon_src="res/notes.png" menu={this.props.music_menu}/>
       </div>
     </div>
     )
@@ -61,20 +65,36 @@ class Footer extends React.Component{
 class App extends React.Component{
   constructor(props){
     super(props)
+    this.projectsMenuRef = createRef()
+    this.topbarRef = createRef()
+    this.musicMenuRef = createRef()
   }
   componentDidMount(){
     client.initialize()
+    this.topbarRef.current.forceUpdate()
   }
   render(){
+    let globalUiCenter = (
+      <div className='global-ui-center'>
+        <div className="floating-window">
+          <ProjectsMenu ref={this.projectsMenuRef} hide={isMobile}/>
+        </div>
+        <div className="floating-window">
+          <MusicMenu ref={this.musicMenuRef} hide={isMobile}/>
+        </div>
+      </div>
+    )
+
     return (
       <div className="App">
-        <div className="floating-window">
-          <MusicMenu/>
+        <div className='global-ui'>
+          <TopBar ref={this.topbarRef} projects_menu={this.projectsMenuRef} music_menu={this.musicMenuRef}/>
+          {!isMobile ? globalUiCenter : ''}
         </div>
-        <PopupsList/>
         <AboutPanel/>
-        <TopBar/>
+        <PopupsList/>
         <MainContent/>
+        {isMobile ? globalUiCenter : ''}
         <Footer/>
       </div>
     )

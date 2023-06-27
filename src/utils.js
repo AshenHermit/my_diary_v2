@@ -1,4 +1,5 @@
 import React from 'react'
+import { start_year } from './config'
 
 var utils = {}
 
@@ -128,6 +129,19 @@ utils.getBndcmpEmbedAuthorTitle = function(code){
     var titleAuthor = linkText.split("by").map((x)=>x.trim())
     info = new TrackInfo(titleAuthor[1], titleAuthor[0])
     return info
+}
+utils.windowMenuHeightAdjust = function(el){
+    var cs = getComputedStyle(el);
+    var paddingX = parseFloat(cs.paddingLeft) + parseFloat(cs.paddingRight);
+    var paddingY = parseFloat(cs.paddingTop) + parseFloat(cs.paddingBottom);
+    el.children[0].style.height = `${el.parentNode.offsetHeight-paddingY}px`
+}
+
+utils.positionToYear = function(pos){
+    return start_year + Math.floor(pos/12) 
+}
+utils.positionToMonth = function(pos){
+    return utils.mod(Math.floor(pos), 12)
 }
 
 export default utils

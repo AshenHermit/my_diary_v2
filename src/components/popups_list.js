@@ -16,8 +16,8 @@ export class Popup extends React.Component{
             dissolved: false,
         }
         this.element = React.createRef()
-        if(!this.props.type) this.props.type = 0
-        if(!this.props.text) this.props.text = ""
+        // if(!this.props.type) this.props.type = 0
+        // if(!this.props.text) this.props.text = ""
         this.dissolve = this.dissolve.bind(this)
         this.elementRef = this.elementRef.bind(this)
     }
@@ -38,14 +38,16 @@ export class Popup extends React.Component{
         console.log(e)
     }
     render(){
+        var type = this.props.type || 0
+        var text = this.props.text || ""
         let classes = ['message', 'warning', 'error']
-        let cls = 'popup ' + classes[utils.clamp(this.props.type, 0, classes.length-1)]
+        let cls = 'popup ' + classes[utils.clamp(type, 0, classes.length-1)]
         if(this.state.dissolving) cls += ' dissolving'
         if(this.state.dissolved) cls += ' dissolved'
 
         return (
             <div className={cls} ref={this.elementRef} key={this.props.key}>
-                {this.props.text}
+                {text}
             </div>
         )
     }

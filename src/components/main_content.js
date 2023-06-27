@@ -1,9 +1,10 @@
 import React from 'react'
 import {YearCircle} from './year_circle'
 import {client, _post_placeholder} from '../init'
-import {PostStruct} from '../api'
+import {PostStruct, ProjectStruct} from '../api'
 import {default as utils} from '../utils'
 import {EditableComponent, EditorInput, Slider, IconButton, Radio} from './editable_components'
+import { TagsInput } from 'react-tag-input-component'
 
 class Title extends EditableComponent{
     constructor(props){
@@ -44,6 +45,103 @@ class Description extends EditableComponent{
         return (
             <div className="description" 
                 dangerouslySetInnerHTML={{__html: utils.renderMarkup(this.props.text)}}>
+            </div>
+        )
+    }
+}
+
+class ProjectEditComponent extends React.Component{
+    static defaultProps = {
+        project: null
+    }
+    constructor(props){
+        super(props)
+        this.onTagsChanged = this.onTagsChanged.bind(this)
+        this.deleteProject = this.deleteProject.bind(this)
+        this.project = this.props.project
+        this.container_component = this.props.container_component
+    }
+    onTagsChanged(newTags){
+        this.project.tags = newTags
+    }
+    deleteProject(){
+        this.container_component.deleteProject(this.project)
+    }
+    render(){
+        return (
+            <div className='project-item'>
+                <div>
+                    {this.project.image_url == "" ? '':
+                        <img className='project-image' src={this.project.image_url} alt="project"></img>
+                    }
+                    <IconButton icon_src="res/trash_can.png" onClick={this.deleteProject}/>
+                </div>
+                <div className='fields'>
+                    <span className="label">title:</span>
+                    <EditorInput 
+                        field_key="title" 
+                        data_struct={this.project} 
+                        className="project-title" 
+                        defaultValue={this.project.title}/>
+                    <span className="label">description:</span>
+                    <EditorInput 
+                        field_key="description" 
+                        data_struct={this.project} 
+                        className="project-description" 
+                        defaultValue={this.project.description}/>
+                    <span className="label">image url:</span>
+                    <EditorInput 
+                        field_key="image_url" 
+                        data_struct={this.project} 
+                        className="project-image-input" 
+                        defaultValue={this.project.image_url}
+                        onChange={()=>{this.forceUpdate()}}/>
+                    <span className="label">tags:</span>
+                    <TagsInput
+                        value={this.project.tags}
+                        onChange={this.onTagsChanged}
+                        name="tags"
+                        placeHolder="enter tags"
+                    />
+                </div>
+                
+            </div>
+                
+        )
+    }
+}
+
+export class ProjectsEditContainer extends React.Component{
+    static defaultProps = {
+        post_data: null
+    }
+    constructor(props){
+        super(props)
+        this.addNewProject = this.addNewProject.bind(this)
+        this.deleteProject = this.deleteProject.bind(this)
+        this.post_data = this.props.post_data
+    }
+    addNewProject(){
+        this.post_data.projects.push(new ProjectStruct())
+        this.forceUpdate()
+    }
+    deleteProject(project){
+        this.post_data.projects.splice(this.post_data.projects.indexOf(project), 1)
+        this.forceUpdate()
+    }
+    render(){
+        this.post_data = this.props.post_data
+        return (
+            <div className="edit-projects">
+                <div className='edit-projects-title'>Projects</div>
+                <div className='edit-projects-container'>
+                    {this.props.post_data.projects.map(project=>{
+                        return <ProjectEditComponent container_component={this} project={project}/>
+                    })}
+                </div>
+                <div className='buttons-row'>
+                    <IconButton icon_src="res/plus.png" onClick={this.addNewProject}/>
+                </div>
             </div>
         )
     }
@@ -107,6 +205,10 @@ export class MainContent extends React.Component{
                     <Description text={this.state.active_post.description} 
                         is_in_edit_mode={client.is_in_edit_mode} data_struct={client.edit_mode_post}/>
                 </div>
+
+                {client.is_in_edit_mode ? 
+                <ProjectsEditContainer post_data={client.edit_mode_post}/>
+                :''}
             </div>
         )
     }

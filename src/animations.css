@@ -1,0 +1,28 @@
+.show-enter {
+    transition-timing-function: ease-in;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.2s;
+    transform: translateY(32px);
+}
+
+.show-enter-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.show-exit {
+    transition-timing-function: ease-out;
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 0.2s, transform 0.2s;
+}
+  
+.show-exit-active {
+    opacity: 0;
+    transform: translateY(32px);
+}
+
+.show-group {
+    /* display: flex;
+    flex-direction: column; */
+}
