@@ -62,16 +62,105 @@ class Footer extends React.Component{
   }
 }
 
+class AppClosingEffect extends React.Component{
+  constructor(props){
+    super(props)
+    this.audio = new Audio();
+    this.audio.src = './res/low_freq_glitch.ogg';
+    this.audioLoaded = false;
+    this.audio.addEventListener('loadedmetadata', () => {
+      this.audioLoaded = true;
+    });    
+    this.timer = 1.0
+    this.isClosing = false
+    this.effectRef = createRef()
+    this.textVariants = []
+    let words = "what is this taste, is it night or a day, give me more of it, become disconnected, leap with us, planet earth is about to be recycled".split(" ")
+    for(let i = 0; i < 10; i++) {
+      let seq = ""
+      for(let i = 0; i < 6; i++) {
+        seq += words[Math.floor(Math.random() * words.length)] + ' '
+      }
+      this.textVariants.push(seq)
+    }
+    window.closingeffect = this
+  }
+  randomizeElements(){
+    const elements = document.body.querySelectorAll('*');
+    elements.forEach(element => {
+      const strength = false
+      // Генерируем случайные смещения
+      const x = Math.random() * 40 - 20;
+      const y = Math.random() * 40 - 20;
+      // Устанавливаем смещения элементу
+      element.style.transform = `translate(${x}px, ${y}px)`;
+      if(this.timer>0.5){
+        if(element.childElementCount === 0 && element.textContent.trim() !== ''){
+          element.textContent = this.textVariants[Math.floor(Math.random() * this.textVariants.length)]
+        }
+      }
+    });
+  }    
+  update(delta){
+    if (this.isClosing){
+      this.randomizeElements()
+      this.timer-=delta
+      if (this.timer<=0.0){
+        let url = window.location.toString()
+        window.open(url.substring(0, url.lastIndexOf("/")), '_self')
+        document.body.innerHTML = ""
+      }
+    }
+  }
+  close(){
+    console.log(this.audioLoaded)
+    if(!this.isClosing && this.audioLoaded){
+      this.isClosing = true
+      this.audio.play()
+      this.effectRef.current.style.display = 'block'
+    }
+  }
+  render(){
+    return (
+      <div ref={this.effectRef} className='effect-overlay'>
+        <img src='https://i.gifer.com/9XaO.gif'></img>
+      </div>
+    )
+  }
+}
+
 class App extends React.Component{
   constructor(props){
     super(props)
     this.projectsMenuRef = createRef()
     this.topbarRef = createRef()
     this.musicMenuRef = createRef()
+
+    this.lastAnimationTime = 0
+    this.globalFadeValue = 1.0
+    this.globalFadeValueTarget = 1.0
+    this.appClosingEffectRef = createRef()
   }
   componentDidMount(){
     client.initialize()
     this.topbarRef.current.forceUpdate()
+    requestAnimationFrame(this.animation.bind(this))
+  }
+  animation(time){
+    const delta = (time - this.lastAnimationTime) / 1000.0;
+    this.appClosingEffectRef.current.update(delta)
+    
+    this.globalFadeValueTarget = 1.0
+    if (client.active_post){
+      if (client.active_post.notAbsorbing()){
+        this.globalFadeValueTarget = 1.0
+      }else{
+        this.appClosingEffectRef.current.close()
+      }
+    }
+
+    this.lastAnimationTime = time
+    requestAnimationFrame(this.animation.bind(this))
   }
   render(){
     let globalUiCenter = (
@@ -96,6 +185,7 @@ class App extends React.Component{
         <MainContent/>
         {isMobile ? globalUiCenter : ''}
         <Footer/>
+        <AppClosingEffect ref={this.appClosingEffectRef}></AppClosingEffect>
       </div>
     )
   }

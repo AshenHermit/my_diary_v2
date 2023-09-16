@@ -61,7 +61,7 @@ export class ProjectStruct extends Exportable{
  */
 export class PostStruct extends Exportable{
 
-    can_be_first(){
+    notAbsorbing(){
         return this.title.toLowerCase() != "конец" && this.title.toLowerCase() != "the end"
     }
 

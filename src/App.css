@@ -35,6 +35,21 @@
 .rti--tag{
   color: #000;
 }
+.effect-overlay{
+  transform: none !important;
+  display: none;
+  mix-blend-mode: color-burn;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.effect-overlay > img{
+  transform: none !important;
+  width: 100%;
+  height: 100%;
+  scale: 1.5;
+}
 
 .App {
   font-family: 'Roboto Slab';
@@ -43,6 +58,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+body{
+  background-repeat: repeat;
+  background-size: 360px;
+  background-color: #000;
+
+  --global-fade: 1.0;
 }
 
 .global-ui{
@@ -214,6 +236,7 @@ a{
   font-size: 2em;
   font-weight: 400;
   padding: 0.3em;
+  border-radius: 4px;
 }
 .main-content .description{
   font-family: 'Roboto Mono';
@@ -223,6 +246,7 @@ a{
   color: rgb(255 255 255 / 68%);
   margin-top: 0.4em;
   background-color: #161616;
+  border-radius: 4px;
   /* padding-top: 0.6em; */
 }
 .main-content .description .pics-container{
@@ -281,6 +305,7 @@ a{
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  border-radius: 4px;
 }
 .center-container{
   position: fixed;
@@ -359,6 +384,13 @@ a{
 
 .year-circle{
   position: relative;
+  user-select: none;
+}
+.year-circle:hover{
+  cursor: grab;
+}
+.year-circle:active{
+  cursor: grabbing;
 }
 .year-circle-view-date{
   font-weight: 400;
@@ -493,7 +525,7 @@ input, .input{
 
 }
 .edit-projects-title{
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1.2em;
 }
 .project-item{
@@ -529,7 +561,7 @@ input, .input{
 }
 .project-title{
   font-size: 1.2em;
-  font-weight: bold;
+  font-weight: 500;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -603,6 +635,7 @@ input, .input{
     max-width: 26vw;
     width: 26vw;
     right: 0;
+    border-radius: 0;
   }
   .last-update{
     position: fixed;

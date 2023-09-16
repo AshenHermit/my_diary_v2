@@ -55,7 +55,7 @@ utils.getPostNearestToPosition = function(posts_array, position){
 
 utils.getLastPost = function(posts_array){
     var last_post = Array.from(posts_array).sort((x, y)=>{
-        if (!x.can_be_first()) return 1
+        if (!x.notAbsorbing()) return 1
         if (x.position > y.position) return -1
         if (x.position < y.position) return 1
         return 0
