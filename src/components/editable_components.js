@@ -171,8 +171,8 @@ export class EditorInput extends React.Component{
     }
 
     onChange(e){
-        if(this.props.onChange!=null) this.props.onChange(this.value)
         this.updateEditModeField()
+        if(this.props.onChange!=null) this.props.onChange(this.value)
     }
     componentDidMount(){
         this.resetValueToDefault()

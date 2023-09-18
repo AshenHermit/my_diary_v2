@@ -32,17 +32,32 @@ class EditModeTrack extends React.Component{
         this.embedding_ref = React.createRef()
         this.author_ref = React.createRef()
         this.title_ref = React.createRef()
-        this.onEmbeddingCodeChange = this.onEmbeddingCodeChange.bind(this)
+        this.changeEmbeddingCode = this.changeEmbeddingCode.bind(this)
+        this.updateEmbeddingCode = this.updateEmbeddingCode.bind(this)
+        this.previousCode = null
     }
-    onEmbeddingCodeChange(code){
+    changeEmbeddingCode(code){
         setTimeout(() => {
-            this.embedding_ref.current.innerHTML = code
+            var isSame = code === this.previousCode
+            if(!isSame){
+                this.embedding_ref.current.innerHTML = code
+                this.previousCode = code
+            }
             var trachInfo = utils.getAuthorTitleFromEmbed(code)
             if (trachInfo){
                 this.author_ref.current.setValue(trachInfo.author)
                 this.title_ref.current.setValue(trachInfo.title)
             }
         }, 10);
+    }
+    updateEmbeddingCode(){
+        this.changeEmbeddingCode(this.props.data_struct.embedding_code)
+    }
+    componentDidUpdate(){
+        this.updateEmbeddingCode()
+    }
+    componentDidMount(){
+        this.updateEmbeddingCode()
     }
     render(){
         return (
@@ -84,7 +99,7 @@ class EditModeTrack extends React.Component{
                     data_struct={this.props.data_struct} 
                     className="editable-track-field embedding-code"
                     defaultValue={this.props.data_struct.embedding_code}
-                    onChange={this.onEmbeddingCodeChange}/>
+                    onChange={this.changeEmbeddingCode}/>
 
                 <div ref={this.embedding_ref} className="track-embedding">
                 </div>
