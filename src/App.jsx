@@ -54,8 +54,8 @@ class Footer extends React.Component{
     return (
       <div className="footer">
         <div className="last-update">
-          {client.api.lastUpdate}
-          {client.api.lastUpdate!="" ? <span style={{fontSize:"14px", color: "#bdbdbd"}}> - последнее обновление</span> : ""}
+          {client.api.data.last_update}
+          {client.api.data.last_update!="" ? <span style={{fontSize:"14px", color: "#bdbdbd"}}> - последнее обновление</span> : ""}
         </div>
       </div>
     )
