@@ -73,9 +73,9 @@ export class AboutPanel extends EditableComponent{
                     <div className="title">Обо всем этом</div>
                     <EditorInput 
                         field_key="about" 
-                        data_struct={client.api} 
+                        data_struct={client.api.data} 
                         className="about" 
-                        defaultValue={client.api.about}/>
+                        defaultValue={client.api.data.about}/>
                 </div>
             </div>
         )
@@ -86,7 +86,7 @@ export class AboutPanel extends EditableComponent{
                 <div className="about-panel">
                     <div className="title about-title">Обо всем этом</div>
                     <div className="about" 
-                        dangerouslySetInnerHTML={{__html: utils.renderMarkup(client.api.about)}}>
+                        dangerouslySetInnerHTML={{__html: utils.renderMarkup(client.api.data.about)}}>
                     </div>
                 </div>
             </div>

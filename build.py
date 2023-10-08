@@ -5,7 +5,7 @@ import ftplib
 from socket import _GLOBAL_DEFAULT_TIMEOUT
 import traceback
 
-output_folder = "build"
+output_folder = "dist"
 
 class ExtendedFTP(ftplib.FTP):
     def __init__(self, host='', user='', passwd='', acct='',

@@ -3,8 +3,9 @@ import {debug_posts, debug_data} from './config'
 import { client } from './init';
 import { default as utils } from "./utils";
 import { EventHandler } from 'event-js';
-require('isomorphic-fetch');
-var Dropbox = require('dropbox').Dropbox;
+import { Dropbox } from 'dropbox';
+// require('isomorphic-fetch');
+// var Dropbox = require('dropbox').Dropbox;
 
 /**
  * Track Struct
@@ -121,8 +122,6 @@ window.DiaryData = DiaryData
 
 export class Api{
     posts = []
-    lastUpdate = ""
-    about = "about"
 
     DEBUG = false
     access_token = ""
@@ -130,6 +129,7 @@ export class Api{
     /**@type {Dropbox} */
     dbx = null
 
+    /**@type {DiaryData} */
     data = null
 
     constructor(){
@@ -172,20 +172,12 @@ export class Api{
     mapPostsToRaw(){
         return this.posts.map(post=>post.to_raw_data())
     }
-    makeRawDataObject(){
-        var lastUpdate = utils.getCurrentDate()
-        var posts = this.mapPostsToRaw()
-        var raw_data = {"last_update": lastUpdate, "posts": posts, "about": this.about}
-        return raw_data
-    }
     
     loadPosts(callback){
         // bad, old solution. i wish i had strength to improve it, like in group-captains-tool
         this.getPostsRawData(raw_data=>{
             this.data = DiaryData.create(raw_data)
             window.posts_fetched_data = raw_data
-            if(raw_data.about) this.about = raw_data.about
-            if(raw_data.last_update) this.lastUpdate = raw_data.last_update
             this.posts = this.data.posts
             // this.posts = raw_data.posts.map(data=>PostStruct.from_raw_data(data))
             callback(this.posts)
@@ -216,7 +208,7 @@ export class Api{
             return
         }
         if(this.authorized){
-            var raw_data = this.makeRawDataObject()
+            this.data.last_update = utils.getCurrentDate()
             var raw_data = this.data.exportData()
             
             this.dbx.filesUpload({
